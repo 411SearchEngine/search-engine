@@ -4,6 +4,11 @@ server:
 
 spring:
   data:
+    elasticsearch:
+      cluster-nodes: localhost:9300
+      repositories:
+        #是否开启本地存储
+        enabled: true
     mongodb:
       uri: mongodb://localhost:27017/engine
   jackson:

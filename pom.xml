@@ -46,9 +46,16 @@
             </exclusions>
         </dependency>
 
+        <!-- mongodb连接 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-mongodb</artifactId>
+        </dependency>
+
+        <!-- elasticsearch连接 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
         </dependency>
 
         <dependency>
