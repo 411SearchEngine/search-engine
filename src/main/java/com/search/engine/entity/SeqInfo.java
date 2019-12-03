@@ -1,4 +1,4 @@
-package com.search.engine.aop;
+package com.search.engine.entity;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;

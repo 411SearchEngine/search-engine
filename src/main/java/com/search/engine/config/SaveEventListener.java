@@ -1,5 +1,7 @@
-package com.search.engine.aop;
+package com.search.engine.config;
 
+import com.search.engine.entity.AutoIncKey;
+import com.search.engine.entity.SeqInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.FindAndModifyOptions;
 import org.springframework.data.mongodb.core.MongoTemplate;
