@@ -1,5 +1,6 @@
 package com.search.engine.entity;
 
+import com.search.engine.config.AutoIncKey;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

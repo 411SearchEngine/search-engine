@@ -1,4 +1,4 @@
-package com.search.engine.entity;
+package com.search.engine.config;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
