@@ -28,7 +28,7 @@ public class TestServiceImpl implements TestService {
     @Override
     public List<TestDo> findTest(String test) {
 //        return this.testRepository.findByTest(test);
-        return this.testEsRepository.findByTest(test);
+        return this.testEsRepository.findByTestLike(test);
     }
 
     @Override
@@ -38,7 +38,6 @@ public class TestServiceImpl implements TestService {
         testDo.setTest(test);
 
         this.testEsRepository.save(testDo);
-
         this.testRepository.save(testDo);
     }
 }

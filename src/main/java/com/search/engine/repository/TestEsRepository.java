@@ -11,5 +11,5 @@ import java.util.List;
  * version 1.0
  */
 public interface TestEsRepository extends ElasticsearchRepository<TestDo, Long> {
-    List<TestDo> findByTest(String test);
+    List<TestDo> findByTestLike(String test);
 }
