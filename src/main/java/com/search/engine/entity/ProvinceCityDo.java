@@ -25,4 +25,7 @@ public class ProvinceCityDo {
 
     private String enCity;
 
+    private String zhCounty;
+
+    private String enCounty;
 }

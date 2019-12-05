@@ -11,4 +11,11 @@ public interface EngineService {
      */
     void findWeather();
 
+    /**
+     * 查询历史天气
+     * @param id
+     * @param time
+     */
+    void findHistory(long id, String time);
+
 }
