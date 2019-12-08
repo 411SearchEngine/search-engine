@@ -1,21 +1,21 @@
 package com.search.engine.entity;
 
-import com.search.engine.config.AutoIncKey;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.elasticsearch.annotations.Document;
+import org.springframework.data.elasticsearch.annotations.Field;
 
 /**
  * @author xuh
  * @date 2019/12/6
  */
 @Data
-@Document
+@Document(indexName = "weather",type = "historyWeather")
 public class WeatherDo {
     @Id
-    @AutoIncKey
     private long id;
 
+    @Field(searchAnalyzer = "ik_max_word",analyzer = "ik_smart")
     private String title;
 
     private String province;
@@ -37,12 +37,6 @@ public class WeatherDo {
     private String nightWind;
 
     private String weatherDate;
-
-    private String solarCalendar;
-
-    private String lunarCalendar;
-
-    private String constellation;
 
     private String fitting;
 

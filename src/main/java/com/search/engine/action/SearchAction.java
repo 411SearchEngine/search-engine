@@ -30,4 +30,10 @@ public class SearchAction {
         return R.ok();
     }
 
+    @GetMapping("/find/video")
+    public R findVideo() {
+        this.engineService.findVideo();
+        return R.ok();
+    }
+
 }

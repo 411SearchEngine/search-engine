@@ -22,6 +22,27 @@ public class DateUtil {
         return sdf.format(date);
     }
 
+
+    /**
+     * 获取yyyyMMdd格式的日期
+     * @param date
+     * @return
+     */
+    public static String getyyyyMMdd(String date) {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
+        SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy年MM月dd日");
+        Date parse = null;
+        try {
+            parse = sdf.parse(date);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        return sdf1.format(parse);
+    }
+
+
+
     /**
      * 获取下一天的信息
      *

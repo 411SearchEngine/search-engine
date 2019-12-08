@@ -18,4 +18,9 @@ public interface EngineService {
      */
     void findHistory(long id, String time);
 
+    /**
+     * 爬取视频网站
+     */
+    void findVideo();
+
 }
