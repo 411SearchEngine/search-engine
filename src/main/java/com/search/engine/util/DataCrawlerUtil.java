@@ -1,5 +1,6 @@
 package com.search.engine.util;
 
+import com.search.engine.entity.WeatherDo;
 import lombok.extern.slf4j.Slf4j;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -33,5 +34,15 @@ public class DataCrawlerUtil {
         return doc;
     }
 
+    public static WeatherDo getWeatherDoInfo(Document document) {
+        WeatherDo weatherDo = new WeatherDo();
+        String title = document.select("#bd #content h1").text();
+
+        //  获取table信息
+
+
+
+        return weatherDo;
+    }
 
 }

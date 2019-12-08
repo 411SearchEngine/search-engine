@@ -1,7 +1,10 @@
 package com.search.engine.service.impl;
 
 import com.search.engine.entity.ProvinceCityDo;
+import com.search.engine.entity.WeatherDo;
 import com.search.engine.repository.ProvinceCityDoRepository;
+import com.search.engine.repository.WeatherDoEsRepository;
+import com.search.engine.repository.WeatherDoMoRepository;
 import com.search.engine.service.EngineService;
 import com.search.engine.util.DataCrawlerUtil;
 import com.search.engine.util.DateUtil;
@@ -14,8 +17,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Date;
 import java.util.List;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 /**
  * @author xuh
@@ -27,6 +35,12 @@ public class EngineServiceImpl implements EngineService {
 
     @Autowired
     private ProvinceCityDoRepository provinceCityDoRepository;
+
+    @Autowired
+    private WeatherDoEsRepository weatherDoEsRepository;
+
+    @Autowired
+    private WeatherDoMoRepository weatherDoMoRepository;
 
     private static String baseUrl = "http://www.tianqihoubao.com";
 
@@ -114,13 +128,56 @@ public class EngineServiceImpl implements EngineService {
                 String text = pageInfo.select("#bd #content h1").text();
                 System.out.println(text);
 
-
+                this.findWeatherHistoryThread(new ArrayList<>());
             }
 
 
         }
 
     }
+
+    /**
+     * 多线程查询信息
+     *
+     * @param urls URL
+     * @return 返回历史信息
+     */
+    private List<WeatherDo> findWeatherHistoryThread(List<String> urls) {
+        final List<WeatherDo> weatherDos = Collections.synchronizedList(new ArrayList<>());
+
+//        开启多线程 最多5个线程
+        ExecutorService exs = Executors.newFixedThreadPool(5);
+        List<Future<WeatherDo>> futureList = new ArrayList<>();
+
+        //启动线程池，固定线程数为page 大小
+        for (String url : urls) {
+            futureList.add(exs.submit(new Callable<WeatherDo>() {
+                @Override
+                public WeatherDo call() throws Exception {
+                    //  发送HTTP请求. 返回组装数据
+                    Document pageInfo = DataCrawlerUtil.getDocument(url);
+                    WeatherDo weatherDoInfo = DataCrawlerUtil.getWeatherDoInfo(pageInfo);
+                    return weatherDoInfo;
+                }
+            }));
+        }
+
+        //  结果归集
+        for (Future<WeatherDo> listFuture : futureList) {
+            for (; ; ) {
+                try {
+                    if (listFuture.isDone() && !listFuture.isCancelled()) {
+                        weatherDos.add(listFuture.get());
+                        break;
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+        return weatherDos;
+    }
+
 
     /**
      * 获取省份的信息
