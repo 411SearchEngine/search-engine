@@ -32,14 +32,20 @@ public class WeatherDo {
 
     private String nightWeatherConditions;
 
+    @Field(searchAnalyzer = "ik_max_word", analyzer = "ik_smart")
     private String lightWind;
 
+    @Field(searchAnalyzer = "ik_max_word", analyzer = "ik_smart")
     private String nightWind;
 
     private String weatherDate;
 
+    @Field(searchAnalyzer = "ik_max_word", analyzer = "ik_smart")
     private String fitting;
 
+    @Field(searchAnalyzer = "ik_max_word", analyzer = "ik_smart")
     private String avoid;
+
+    private String url;
 
 }

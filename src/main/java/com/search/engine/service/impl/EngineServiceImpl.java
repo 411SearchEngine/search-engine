@@ -2,12 +2,15 @@ package com.search.engine.service.impl;
 
 import com.search.engine.entity.ProvinceCityDo;
 import com.search.engine.entity.WeatherDo;
+import com.search.engine.model.VideoModel;
 import com.search.engine.repository.ProvinceCityDoRepository;
 import com.search.engine.repository.WeatherDoEsRepository;
 import com.search.engine.repository.WeatherDoMoRepository;
 import com.search.engine.service.EngineService;
 import com.search.engine.util.DataCrawlerUtil;
 import com.search.engine.util.DateUtil;
+import com.search.engine.util.HttpRequest;
+import com.search.engine.util.JsonUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
 import org.jsoup.nodes.Document;
@@ -143,8 +146,6 @@ public class EngineServiceImpl implements EngineService {
                     urls = new ArrayList<>();
                 }
             }
-
-
         }
 
     }
@@ -155,12 +156,33 @@ public class EngineServiceImpl implements EngineService {
     @Override
     public void findVideo() {
 
+        int page = 1;
+
+        for (; ; ) {
+            String url = "http://video.weather.com.cn/weather/video/weather_video_retrieval?keyword=" +
+                    "&page=" + page + "&per_num=12&hotSpot=0&forecast=0&solarTerm=0&life=0&popularScience=0";
+
+            String httpData = HttpRequest.sendGet(url, null);
+            String arrData = JsonUtil.getJsonNode(httpData, "arr").toString();
+            List<VideoModel> videoModels = JsonUtil.jsonToGenericObj(arrData, List.class, VideoModel.class);
+            page++;
+            if (videoModels != null && videoModels.size() > 0) {
+                for (VideoModel videoModel : videoModels) {
+
+
+
+                }
+            } else {
+                break;
+            }
+
+        }
     }
 
     /**
      * 多线程查询信息
      *
-     * @param urls URL
+     * @param urls           URL
      * @param provinceCityDo
      * @param start_time
      * @return 返回历史信息
@@ -185,6 +207,7 @@ public class EngineServiceImpl implements EngineService {
 
                     weatherDoInfo.setId(System.nanoTime());
                     weatherDoInfo.setWeatherDate(start_time);
+                    weatherDoInfo.setUrl(url);
                 }
 
                 return weatherDoInfo;
