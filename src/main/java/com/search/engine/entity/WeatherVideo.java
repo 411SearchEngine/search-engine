@@ -31,6 +31,8 @@ public class WeatherVideo {
 
     private String videoUrl;
 
+    private String photo;
+
     private String source;
 
     private String author;

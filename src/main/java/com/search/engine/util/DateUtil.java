@@ -75,4 +75,16 @@ public class DateUtil {
         c.set(Calendar.DATE, c.get(Calendar.DATE)+days);
         return new Date(c.getTimeInMillis());
     }
+
+    public static Date getDate(String value) {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+
+        Date date = new Date();
+        try {
+            date = sdf.parse(value);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return date;
+    }
 }

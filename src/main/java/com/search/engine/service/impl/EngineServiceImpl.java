@@ -2,10 +2,11 @@ package com.search.engine.service.impl;
 
 import com.search.engine.entity.ProvinceCityDo;
 import com.search.engine.entity.WeatherDo;
+import com.search.engine.entity.WeatherVideo;
 import com.search.engine.model.VideoModel;
 import com.search.engine.repository.ProvinceCityDoRepository;
 import com.search.engine.repository.WeatherDoEsRepository;
-import com.search.engine.repository.WeatherDoMoRepository;
+import com.search.engine.repository.WeatherVideoRepository;
 import com.search.engine.service.EngineService;
 import com.search.engine.util.DataCrawlerUtil;
 import com.search.engine.util.DateUtil;
@@ -26,6 +27,8 @@ import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * @author xuh
@@ -41,8 +44,11 @@ public class EngineServiceImpl implements EngineService {
     @Autowired
     private WeatherDoEsRepository weatherDoEsRepository;
 
+//    @Autowired
+//    private WeatherDoMoRepository weatherDoMoRepository;
+
     @Autowired
-    private WeatherDoMoRepository weatherDoMoRepository;
+    private WeatherVideoRepository videoRepository;
 
     private static String baseUrl = "http://www.tianqihoubao.com";
 
@@ -155,10 +161,12 @@ public class EngineServiceImpl implements EngineService {
      */
     @Override
     public void findVideo() {
-
+        String baseUrl = "http://video.weather.com.cn";
         int page = 1;
 
+        List<WeatherVideo> weatherVideos;
         for (; ; ) {
+            weatherVideos = new ArrayList<>();
             String url = "http://video.weather.com.cn/weather/video/weather_video_retrieval?keyword=" +
                     "&page=" + page + "&per_num=12&hotSpot=0&forecast=0&solarTerm=0&life=0&popularScience=0";
 
@@ -167,16 +175,78 @@ public class EngineServiceImpl implements EngineService {
             List<VideoModel> videoModels = JsonUtil.jsonToGenericObj(arrData, List.class, VideoModel.class);
             page++;
             if (videoModels != null && videoModels.size() > 0) {
+
                 for (VideoModel videoModel : videoModels) {
 
+                    System.out.println(videoModel.getChannelid() + " " + videoModel.getTitle());
+                    String contentUrl = baseUrl + videoModel.getContenturl();
 
-
+                    Document document = DataCrawlerUtil.getDocument(contentUrl);
+                    WeatherVideo weatherVideo = this.getVideoInfo(document, videoModel);
+                    if (weatherVideo != null) {
+                        weatherVideo.setId(System.nanoTime());
+                        weatherVideo.setUrl(contentUrl);
+                        weatherVideos.add(weatherVideo);
+                    }
                 }
+
+                this.videoRepository.saveAll(weatherVideos);
             } else {
                 break;
             }
-
         }
+    }
+
+
+    private static Pattern mp4Url = Pattern.compile("(http://vod.weather.com.cn/video/)(.*)((.mp4)|(.MP4))");
+    private WeatherVideo getVideoInfo(Document document, VideoModel videoModel) {
+        WeatherVideo weatherVideo = null;
+
+        if (document != null) {
+            Elements contentInfo = document.select(".detail-txt div");
+            weatherVideo = new WeatherVideo();
+
+            weatherVideo.setTitle(videoModel.getTitle());
+            weatherVideo.setTags(JsonUtil.objToJson(videoModel.getVideoTag()));
+            weatherVideo.setPhoto(videoModel.getPhoto());
+
+            String src = document.select("._tdp_vbox video").attr("src");
+            weatherVideo.setVideoUrl(src);
+
+            for (Element item : contentInfo) {
+                Elements spans = item.select("span");
+                String key = spans.first().text();
+                String value = spans.last().text();
+
+                if (StringUtils.contains(key, "视频内容")) {
+                    weatherVideo.setContent(value);
+                }
+                if (StringUtils.contains(key, "来源")) {
+                    weatherVideo.setSource(value);
+                }
+                if (StringUtils.contains(key, "编辑")) {
+                    weatherVideo.setAuthor(value);
+                }
+                if (StringUtils.contains(key, "发布时间")) {
+                    weatherVideo.setPublicDate(DateUtil.getDate(value));
+                }
+            }
+
+            //  查询视频连接
+            Elements script = document.getElementsByTag("script");
+            for (Element element : script) {
+                String text = element.html();
+                Matcher matcher;
+                if ((matcher = mp4Url.matcher(text)).find()) {
+                    String video = matcher.group(0);
+
+                    weatherVideo.setVideoUrl(video);
+                }
+            }
+        }
+
+
+        return weatherVideo;
     }
 
     /**
