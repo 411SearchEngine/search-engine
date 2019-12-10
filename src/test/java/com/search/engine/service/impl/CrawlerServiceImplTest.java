@@ -14,7 +14,7 @@ import java.util.List;
  * @author xuh
  * @date 2019/12/4
  */
-public class EngineServiceImplTest {
+public class CrawlerServiceImplTest {
 
     @Test
     public void findWeather() {

@@ -7,7 +7,7 @@ import com.search.engine.model.VideoModel;
 import com.search.engine.repository.ProvinceCityDoRepository;
 import com.search.engine.repository.WeatherDoEsRepository;
 import com.search.engine.repository.WeatherVideoRepository;
-import com.search.engine.service.EngineService;
+import com.search.engine.service.CrawlerService;
 import com.search.engine.util.DataCrawlerUtil;
 import com.search.engine.util.DateUtil;
 import com.search.engine.util.HttpRequest;
@@ -36,7 +36,7 @@ import java.util.regex.Pattern;
  */
 @Slf4j
 @Service
-public class EngineServiceImpl implements EngineService {
+public class CrawlerServiceImpl implements CrawlerService {
 
     @Autowired
     private ProvinceCityDoRepository provinceCityDoRepository;
