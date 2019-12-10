@@ -9,4 +9,8 @@ import lombok.Data;
 @Data
 public class KeywordModel {
     private String keyword;
+
+    private int page;
+
+    private int size;
 }
