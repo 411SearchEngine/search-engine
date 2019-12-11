@@ -18,6 +18,10 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
 import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
+
+import java.util.Collection;
+import java.util.List;
 
 /**
  * @author xuh
@@ -46,19 +50,20 @@ public class EngineServiceImpl implements EngineService {
      * @return
      */
     @Override
-    public SearchModel searchKeyword(KeywordModel keyword) {
-        this.getWeatherHisData(keyword);
-
-        this.getWeatherVideo(keyword);
-        return null;
+    public List<SearchModel> searchKeyword(KeywordModel keyword) {
+        List<SearchModel> searchModels = this.getWeatherHisData(keyword);
+        List<SearchModel> searchModels1 = this.getWeatherVideo(keyword);
+        searchModels.addAll(searchModels1);
+        return searchModels;
     }
 
     /**
      * 查询视频信息
      *
      * @param keyword
+     * @return
      */
-    private void getWeatherVideo(KeywordModel keyword) {
+    private List<SearchModel> getWeatherVideo(KeywordModel keyword) {
         NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
 
         //  高亮
@@ -80,9 +85,16 @@ public class EngineServiceImpl implements EngineService {
         queryBuilder.withPageable(pageRequest);
         //查询
         Page<WeatherVideo> videos = esTemplate.queryForPage(queryBuilder.build(), WeatherVideo.class);
+        List<WeatherVideo> videosContent = videos.getContent();
+        for (WeatherVideo weatherVideo : videosContent) {
+
+        }
+
+
+        return null;
     }
 
-    private void getWeatherHisData(KeywordModel keyword) {
+    private List<SearchModel> getWeatherHisData(KeywordModel keyword) {
         NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
 
         //  高亮
@@ -104,5 +116,7 @@ public class EngineServiceImpl implements EngineService {
         queryBuilder.withPageable(pageRequest);
         //查询
         Page<WeatherDo> weatherDoAggregatedPage = esTemplate.queryForPage(queryBuilder.build(), WeatherDo.class);
+
+        return null;
     }
 }
