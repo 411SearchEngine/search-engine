@@ -136,7 +136,12 @@ public class CrawlerServiceImpl implements CrawlerService {
                     }
 
 //                    this.weatherDoMoRepository.saveAll(weatherHistoryDos);
-                    this.weatherDoEsRepository.saveAll(weatherHistoryDos);
+                    try {
+                        this.weatherDoEsRepository.saveAll(weatherHistoryDos);
+                    } catch (Exception e) {
+                        log.error("保存数据失败 : ID : {} , 城市 : {} ", provinceCityDo.getId(),
+                                provinceCityDo.getZhProvince() + " " + provinceCityDo.getZhCity() + " " + provinceCityDo.getZhCounty());
+                    }
                     break;
                 }
 

@@ -8,6 +8,8 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import java.net.URL;
+
 /**
  * @author xuh
  * @date 2019/12/4
@@ -24,11 +26,11 @@ public class DataCrawlerUtil {
     public static Document getDocument(String url) {
         Document doc = null;
         try {
-//            doc = Jsoup.parse(new URL(url).openStream(), "gb2312", url);
-            doc = Jsoup.connect(url)
-                    .userAgent("Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36")
-                    .timeout(10000)
-                    .get();
+            doc = Jsoup.parse(new URL(url).openStream(), "gb2312", url);
+//            doc = Jsoup.connect(url)
+//                    .userAgent("Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36")
+//                    .timeout(10000)
+//                    .get();
         } catch (Exception e) {
             log.debug("获取网页数据出错 {} , 错误 : {}", url, e.getMessage());
         }
