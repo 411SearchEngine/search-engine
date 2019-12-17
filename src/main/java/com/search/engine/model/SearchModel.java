@@ -19,5 +19,7 @@ public class SearchModel {
 
     private Date public_date;
 
+    private String type;
+
     private String source_url;
 }

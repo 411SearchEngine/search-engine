@@ -52,16 +52,16 @@ public class EngineServiceImpl implements EngineService {
      */
     @Override
     public KeywordSearchModel searchKeyword(KeywordModel keyword) {
-        KeywordSearchModel searchModel = new KeywordSearchModel();
+        KeywordSearchModel searchModels = this.getWeatherHisData(keyword);
+        KeywordSearchModel searchModels1 = this.getWeatherVideo(keyword);
 
-        List<SearchModel> searchModels = this.getWeatherHisData(keyword);
-        List<SearchModel> searchModels1 = this.getWeatherVideo(keyword);
-        searchModels.addAll(searchModels1);
+        List<SearchModel> searchModels2 = searchModels1.getSearchModels();
+        searchModels2.addAll(searchModels.getSearchModels());
 
-        searchModel.setSearchModels(searchModels);
-        searchModel.setCount(keyword.getPage());
-
-        return searchModel;
+        searchModels1.setCount(Math.max(searchModels.getCount(), searchModels1.getCount()));
+        searchModels1.setCurrent(keyword.getPage());
+        searchModels1.setSearchModels(searchModels2);
+        return searchModels1;
     }
 
     /**
@@ -70,7 +70,9 @@ public class EngineServiceImpl implements EngineService {
      * @param keyword
      * @return
      */
-    private List<SearchModel> getWeatherVideo(KeywordModel keyword) {
+    private KeywordSearchModel getWeatherVideo(KeywordModel keyword) {
+        KeywordSearchModel keywordSearchModel = new KeywordSearchModel();
+
         NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
         List<SearchModel> searchModels = new ArrayList<>();
 
@@ -102,15 +104,18 @@ public class EngineServiceImpl implements EngineService {
             searchModel.setContent(weatherVideo.getContent());
             searchModel.setPublic_date(weatherVideo.getPublicDate());
             searchModel.setSource_url(weatherVideo.getUrl());
+            searchModel.setType("video");
 
             searchModels.add(searchModel);
         }
+        keywordSearchModel.setSearchModels(searchModels);
+        keywordSearchModel.setCount(videos.getTotalPages());
 
-
-        return searchModels;
+        return keywordSearchModel;
     }
 
-    private List<SearchModel> getWeatherHisData(KeywordModel keyword) {
+    private KeywordSearchModel getWeatherHisData(KeywordModel keyword) {
+        KeywordSearchModel keywordSearchModel = new KeywordSearchModel();
         NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
 
         //  高亮
@@ -141,12 +146,15 @@ public class EngineServiceImpl implements EngineService {
             searchModel.setId(String.valueOf(weatherDo.getId()));
             searchModel.setTitle(weatherDo.getTitle());
             searchModel.setContent(weatherDo.getTitle() + "" + weatherDo.getNightWeatherConditions());
-            searchModel.setPublic_date(DateUtil.getDate(weatherDo.getWeatherDate()));
+            searchModel.setPublic_date(DateUtil.getStandardDate(weatherDo.getWeatherDate()));
             searchModel.setSource_url(weatherDo.getUrl());
+            searchModel.setType("history");
 
             searchModels.add(searchModel);
         }
+        keywordSearchModel.setSearchModels(searchModels);
+        keywordSearchModel.setCount(weatherDoAggregatedPage.getTotalPages());
 
-        return searchModels;
+        return keywordSearchModel;
     }
 }
