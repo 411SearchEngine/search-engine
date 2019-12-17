@@ -20,6 +20,7 @@ import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilde
 import org.springframework.stereotype.Service;
 import org.springframework.util.CollectionUtils;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
@@ -116,7 +117,19 @@ public class EngineServiceImpl implements EngineService {
         queryBuilder.withPageable(pageRequest);
         //查询
         Page<WeatherDo> weatherDoAggregatedPage = esTemplate.queryForPage(queryBuilder.build(), WeatherDo.class);
+        List<WeatherDo> content = weatherDoAggregatedPage.getContent();
 
-        return null;
+        List<SearchModel> searchModels = new ArrayList<>();
+        for (WeatherDo weatherDo : content) {
+            SearchModel searchModel = new SearchModel();
+
+            searchModel.setTitle(weatherDo.getTitle());
+            searchModel.setContent(weatherDo.getTitle() + "" + weatherDo.getNightWeatherConditions());
+
+
+            searchModels.add(searchModel);
+        }
+
+        return searchModels;
     }
 }
