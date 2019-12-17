@@ -11,6 +11,8 @@ import java.util.Date;
 @Data
 public class SearchModel {
 
+    private String id;
+
     private String title;
 
     private String content;

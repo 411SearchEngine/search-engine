@@ -87,4 +87,16 @@ public class DateUtil {
         }
         return date;
     }
+
+    public static Date getStandardDate(String value) {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
+
+        Date date = new Date();
+        try {
+            date = sdf.parse(value);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return date;
+    }
 }

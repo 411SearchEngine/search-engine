@@ -1,14 +1,12 @@
 package com.search.engine.service;
 
 import com.search.engine.model.KeywordModel;
-import com.search.engine.model.SearchModel;
-
-import java.util.List;
+import com.search.engine.model.KeywordSearchModel;
 
 /**
  * @author xuh
  * @date 2019/12/10
  */
 public interface EngineService {
-    List<SearchModel> searchKeyword(KeywordModel keyword);
+    KeywordSearchModel searchKeyword(KeywordModel keyword);
 }

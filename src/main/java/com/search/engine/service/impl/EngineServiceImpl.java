@@ -3,10 +3,12 @@ package com.search.engine.service.impl;
 import com.search.engine.entity.WeatherDo;
 import com.search.engine.entity.WeatherVideo;
 import com.search.engine.model.KeywordModel;
+import com.search.engine.model.KeywordSearchModel;
 import com.search.engine.model.SearchModel;
 import com.search.engine.repository.WeatherDoEsRepository;
 import com.search.engine.repository.WeatherVideoRepository;
 import com.search.engine.service.EngineService;
+import com.search.engine.util.DateUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder;
@@ -18,10 +20,8 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
 import org.springframework.stereotype.Service;
-import org.springframework.util.CollectionUtils;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 /**
@@ -51,11 +51,17 @@ public class EngineServiceImpl implements EngineService {
      * @return
      */
     @Override
-    public List<SearchModel> searchKeyword(KeywordModel keyword) {
+    public KeywordSearchModel searchKeyword(KeywordModel keyword) {
+        KeywordSearchModel searchModel = new KeywordSearchModel();
+
         List<SearchModel> searchModels = this.getWeatherHisData(keyword);
         List<SearchModel> searchModels1 = this.getWeatherVideo(keyword);
         searchModels.addAll(searchModels1);
-        return searchModels;
+
+        searchModel.setSearchModels(searchModels);
+        searchModel.setCount(keyword.getPage());
+
+        return searchModel;
     }
 
     /**
@@ -66,6 +72,7 @@ public class EngineServiceImpl implements EngineService {
      */
     private List<SearchModel> getWeatherVideo(KeywordModel keyword) {
         NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
+        List<SearchModel> searchModels = new ArrayList<>();
 
         //  高亮
         HighlightBuilder.Field highLightField = new HighlightBuilder.Field("title")
@@ -88,11 +95,19 @@ public class EngineServiceImpl implements EngineService {
         Page<WeatherVideo> videos = esTemplate.queryForPage(queryBuilder.build(), WeatherVideo.class);
         List<WeatherVideo> videosContent = videos.getContent();
         for (WeatherVideo weatherVideo : videosContent) {
+            SearchModel searchModel = new SearchModel();
 
+            searchModel.setId(String.valueOf(weatherVideo.getId()));
+            searchModel.setTitle(weatherVideo.getTitle());
+            searchModel.setContent(weatherVideo.getContent());
+            searchModel.setPublic_date(weatherVideo.getPublicDate());
+            searchModel.setSource_url(weatherVideo.getUrl());
+
+            searchModels.add(searchModel);
         }
 
 
-        return null;
+        return searchModels;
     }
 
     private List<SearchModel> getWeatherHisData(KeywordModel keyword) {
@@ -123,9 +138,11 @@ public class EngineServiceImpl implements EngineService {
         for (WeatherDo weatherDo : content) {
             SearchModel searchModel = new SearchModel();
 
+            searchModel.setId(String.valueOf(weatherDo.getId()));
             searchModel.setTitle(weatherDo.getTitle());
             searchModel.setContent(weatherDo.getTitle() + "" + weatherDo.getNightWeatherConditions());
-
+            searchModel.setPublic_date(DateUtil.getDate(weatherDo.getWeatherDate()));
+            searchModel.setSource_url(weatherDo.getUrl());
 
             searchModels.add(searchModel);
         }
