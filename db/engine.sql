@@ -1,0 +1,23994 @@
+/*
+ Navicat Premium Data Transfer
+
+ Source Server         : 本地MongoDB
+ Source Server Type    : MongoDB
+ Source Server Version : 40011
+ Source Host           : localhost:27017
+ Source Schema         : engine
+
+ Target Server Type    : MongoDB
+ Target Server Version : 40011
+ File Encoding         : 65001
+
+ Date: 17/12/2019 21:25:41
+*/
+
+
+// ----------------------------
+// Collection structure for provinceCityDo
+// ----------------------------
+db.getCollection("provinceCityDo").drop();
+db.createCollection("provinceCityDo");
+
+// ----------------------------
+// Documents of provinceCityDo
+// ----------------------------
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1"),
+    zhProvince: "北京",
+    enProvince: "bj",
+    zhCity: "北京",
+    enCity: "beijing",
+    zhCounty: "北京",
+    enCounty: "beijing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2"),
+    zhProvince: "北京",
+    enProvince: "bj",
+    zhCity: "北京",
+    enCity: "beijing",
+    zhCounty: "门头沟",
+    enCounty: "mentougou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("3"),
+    zhProvince: "北京",
+    enProvince: "bj",
+    zhCity: "北京",
+    enCity: "beijing",
+    zhCounty: "房山",
+    enCounty: "fangshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("4"),
+    zhProvince: "北京",
+    enProvince: "bj",
+    zhCity: "北京",
+    enCity: "beijing",
+    zhCounty: "通州",
+    enCounty: "tongzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("5"),
+    zhProvince: "北京",
+    enProvince: "bj",
+    zhCity: "北京",
+    enCity: "beijing",
+    zhCounty: "顺义",
+    enCounty: "shunyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("6"),
+    zhProvince: "北京",
+    enProvince: "bj",
+    zhCity: "北京",
+    enCity: "beijing",
+    zhCounty: "昌平",
+    enCounty: "changping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("7"),
+    zhProvince: "北京",
+    enProvince: "bj",
+    zhCity: "北京",
+    enCity: "beijing",
+    zhCounty: "大兴",
+    enCounty: "daxing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("8"),
+    zhProvince: "北京",
+    enProvince: "bj",
+    zhCity: "北京",
+    enCity: "beijing",
+    zhCounty: "怀柔",
+    enCounty: "huairou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("9"),
+    zhProvince: "北京",
+    enProvince: "bj",
+    zhCity: "北京",
+    enCity: "beijing",
+    zhCounty: "平谷",
+    enCounty: "pinggu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("10"),
+    zhProvince: "北京",
+    enProvince: "bj",
+    zhCity: "北京",
+    enCity: "beijing",
+    zhCounty: "密云",
+    enCounty: "miyun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("11"),
+    zhProvince: "北京",
+    enProvince: "bj",
+    zhCity: "北京",
+    enCity: "beijing",
+    zhCounty: "延庆",
+    enCounty: "yanqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("12"),
+    zhProvince: "天津",
+    enProvince: "tj",
+    zhCity: "天津",
+    enCity: "tianjin",
+    zhCounty: "天津",
+    enCounty: "tianjin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("13"),
+    zhProvince: "天津",
+    enProvince: "tj",
+    zhCity: "天津",
+    enCity: "tianjin",
+    zhCounty: "塘沽",
+    enCounty: "tanggu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("14"),
+    zhProvince: "天津",
+    enProvince: "tj",
+    zhCity: "天津",
+    enCity: "tianjin",
+    zhCounty: "汉沽",
+    enCounty: "hangu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("15"),
+    zhProvince: "天津",
+    enProvince: "tj",
+    zhCity: "天津",
+    enCity: "tianjin",
+    zhCounty: "大港",
+    enCounty: "dagang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("16"),
+    zhProvince: "天津",
+    enProvince: "tj",
+    zhCity: "天津",
+    enCity: "tianjin",
+    zhCounty: "东丽",
+    enCounty: "dongli",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("17"),
+    zhProvince: "天津",
+    enProvince: "tj",
+    zhCity: "天津",
+    enCity: "tianjin",
+    zhCounty: "西青",
+    enCounty: "xiqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("18"),
+    zhProvince: "天津",
+    enProvince: "tj",
+    zhCity: "天津",
+    enCity: "tianjin",
+    zhCounty: "津南",
+    enCounty: "jinnan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("19"),
+    zhProvince: "天津",
+    enProvince: "tj",
+    zhCity: "天津",
+    enCity: "tianjin",
+    zhCounty: "北辰",
+    enCounty: "beichen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("20"),
+    zhProvince: "天津",
+    enProvince: "tj",
+    zhCity: "天津",
+    enCity: "tianjin",
+    zhCounty: "武清",
+    enCounty: "wuqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("21"),
+    zhProvince: "天津",
+    enProvince: "tj",
+    zhCity: "天津",
+    enCity: "tianjin",
+    zhCounty: "宝坻",
+    enCounty: "baochi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("22"),
+    zhProvince: "天津",
+    enProvince: "tj",
+    zhCity: "天津",
+    enCity: "tianjin",
+    zhCounty: "宁河",
+    enCounty: "ninghe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("23"),
+    zhProvince: "天津",
+    enProvince: "tj",
+    zhCity: "天津",
+    enCity: "tianjin",
+    zhCounty: "静海",
+    enCounty: "jinghai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("24"),
+    zhProvince: "天津",
+    enProvince: "tj",
+    zhCity: "天津",
+    enCity: "tianjin",
+    zhCounty: "蓟县",
+    enCounty: "tjjixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("25"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "石家庄",
+    enCity: "shijiazhuang",
+    zhCounty: "石家庄",
+    enCounty: "shijiazhuang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("26"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "石家庄",
+    enCity: "shijiazhuang",
+    zhCounty: "井陉",
+    enCounty: "jingjing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("27"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "石家庄",
+    enCity: "shijiazhuang",
+    zhCounty: "正定",
+    enCounty: "zhengding",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("28"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "石家庄",
+    enCity: "shijiazhuang",
+    zhCounty: "栾城",
+    enCounty: "luancheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("29"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "石家庄",
+    enCity: "shijiazhuang",
+    zhCounty: "行唐",
+    enCounty: "xingtang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("30"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "石家庄",
+    enCity: "shijiazhuang",
+    zhCounty: "灵寿",
+    enCounty: "lingshou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("31"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "石家庄",
+    enCity: "shijiazhuang",
+    zhCounty: "高邑",
+    enCounty: "gaoyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("32"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "石家庄",
+    enCity: "shijiazhuang",
+    zhCounty: "深泽",
+    enCounty: "shenze",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("33"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "石家庄",
+    enCity: "shijiazhuang",
+    zhCounty: "赞皇",
+    enCounty: "zanhuang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("34"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "石家庄",
+    enCity: "shijiazhuang",
+    zhCounty: "无极",
+    enCounty: "wuji",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("35"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "石家庄",
+    enCity: "shijiazhuang",
+    zhCounty: "平山",
+    enCounty: "hbpingshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("36"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "石家庄",
+    enCity: "shijiazhuang",
+    zhCounty: "元氏",
+    enCounty: "yuanshi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("37"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "石家庄",
+    enCity: "shijiazhuang",
+    zhCounty: "赵县",
+    enCounty: "zhaoxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("38"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "石家庄",
+    enCity: "shijiazhuang",
+    zhCounty: "辛集",
+    enCounty: "xinji",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("39"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "石家庄",
+    enCity: "shijiazhuang",
+    zhCounty: "藁城",
+    enCounty: "gaocheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("40"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "石家庄",
+    enCity: "shijiazhuang",
+    zhCounty: "晋州",
+    enCounty: "hbjinzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("41"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "石家庄",
+    enCity: "shijiazhuang",
+    zhCounty: "新乐",
+    enCounty: "xinle",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("42"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "唐山",
+    enCity: "tangshan",
+    zhCounty: "唐山",
+    enCounty: "tangshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("43"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "唐山",
+    enCity: "tangshan",
+    zhCounty: "丰南",
+    enCounty: "fengnan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("44"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "唐山",
+    enCity: "tangshan",
+    zhCounty: "丰润",
+    enCounty: "fengrun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("45"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "唐山",
+    enCity: "tangshan",
+    zhCounty: "曹妃甸",
+    enCounty: "caofeidian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("46"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "唐山",
+    enCity: "tangshan",
+    zhCounty: "滦县",
+    enCounty: "lvxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("47"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "唐山",
+    enCity: "tangshan",
+    zhCounty: "滦南",
+    enCounty: "lvnan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("48"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "唐山",
+    enCity: "tangshan",
+    zhCounty: "乐亭",
+    enCounty: "leting",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("49"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "唐山",
+    enCity: "tangshan",
+    zhCounty: "迁西",
+    enCounty: "hbqianxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("50"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "唐山",
+    enCity: "tangshan",
+    zhCounty: "玉田",
+    enCounty: "yutian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("51"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "唐山",
+    enCity: "tangshan",
+    zhCounty: "唐海",
+    enCounty: "tanghai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("52"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "唐山",
+    enCity: "tangshan",
+    zhCounty: "遵化",
+    enCounty: "zunhua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("53"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "唐山",
+    enCity: "tangshan",
+    zhCounty: "迁安",
+    enCounty: "hbqianan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("54"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "秦皇岛",
+    enCity: "qinhuangdao",
+    zhCounty: "秦皇岛",
+    enCounty: "qinhuangdao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("55"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "秦皇岛",
+    enCity: "qinhuangdao",
+    zhCounty: "北戴河",
+    enCounty: "beidaihe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("56"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "秦皇岛",
+    enCity: "qinhuangdao",
+    zhCounty: "青龙",
+    enCounty: "qinglong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("57"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "秦皇岛",
+    enCity: "qinhuangdao",
+    zhCounty: "昌黎",
+    enCounty: "changli",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("58"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "秦皇岛",
+    enCity: "qinhuangdao",
+    zhCounty: "抚宁",
+    enCounty: "hbfuning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("59"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "秦皇岛",
+    enCity: "qinhuangdao",
+    zhCounty: "卢龙",
+    enCounty: "lulong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("60"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邯郸",
+    enCity: "handan",
+    zhCounty: "邯郸",
+    enCounty: "handan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("61"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邯郸",
+    enCity: "handan",
+    zhCounty: "峰峰",
+    enCounty: "fengfeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("62"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邯郸",
+    enCity: "handan",
+    zhCounty: "临漳",
+    enCounty: "linzhang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("63"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邯郸",
+    enCity: "handan",
+    zhCounty: "成安",
+    enCounty: "chengan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("64"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邯郸",
+    enCity: "handan",
+    zhCounty: "大名",
+    enCounty: "daming",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("65"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邯郸",
+    enCity: "handan",
+    zhCounty: "涉县",
+    enCounty: "hbshexian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("66"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邯郸",
+    enCity: "handan",
+    zhCounty: "磁县",
+    enCounty: "cixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("67"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邯郸",
+    enCity: "handan",
+    zhCounty: "肥乡",
+    enCounty: "feixiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("68"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邯郸",
+    enCity: "handan",
+    zhCounty: "永年",
+    enCounty: "yongnian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("69"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邯郸",
+    enCity: "handan",
+    zhCounty: "邱县",
+    enCounty: "qiuxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("70"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邯郸",
+    enCity: "handan",
+    zhCounty: "鸡泽",
+    enCounty: "jize",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("71"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邯郸",
+    enCity: "handan",
+    zhCounty: "广平",
+    enCounty: "guangping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("72"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邯郸",
+    enCity: "handan",
+    zhCounty: "馆陶",
+    enCounty: "guantao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("73"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邯郸",
+    enCity: "handan",
+    zhCounty: "魏县",
+    enCounty: "weixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("74"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邯郸",
+    enCity: "handan",
+    zhCounty: "曲周",
+    enCounty: "hbquzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("75"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邯郸",
+    enCity: "handan",
+    zhCounty: "武安",
+    enCounty: "wuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("76"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邢台",
+    enCity: "xingtai",
+    zhCounty: "邢台",
+    enCounty: "xingtai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("77"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邢台",
+    enCity: "xingtai",
+    zhCounty: "临城",
+    enCounty: "lincheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("78"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邢台",
+    enCity: "xingtai",
+    zhCounty: "内丘",
+    enCounty: "neiqiu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("79"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邢台",
+    enCity: "xingtai",
+    zhCounty: "柏乡",
+    enCounty: "baixiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("80"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邢台",
+    enCity: "xingtai",
+    zhCounty: "隆尧",
+    enCounty: "longyao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("81"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邢台",
+    enCity: "xingtai",
+    zhCounty: "任县",
+    enCounty: "renxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("82"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邢台",
+    enCity: "xingtai",
+    zhCounty: "南和",
+    enCounty: "nanhe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("83"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邢台",
+    enCity: "xingtai",
+    zhCounty: "宁晋",
+    enCounty: "ningjin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("84"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邢台",
+    enCity: "xingtai",
+    zhCounty: "巨鹿",
+    enCounty: "julu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("85"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邢台",
+    enCity: "xingtai",
+    zhCounty: "新河",
+    enCounty: "xinhe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("86"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邢台",
+    enCity: "xingtai",
+    zhCounty: "广宗",
+    enCounty: "guangzong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("87"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邢台",
+    enCity: "xingtai",
+    zhCounty: "平乡",
+    enCounty: "hbpingxiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("88"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邢台",
+    enCity: "xingtai",
+    zhCounty: "威县",
+    enCounty: "weixian2",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("89"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邢台",
+    enCity: "xingtai",
+    zhCounty: "清河",
+    enCounty: "qinghe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("90"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邢台",
+    enCity: "xingtai",
+    zhCounty: "临西",
+    enCounty: "hblinxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("91"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邢台",
+    enCity: "xingtai",
+    zhCounty: "南宫",
+    enCounty: "nangong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("92"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "邢台",
+    enCity: "xingtai",
+    zhCounty: "沙河",
+    enCounty: "shahe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("93"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "保定",
+    enCity: "baoding",
+    zhCounty: "保定",
+    enCounty: "baoding",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("94"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "保定",
+    enCity: "baoding",
+    zhCounty: "满城",
+    enCounty: "mancheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("95"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "保定",
+    enCity: "baoding",
+    zhCounty: "阜平",
+    enCounty: "fuping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("96"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "保定",
+    enCity: "baoding",
+    zhCounty: "徐水",
+    enCounty: "xushui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("97"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "保定",
+    enCity: "baoding",
+    zhCounty: "唐县",
+    enCounty: "tangxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("98"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "保定",
+    enCity: "baoding",
+    zhCounty: "高阳",
+    enCounty: "gaoyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("99"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "保定",
+    enCity: "baoding",
+    zhCounty: "容城",
+    enCounty: "rongcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("100"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "保定",
+    enCity: "baoding",
+    zhCounty: "涞源",
+    enCounty: "laiyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("101"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "保定",
+    enCity: "baoding",
+    zhCounty: "望都",
+    enCounty: "wangdu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("102"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "保定",
+    enCity: "baoding",
+    zhCounty: "安新",
+    enCounty: "anxin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("103"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "保定",
+    enCity: "baoding",
+    zhCounty: "易县",
+    enCounty: "hbyixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("104"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "保定",
+    enCity: "baoding",
+    zhCounty: "曲阳",
+    enCounty: "quyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("105"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "保定",
+    enCity: "baoding",
+    zhCounty: "蠡县",
+    enCounty: "hblixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("106"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "保定",
+    enCity: "baoding",
+    zhCounty: "顺平",
+    enCounty: "shunping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("107"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "保定",
+    enCity: "baoding",
+    zhCounty: "雄县",
+    enCounty: "xiongxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("108"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "保定",
+    enCity: "baoding",
+    zhCounty: "涿州",
+    enCounty: "zhuozhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("109"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "保定",
+    enCity: "baoding",
+    zhCounty: "定州",
+    enCounty: "dingzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("110"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "保定",
+    enCity: "baoding",
+    zhCounty: "安国",
+    enCounty: "anguo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("111"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "保定",
+    enCity: "baoding",
+    zhCounty: "高碑店",
+    enCounty: "gaobeidian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("112"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "张家口",
+    enCity: "zhangjiakou",
+    zhCounty: "张家口",
+    enCounty: "zhangjiakou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("113"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "张家口",
+    enCity: "zhangjiakou",
+    zhCounty: "宣化",
+    enCounty: "xuanhua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("114"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "张家口",
+    enCity: "zhangjiakou",
+    zhCounty: "张北",
+    enCounty: "zhangbei",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("115"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "张家口",
+    enCity: "zhangjiakou",
+    zhCounty: "康保",
+    enCounty: "kangbao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("116"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "张家口",
+    enCity: "zhangjiakou",
+    zhCounty: "沽源",
+    enCounty: "guyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("117"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "张家口",
+    enCity: "zhangjiakou",
+    zhCounty: "尚义",
+    enCounty: "shangyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("118"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "张家口",
+    enCity: "zhangjiakou",
+    zhCounty: "蔚县",
+    enCounty: "weixian1",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("119"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "张家口",
+    enCity: "zhangjiakou",
+    zhCounty: "阳原",
+    enCounty: "yangyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("120"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "张家口",
+    enCity: "zhangjiakou",
+    zhCounty: "怀安",
+    enCounty: "hbhuaian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("121"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "张家口",
+    enCity: "zhangjiakou",
+    zhCounty: "万全",
+    enCounty: "wanquan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("122"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "张家口",
+    enCity: "zhangjiakou",
+    zhCounty: "怀来",
+    enCounty: "huailai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("123"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "张家口",
+    enCity: "zhangjiakou",
+    zhCounty: "涿鹿",
+    enCounty: "zhuolu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("124"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "张家口",
+    enCity: "zhangjiakou",
+    zhCounty: "赤城",
+    enCounty: "chicheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("125"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "张家口",
+    enCity: "zhangjiakou",
+    zhCounty: "崇礼",
+    enCounty: "chongli",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("126"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "承德",
+    enCity: "chengde",
+    zhCounty: "承德",
+    enCounty: "chengde",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("127"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "承德",
+    enCity: "chengde",
+    zhCounty: "承德县",
+    enCounty: "chengdexian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("128"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "承德",
+    enCity: "chengde",
+    zhCounty: "兴隆",
+    enCounty: "xinglong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("129"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "承德",
+    enCity: "chengde",
+    zhCounty: "平泉",
+    enCounty: "pingquan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("130"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "承德",
+    enCity: "chengde",
+    zhCounty: "滦平",
+    enCounty: "lvping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("131"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "承德",
+    enCity: "chengde",
+    zhCounty: "隆化",
+    enCounty: "longhua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("132"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "承德",
+    enCity: "chengde",
+    zhCounty: "丰宁",
+    enCounty: "fengning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("133"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "承德",
+    enCity: "chengde",
+    zhCounty: "宽城",
+    enCounty: "kuancheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("134"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "承德",
+    enCity: "chengde",
+    zhCounty: "围场",
+    enCounty: "weichang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("135"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "沧州",
+    enCity: "cangzhou",
+    zhCounty: "沧州",
+    enCounty: "cangzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("136"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "沧州",
+    enCity: "cangzhou",
+    zhCounty: "青县",
+    enCounty: "qingxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("137"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "沧州",
+    enCity: "cangzhou",
+    zhCounty: "东光",
+    enCounty: "hbdongguang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("138"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "沧州",
+    enCity: "cangzhou",
+    zhCounty: "海兴",
+    enCounty: "haixing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("139"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "沧州",
+    enCity: "cangzhou",
+    zhCounty: "盐山",
+    enCounty: "yanshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("140"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "沧州",
+    enCity: "cangzhou",
+    zhCounty: "肃宁",
+    enCounty: "suning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("141"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "沧州",
+    enCity: "cangzhou",
+    zhCounty: "南皮",
+    enCounty: "nanpi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("142"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "沧州",
+    enCity: "cangzhou",
+    zhCounty: "吴桥",
+    enCounty: "wuqiao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("143"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "沧州",
+    enCity: "cangzhou",
+    zhCounty: "献县",
+    enCounty: "xianxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("144"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "沧州",
+    enCity: "cangzhou",
+    zhCounty: "孟村",
+    enCounty: "mengcun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("145"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "沧州",
+    enCity: "cangzhou",
+    zhCounty: "泊头",
+    enCounty: "botou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("146"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "沧州",
+    enCity: "cangzhou",
+    zhCounty: "任丘",
+    enCounty: "renqiu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("147"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "沧州",
+    enCity: "cangzhou",
+    zhCounty: "黄骅",
+    enCounty: "huanghua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("148"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "沧州",
+    enCity: "cangzhou",
+    zhCounty: "河间",
+    enCounty: "hejian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("149"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "廊坊",
+    enCity: "langfang",
+    zhCounty: "廊坊",
+    enCounty: "langfang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("150"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "廊坊",
+    enCity: "langfang",
+    zhCounty: "固安",
+    enCounty: "guan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("151"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "廊坊",
+    enCity: "langfang",
+    zhCounty: "永清",
+    enCounty: "yongqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("152"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "廊坊",
+    enCity: "langfang",
+    zhCounty: "香河",
+    enCounty: "xianghe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("153"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "廊坊",
+    enCity: "langfang",
+    zhCounty: "大城",
+    enCounty: "dacheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("154"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "廊坊",
+    enCity: "langfang",
+    zhCounty: "文安",
+    enCounty: "wenan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("155"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "廊坊",
+    enCity: "langfang",
+    zhCounty: "大厂",
+    enCounty: "dachang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("156"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "廊坊",
+    enCity: "langfang",
+    zhCounty: "霸州",
+    enCounty: "bazhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("157"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "廊坊",
+    enCity: "langfang",
+    zhCounty: "三河",
+    enCounty: "sanhe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("158"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "衡水",
+    enCity: "hengshui",
+    zhCounty: "衡水",
+    enCounty: "hengshui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("159"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "衡水",
+    enCity: "hengshui",
+    zhCounty: "枣强",
+    enCounty: "zaoqiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("160"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "衡水",
+    enCity: "hengshui",
+    zhCounty: "武邑",
+    enCounty: "wuyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("161"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "衡水",
+    enCity: "hengshui",
+    zhCounty: "武强",
+    enCounty: "wuqiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("162"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "衡水",
+    enCity: "hengshui",
+    zhCounty: "饶阳",
+    enCounty: "raoyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("163"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "衡水",
+    enCity: "hengshui",
+    zhCounty: "安平",
+    enCounty: "anping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("164"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "衡水",
+    enCity: "hengshui",
+    zhCounty: "故城",
+    enCounty: "hbgucheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("165"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "衡水",
+    enCity: "hengshui",
+    zhCounty: "景县",
+    enCounty: "hbjingxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("166"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "衡水",
+    enCity: "hengshui",
+    zhCounty: "阜城",
+    enCounty: "fucheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("167"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "衡水",
+    enCity: "hengshui",
+    zhCounty: "冀州",
+    enCounty: "jizhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("168"),
+    zhProvince: "河北",
+    enProvince: "hebei",
+    zhCity: "衡水",
+    enCity: "hengshui",
+    zhCounty: "深州",
+    enCounty: "shenzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("169"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "太原",
+    enCity: "taiyuan",
+    zhCounty: "太原",
+    enCounty: "taiyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("170"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "太原",
+    enCity: "taiyuan",
+    zhCounty: "清徐",
+    enCounty: "qingxu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("171"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "太原",
+    enCity: "taiyuan",
+    zhCounty: "阳曲",
+    enCounty: "yangqu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("172"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "太原",
+    enCity: "taiyuan",
+    zhCounty: "娄烦",
+    enCounty: "loufan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("173"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "大同",
+    enCity: "datong",
+    zhCounty: "大同",
+    enCounty: "datong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("174"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "大同",
+    enCity: "datong",
+    zhCounty: "阳高",
+    enCounty: "yanggao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("175"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "大同",
+    enCity: "datong",
+    zhCounty: "天镇",
+    enCounty: "tianzhen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("176"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "大同",
+    enCity: "datong",
+    zhCounty: "广灵",
+    enCounty: "guangling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("177"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "大同",
+    enCity: "datong",
+    zhCounty: "灵丘",
+    enCounty: "lingqiu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("178"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "大同",
+    enCity: "datong",
+    zhCounty: "浑源",
+    enCounty: "hunyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("179"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "大同",
+    enCity: "datong",
+    zhCounty: "左云",
+    enCounty: "zuoyun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("180"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "大同",
+    enCity: "datong",
+    zhCounty: "大同县",
+    enCounty: "datongxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("181"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "阳泉",
+    enCity: "yangquan",
+    zhCounty: "阳泉",
+    enCounty: "yangquan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("182"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "阳泉",
+    enCity: "yangquan",
+    zhCounty: "平定",
+    enCounty: "pingding",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("183"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "阳泉",
+    enCity: "yangquan",
+    zhCounty: "盂县",
+    enCounty: "yuxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("184"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "长治",
+    enCity: "changzhi",
+    zhCounty: "长治",
+    enCounty: "changzhi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("185"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "长治",
+    enCity: "changzhi",
+    zhCounty: "襄垣",
+    enCounty: "xiangyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("186"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "长治",
+    enCity: "changzhi",
+    zhCounty: "屯留",
+    enCounty: "tunliu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("187"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "长治",
+    enCity: "changzhi",
+    zhCounty: "平顺",
+    enCounty: "pingshun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("188"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "长治",
+    enCity: "changzhi",
+    zhCounty: "黎城",
+    enCounty: "licheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("189"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "长治",
+    enCity: "changzhi",
+    zhCounty: "壶关",
+    enCounty: "huguan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("190"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "长治",
+    enCity: "changzhi",
+    zhCounty: "长子",
+    enCounty: "changzi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("191"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "长治",
+    enCity: "changzhi",
+    zhCounty: "武乡",
+    enCounty: "wuxiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("192"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "长治",
+    enCity: "changzhi",
+    zhCounty: "沁县",
+    enCounty: "qinxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("193"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "长治",
+    enCity: "changzhi",
+    zhCounty: "沁源",
+    enCounty: "qinyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("194"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "长治",
+    enCity: "changzhi",
+    zhCounty: "潞城",
+    enCounty: "lucheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("195"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "晋城",
+    enCity: "jincheng",
+    zhCounty: "晋城",
+    enCounty: "jincheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("196"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "晋城",
+    enCity: "jincheng",
+    zhCounty: "沁水",
+    enCounty: "qinshui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("197"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "晋城",
+    enCity: "jincheng",
+    zhCounty: "阳城",
+    enCounty: "yangcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("198"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "晋城",
+    enCity: "jincheng",
+    zhCounty: "陵川",
+    enCounty: "sxlingchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("199"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "晋城",
+    enCity: "jincheng",
+    zhCounty: "高平",
+    enCounty: "gaoping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("200"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "朔州",
+    enCity: "shuozhou",
+    zhCounty: "朔州",
+    enCounty: "shuozhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("201"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "朔州",
+    enCity: "shuozhou",
+    zhCounty: "平鲁",
+    enCounty: "pinglu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("202"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "朔州",
+    enCity: "shuozhou",
+    zhCounty: "山阴",
+    enCounty: "shanyin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("203"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "朔州",
+    enCity: "shuozhou",
+    zhCounty: "应县",
+    enCounty: "yingxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("204"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "朔州",
+    enCity: "shuozhou",
+    zhCounty: "右玉",
+    enCounty: "youyu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("205"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "朔州",
+    enCity: "shuozhou",
+    zhCounty: "怀仁",
+    enCounty: "huairen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("206"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "晋中",
+    enCity: "jinzhong",
+    zhCounty: "晋中",
+    enCounty: "jinzhong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("207"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "晋中",
+    enCity: "jinzhong",
+    zhCounty: "榆社",
+    enCounty: "yushe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("208"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "晋中",
+    enCity: "jinzhong",
+    zhCounty: "左权",
+    enCounty: "zuoquan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("209"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "晋中",
+    enCity: "jinzhong",
+    zhCounty: "和顺",
+    enCounty: "heshun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("210"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "晋中",
+    enCity: "jinzhong",
+    zhCounty: "昔阳",
+    enCounty: "xiyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("211"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "晋中",
+    enCity: "jinzhong",
+    zhCounty: "寿阳",
+    enCounty: "shouyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("212"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "晋中",
+    enCity: "jinzhong",
+    zhCounty: "祁县",
+    enCounty: "sxqixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("213"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "晋中",
+    enCity: "jinzhong",
+    zhCounty: "平遥",
+    enCounty: "pingyao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("214"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "晋中",
+    enCity: "jinzhong",
+    zhCounty: "灵石",
+    enCounty: "lingshi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("215"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "晋中",
+    enCity: "jinzhong",
+    zhCounty: "介休",
+    enCounty: "jiexiu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("216"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "运城",
+    enCity: "sxyuncheng",
+    zhCounty: "运城",
+    enCounty: "sxyuncheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("217"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "运城",
+    enCity: "sxyuncheng",
+    zhCounty: "临猗",
+    enCounty: "sxlinyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("218"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "运城",
+    enCity: "sxyuncheng",
+    zhCounty: "万荣",
+    enCounty: "wanrong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("219"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "运城",
+    enCity: "sxyuncheng",
+    zhCounty: "闻喜",
+    enCounty: "wenxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("220"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "运城",
+    enCity: "sxyuncheng",
+    zhCounty: "稷山",
+    enCounty: "jishan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("221"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "运城",
+    enCity: "sxyuncheng",
+    zhCounty: "新绛",
+    enCounty: "xinjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("222"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "运城",
+    enCity: "sxyuncheng",
+    zhCounty: "绛县",
+    enCounty: "jiangxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("223"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "运城",
+    enCity: "sxyuncheng",
+    zhCounty: "垣曲",
+    enCounty: "yuanqu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("224"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "运城",
+    enCity: "sxyuncheng",
+    zhCounty: "夏县",
+    enCounty: "xiaxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("225"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "运城",
+    enCity: "sxyuncheng",
+    zhCounty: "平陆",
+    enCounty: "sxpinglu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("226"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "运城",
+    enCity: "sxyuncheng",
+    zhCounty: "芮城",
+    enCounty: "ruicheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("227"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "运城",
+    enCity: "sxyuncheng",
+    zhCounty: "永济",
+    enCounty: "sxyongji",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("228"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "运城",
+    enCity: "sxyuncheng",
+    zhCounty: "河津",
+    enCounty: "hejin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("229"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "忻州",
+    enCity: "xinzhou",
+    zhCounty: "忻州",
+    enCounty: "xinzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("230"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "忻州",
+    enCity: "xinzhou",
+    zhCounty: "五台山",
+    enCounty: "wutaishan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("231"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "忻州",
+    enCity: "xinzhou",
+    zhCounty: "定襄",
+    enCounty: "dingxiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("232"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "忻州",
+    enCity: "xinzhou",
+    zhCounty: "五台",
+    enCounty: "wutai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("233"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "忻州",
+    enCity: "xinzhou",
+    zhCounty: "代县",
+    enCounty: "daixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("234"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "忻州",
+    enCity: "xinzhou",
+    zhCounty: "繁峙",
+    enCounty: "fanzhi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("235"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "忻州",
+    enCity: "xinzhou",
+    zhCounty: "宁武",
+    enCounty: "ningwu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("236"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "忻州",
+    enCity: "xinzhou",
+    zhCounty: "静乐",
+    enCounty: "jingle",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("237"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "忻州",
+    enCity: "xinzhou",
+    zhCounty: "神池",
+    enCounty: "shenchi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("238"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "忻州",
+    enCity: "xinzhou",
+    zhCounty: "五寨",
+    enCounty: "wuzhai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("239"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "忻州",
+    enCity: "xinzhou",
+    zhCounty: "岢岚",
+    enCounty: "kelan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("240"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "忻州",
+    enCity: "xinzhou",
+    zhCounty: "河曲",
+    enCounty: "hequ",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("241"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "忻州",
+    enCity: "xinzhou",
+    zhCounty: "保德",
+    enCounty: "baode",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("242"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "忻州",
+    enCity: "xinzhou",
+    zhCounty: "偏关",
+    enCounty: "pianguan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("243"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "忻州",
+    enCity: "xinzhou",
+    zhCounty: "原平",
+    enCounty: "yuanping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("244"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "临汾",
+    enCity: "linfen",
+    zhCounty: "临汾",
+    enCounty: "linfen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("245"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "临汾",
+    enCity: "linfen",
+    zhCounty: "曲沃",
+    enCounty: "quwo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("246"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "临汾",
+    enCity: "linfen",
+    zhCounty: "翼城",
+    enCounty: "sxyicheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("247"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "临汾",
+    enCity: "linfen",
+    zhCounty: "襄汾",
+    enCounty: "xiangfen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("248"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "临汾",
+    enCity: "linfen",
+    zhCounty: "洪洞",
+    enCounty: "hongdong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("249"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "临汾",
+    enCity: "linfen",
+    zhCounty: "古县",
+    enCounty: "guxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("250"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "临汾",
+    enCity: "linfen",
+    zhCounty: "安泽",
+    enCounty: "anze",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("251"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "临汾",
+    enCity: "linfen",
+    zhCounty: "浮山",
+    enCounty: "sxfushan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("252"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "临汾",
+    enCity: "linfen",
+    zhCounty: "吉县",
+    enCounty: "sxjixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("253"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "临汾",
+    enCity: "linfen",
+    zhCounty: "乡宁",
+    enCounty: "xiangning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("254"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "临汾",
+    enCity: "linfen",
+    zhCounty: "大宁",
+    enCounty: "daning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("255"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "临汾",
+    enCity: "linfen",
+    zhCounty: "隰县",
+    enCounty: "xixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("256"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "临汾",
+    enCity: "linfen",
+    zhCounty: "永和",
+    enCounty: "yonghe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("257"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "临汾",
+    enCity: "linfen",
+    zhCounty: "蒲县",
+    enCounty: "puxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("258"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "临汾",
+    enCity: "linfen",
+    zhCounty: "汾西",
+    enCounty: "fenxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("259"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "临汾",
+    enCity: "linfen",
+    zhCounty: "侯马",
+    enCounty: "houma",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("260"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "临汾",
+    enCity: "linfen",
+    zhCounty: "霍州",
+    enCounty: "huozhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("261"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "吕梁",
+    enCity: "lvliang",
+    zhCounty: "吕梁",
+    enCounty: "lvliang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("262"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "吕梁",
+    enCity: "lvliang",
+    zhCounty: "孝义",
+    enCounty: "xiaoyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("263"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "吕梁",
+    enCity: "lvliang",
+    zhCounty: "汾阳",
+    enCounty: "fenyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("264"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "吕梁",
+    enCity: "lvliang",
+    zhCounty: "文水",
+    enCounty: "wenshui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("265"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "吕梁",
+    enCity: "lvliang",
+    zhCounty: "交城",
+    enCounty: "jiaocheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("266"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "吕梁",
+    enCity: "lvliang",
+    zhCounty: "兴县",
+    enCounty: "xingxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("267"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "吕梁",
+    enCity: "lvliang",
+    zhCounty: "临县",
+    enCounty: "linxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("268"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "吕梁",
+    enCity: "lvliang",
+    zhCounty: "柳林",
+    enCounty: "liulin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("269"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "吕梁",
+    enCity: "lvliang",
+    zhCounty: "石楼",
+    enCounty: "shilou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("270"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "吕梁",
+    enCity: "lvliang",
+    zhCounty: "岚县",
+    enCounty: "lanxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("271"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "吕梁",
+    enCity: "lvliang",
+    zhCounty: "方山",
+    enCounty: "sxfangshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("272"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "吕梁",
+    enCity: "lvliang",
+    zhCounty: "中阳",
+    enCounty: "sxzhongyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("273"),
+    zhProvince: "山西",
+    enProvince: "shanxi",
+    zhCity: "吕梁",
+    enCity: "lvliang",
+    zhCounty: "交口",
+    enCounty: "jiaokou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("274"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼和浩特",
+    enCity: "huhehaote",
+    zhCounty: "呼和浩特",
+    enCounty: "huhehaote",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("275"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼和浩特",
+    enCity: "huhehaote",
+    zhCounty: "土默特左旗",
+    enCounty: "tumotezuoqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("276"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼和浩特",
+    enCity: "huhehaote",
+    zhCounty: "托克托",
+    enCounty: "tuoketuo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("277"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼和浩特",
+    enCity: "huhehaote",
+    zhCounty: "和林格尔",
+    enCounty: "helingeer",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("278"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼和浩特",
+    enCity: "huhehaote",
+    zhCounty: "清水河",
+    enCounty: "qingshuihe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("279"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼和浩特",
+    enCity: "huhehaote",
+    zhCounty: "武川",
+    enCounty: "nmwuchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("280"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "包头",
+    enCity: "baotou",
+    zhCounty: "包头",
+    enCounty: "baotou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("281"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "包头",
+    enCity: "baotou",
+    zhCounty: "白云鄂博",
+    enCounty: "baiyunebo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("282"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "包头",
+    enCity: "baotou",
+    zhCounty: "土默特右旗",
+    enCounty: "tumoteyouqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("283"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "包头",
+    enCity: "baotou",
+    zhCounty: "固阳",
+    enCounty: "guyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("284"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "包头",
+    enCity: "baotou",
+    zhCounty: "达尔罕茂明安联合旗",
+    enCounty: "daerhanmaominganlianheqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("285"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "包头",
+    enCity: "baotou",
+    zhCounty: "满都拉",
+    enCounty: "mandula",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("286"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "包头",
+    enCity: "baotou",
+    zhCounty: "希拉穆仁",
+    enCounty: "xilamuren",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("287"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "乌海",
+    enCity: "wuhai",
+    zhCounty: "乌海",
+    enCounty: "wuhai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("288"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "赤峰",
+    enCity: "chifeng",
+    zhCounty: "赤峰",
+    enCounty: "chifeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("289"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "赤峰",
+    enCity: "chifeng",
+    zhCounty: "阿鲁科尔沁旗",
+    enCounty: "alukeerqinqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("290"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "赤峰",
+    enCity: "chifeng",
+    zhCounty: "巴林左旗",
+    enCounty: "balinzuoqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("291"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "赤峰",
+    enCity: "chifeng",
+    zhCounty: "巴林右旗",
+    enCounty: "balinyouqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("292"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "赤峰",
+    enCity: "chifeng",
+    zhCounty: "林西",
+    enCounty: "nmlinxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("293"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "赤峰",
+    enCity: "chifeng",
+    zhCounty: "克什克腾旗",
+    enCounty: "keshiketengqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("294"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "赤峰",
+    enCity: "chifeng",
+    zhCounty: "翁牛特旗",
+    enCounty: "wengniuteqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("295"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "赤峰",
+    enCity: "chifeng",
+    zhCounty: "喀喇沁旗",
+    enCounty: "kalaqinqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("296"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "赤峰",
+    enCity: "chifeng",
+    zhCounty: "宁城",
+    enCounty: "ningcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("297"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "赤峰",
+    enCity: "chifeng",
+    zhCounty: "敖汉旗",
+    enCounty: "aohanqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("298"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "赤峰",
+    enCity: "chifeng",
+    zhCounty: "浩尔吐",
+    enCounty: "haoertu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("299"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "赤峰",
+    enCity: "chifeng",
+    zhCounty: "八里罕",
+    enCounty: "balihan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("300"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "赤峰",
+    enCity: "chifeng",
+    zhCounty: "宝国图",
+    enCounty: "baoguotu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("301"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "赤峰",
+    enCity: "chifeng",
+    zhCounty: "岗子",
+    enCounty: "gangzi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("302"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "赤峰",
+    enCity: "chifeng",
+    zhCounty: "高力板",
+    enCounty: "gaoliban",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("303"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "通辽",
+    enCity: "tongliao",
+    zhCounty: "通辽",
+    enCounty: "tongliao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("304"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "通辽",
+    enCity: "tongliao",
+    zhCounty: "科尔沁左翼中旗",
+    enCounty: "keerqinzuoyizhongqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("305"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "通辽",
+    enCity: "tongliao",
+    zhCounty: "科尔沁左翼后旗",
+    enCounty: "keerqinzuoyihouqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("306"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "通辽",
+    enCity: "tongliao",
+    zhCounty: "开鲁",
+    enCounty: "kailu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("307"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "通辽",
+    enCity: "tongliao",
+    zhCounty: "库伦旗",
+    enCounty: "kulvqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("308"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "通辽",
+    enCity: "tongliao",
+    zhCounty: "奈曼旗",
+    enCounty: "naimanqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("309"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "通辽",
+    enCity: "tongliao",
+    zhCounty: "扎鲁特旗",
+    enCounty: "zhaluteqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("310"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "通辽",
+    enCity: "tongliao",
+    zhCounty: "霍林郭勒",
+    enCounty: "huolinguole",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("311"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "通辽",
+    enCity: "tongliao",
+    zhCounty: "舍伯吐",
+    enCounty: "shebotu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("312"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "通辽",
+    enCity: "tongliao",
+    zhCounty: "巴雅尔吐胡硕",
+    enCounty: "bayaertuhushuo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("313"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "通辽",
+    enCity: "tongliao",
+    zhCounty: "青龙山",
+    enCounty: "qinglongshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("314"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "鄂尔多斯",
+    enCity: "eerduosi",
+    zhCounty: "鄂尔多斯",
+    enCounty: "eerduosi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("315"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "鄂尔多斯",
+    enCity: "eerduosi",
+    zhCounty: "东胜",
+    enCounty: "dongsheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("316"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "鄂尔多斯",
+    enCity: "eerduosi",
+    zhCounty: "达拉特旗",
+    enCounty: "dalateqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("317"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "鄂尔多斯",
+    enCity: "eerduosi",
+    zhCounty: "准格尔旗",
+    enCounty: "zhungeerqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("318"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "鄂尔多斯",
+    enCity: "eerduosi",
+    zhCounty: "鄂托克前旗",
+    enCounty: "etuokeqianqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("319"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "鄂尔多斯",
+    enCity: "eerduosi",
+    zhCounty: "鄂托克旗",
+    enCounty: "etuokeqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("320"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "鄂尔多斯",
+    enCity: "eerduosi",
+    zhCounty: "杭锦旗",
+    enCounty: "hangjinqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("321"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "鄂尔多斯",
+    enCity: "eerduosi",
+    zhCounty: "乌审旗",
+    enCounty: "wushenqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("322"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "鄂尔多斯",
+    enCity: "eerduosi",
+    zhCounty: "伊金霍洛旗",
+    enCounty: "yijinhuolvqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("323"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "鄂尔多斯",
+    enCity: "eerduosi",
+    zhCounty: "乌审召",
+    enCounty: "wushenzhao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("324"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "鄂尔多斯",
+    enCity: "eerduosi",
+    zhCounty: "伊克乌素",
+    enCounty: "yikewusu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("325"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼伦贝尔",
+    enCity: "hulunbeier",
+    zhCounty: "呼伦贝尔",
+    enCounty: "hulunbeier",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("326"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼伦贝尔",
+    enCity: "hulunbeier",
+    zhCounty: "海拉尔",
+    enCounty: "hailaer",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("327"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼伦贝尔",
+    enCity: "hulunbeier",
+    zhCounty: "阿荣旗",
+    enCounty: "arongqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("328"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼伦贝尔",
+    enCity: "hulunbeier",
+    zhCounty: "莫力达瓦旗",
+    enCounty: "molidawaqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("329"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼伦贝尔",
+    enCity: "hulunbeier",
+    zhCounty: "鄂伦春旗",
+    enCounty: "elunchunqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("330"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼伦贝尔",
+    enCity: "hulunbeier",
+    zhCounty: "鄂温克旗",
+    enCounty: "ewenkeqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("331"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼伦贝尔",
+    enCity: "hulunbeier",
+    zhCounty: "陈巴尔虎旗",
+    enCounty: "chenbaerhuqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("332"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼伦贝尔",
+    enCity: "hulunbeier",
+    zhCounty: "新巴尔虎左旗",
+    enCounty: "xinbaerhuzuoqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("333"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼伦贝尔",
+    enCity: "hulunbeier",
+    zhCounty: "新巴尔虎右旗",
+    enCounty: "xinbaerhuyouqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("334"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼伦贝尔",
+    enCity: "hulunbeier",
+    zhCounty: "满洲里",
+    enCounty: "manzhouli",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("335"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼伦贝尔",
+    enCity: "hulunbeier",
+    zhCounty: "牙克石",
+    enCounty: "yakeshi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("336"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼伦贝尔",
+    enCity: "hulunbeier",
+    zhCounty: "扎兰屯",
+    enCounty: "zhalantun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("337"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼伦贝尔",
+    enCity: "hulunbeier",
+    zhCounty: "额尔古纳",
+    enCounty: "eerguna",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("338"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼伦贝尔",
+    enCity: "hulunbeier",
+    zhCounty: "根河",
+    enCounty: "genhe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("339"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼伦贝尔",
+    enCity: "hulunbeier",
+    zhCounty: "博克图",
+    enCounty: "boketu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("340"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼伦贝尔",
+    enCity: "hulunbeier",
+    zhCounty: "小二沟",
+    enCounty: "xiaoergou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("341"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "呼伦贝尔",
+    enCity: "hulunbeier",
+    zhCounty: "图里河",
+    enCounty: "tulihe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("342"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "巴彦淖尔",
+    enCity: "bayannaoer",
+    zhCounty: "巴彦淖尔",
+    enCounty: "bayannaoer",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("343"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "巴彦淖尔",
+    enCity: "bayannaoer",
+    zhCounty: "临河",
+    enCounty: "linhe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("344"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "巴彦淖尔",
+    enCity: "bayannaoer",
+    zhCounty: "五原",
+    enCounty: "wuyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("345"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "巴彦淖尔",
+    enCity: "bayannaoer",
+    zhCounty: "磴口",
+    enCounty: "dengkou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("346"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "巴彦淖尔",
+    enCity: "bayannaoer",
+    zhCounty: "乌拉特前旗",
+    enCounty: "wulateqianqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("347"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "巴彦淖尔",
+    enCity: "bayannaoer",
+    zhCounty: "乌拉特中旗",
+    enCounty: "wulatezhongqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("348"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "巴彦淖尔",
+    enCity: "bayannaoer",
+    zhCounty: "乌拉特后旗",
+    enCounty: "wulatehouqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("349"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "巴彦淖尔",
+    enCity: "bayannaoer",
+    zhCounty: "杭锦后旗",
+    enCounty: "hangjinhouqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("350"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "巴彦淖尔",
+    enCity: "bayannaoer",
+    zhCounty: "海力素",
+    enCounty: "hailisu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("351"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "巴彦淖尔",
+    enCity: "bayannaoer",
+    zhCounty: "那仁宝力格",
+    enCounty: "narenbaolige",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("352"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "巴彦淖尔",
+    enCity: "bayannaoer",
+    zhCounty: "大佘太",
+    enCounty: "dashetai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("353"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "乌兰察布",
+    enCity: "wulanchabu",
+    zhCounty: "乌兰察布",
+    enCounty: "wulanchabu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("354"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "乌兰察布",
+    enCity: "wulanchabu",
+    zhCounty: "集宁",
+    enCounty: "jining",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("355"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "乌兰察布",
+    enCity: "wulanchabu",
+    zhCounty: "卓资",
+    enCounty: "zhuozi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("356"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "乌兰察布",
+    enCity: "wulanchabu",
+    zhCounty: "化德",
+    enCounty: "huade",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("357"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "乌兰察布",
+    enCity: "wulanchabu",
+    zhCounty: "商都",
+    enCounty: "shangdu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("358"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "乌兰察布",
+    enCity: "wulanchabu",
+    zhCounty: "兴和",
+    enCounty: "xinghe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("359"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "乌兰察布",
+    enCity: "wulanchabu",
+    zhCounty: "凉城",
+    enCounty: "liangcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("360"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "乌兰察布",
+    enCity: "wulanchabu",
+    zhCounty: "察哈尔右翼前旗",
+    enCounty: "chahaeryouyiqianqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("361"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "乌兰察布",
+    enCity: "wulanchabu",
+    zhCounty: "察哈尔右翼中旗",
+    enCounty: "chahaeryouyizhongqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("362"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "乌兰察布",
+    enCity: "wulanchabu",
+    zhCounty: "察哈尔右翼后旗",
+    enCounty: "chahaeryouyihouqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("363"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "乌兰察布",
+    enCity: "wulanchabu",
+    zhCounty: "四子王旗",
+    enCounty: "siziwangqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("364"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "乌兰察布",
+    enCity: "wulanchabu",
+    zhCounty: "丰镇",
+    enCounty: "fengzhen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("365"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "兴安盟",
+    enCity: "xinganmeng",
+    zhCounty: "兴安盟",
+    enCounty: "xinganmeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("366"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "兴安盟",
+    enCity: "xinganmeng",
+    zhCounty: "乌兰浩特",
+    enCounty: "wulanhaote",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("367"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "兴安盟",
+    enCity: "xinganmeng",
+    zhCounty: "阿尔山",
+    enCounty: "aershan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("368"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "兴安盟",
+    enCity: "xinganmeng",
+    zhCounty: "科尔沁右翼中旗",
+    enCounty: "keerqinyouyizhongqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("369"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "兴安盟",
+    enCity: "xinganmeng",
+    zhCounty: "扎赉特旗",
+    enCounty: "zhalaiteqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("370"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "兴安盟",
+    enCity: "xinganmeng",
+    zhCounty: "突泉",
+    enCounty: "tuquan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("371"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "兴安盟",
+    enCity: "xinganmeng",
+    zhCounty: "胡尔勒",
+    enCounty: "huerle",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("372"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "兴安盟",
+    enCity: "xinganmeng",
+    zhCounty: "索伦",
+    enCounty: "suolun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("373"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "锡林郭勒",
+    enCity: "xilinguole",
+    zhCounty: "锡林郭勒",
+    enCounty: "xilinguole",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("374"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "锡林郭勒",
+    enCity: "xilinguole",
+    zhCounty: "二连浩特",
+    enCounty: "erlianhaote",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("375"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "锡林郭勒",
+    enCity: "xilinguole",
+    zhCounty: "锡林浩特",
+    enCounty: "xilinhaote",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("376"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "锡林郭勒",
+    enCity: "xilinguole",
+    zhCounty: "阿巴嘎旗",
+    enCounty: "abagaqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("377"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "锡林郭勒",
+    enCity: "xilinguole",
+    zhCounty: "苏尼特左旗",
+    enCounty: "sunitezuoqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("378"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "锡林郭勒",
+    enCity: "xilinguole",
+    zhCounty: "苏尼特右旗",
+    enCounty: "suniteyouqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("379"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "锡林郭勒",
+    enCity: "xilinguole",
+    zhCounty: "东乌珠穆沁旗",
+    enCounty: "dongwuzhumuqinqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("380"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "锡林郭勒",
+    enCity: "xilinguole",
+    zhCounty: "西乌珠穆沁旗",
+    enCounty: "xiwuzhumuqinqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("381"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "锡林郭勒",
+    enCity: "xilinguole",
+    zhCounty: "太仆寺旗",
+    enCounty: "taipusiqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("382"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "锡林郭勒",
+    enCity: "xilinguole",
+    zhCounty: "镶黄旗",
+    enCounty: "xianghuangqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("383"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "锡林郭勒",
+    enCity: "xilinguole",
+    zhCounty: "正镶白旗",
+    enCounty: "zhengxiangbaiqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("384"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "锡林郭勒",
+    enCity: "xilinguole",
+    zhCounty: "多伦",
+    enCounty: "duolun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("385"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "锡林郭勒",
+    enCity: "xilinguole",
+    zhCounty: "朱日和",
+    enCounty: "zhurihe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("386"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "锡林郭勒",
+    enCity: "xilinguole",
+    zhCounty: "乌拉盖",
+    enCounty: "wulagai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("387"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "阿拉善盟",
+    enCity: "alashanmeng",
+    zhCounty: "阿拉善盟",
+    enCounty: "alashanmeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("388"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "阿拉善盟",
+    enCity: "alashanmeng",
+    zhCounty: "阿拉善左旗",
+    enCounty: "alashanzuoqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("389"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "阿拉善盟",
+    enCity: "alashanmeng",
+    zhCounty: "阿拉善右旗",
+    enCounty: "alashanyouqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("390"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "阿拉善盟",
+    enCity: "alashanmeng",
+    zhCounty: "额济纳旗",
+    enCounty: "ejinaqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("391"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "阿拉善盟",
+    enCity: "alashanmeng",
+    zhCounty: "拐子湖",
+    enCounty: "guaizihu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("392"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "阿拉善盟",
+    enCity: "alashanmeng",
+    zhCounty: "吉兰太",
+    enCounty: "jilantai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("393"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "阿拉善盟",
+    enCity: "alashanmeng",
+    zhCounty: "巴彦诺尔贡",
+    enCounty: "bayannuoergong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("394"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "阿拉善盟",
+    enCity: "alashanmeng",
+    zhCounty: "孪井滩",
+    enCounty: "luanjingtan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("395"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "阿拉善盟",
+    enCity: "alashanmeng",
+    zhCounty: "乌斯太",
+    enCounty: "wusitai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("396"),
+    zhProvince: "内蒙古",
+    enProvince: "neimenggu",
+    zhCity: "阿拉善盟",
+    enCity: "alashanmeng",
+    zhCounty: "雅布赖",
+    enCounty: "yabulai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("397"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "沈阳",
+    enCity: "shenyang",
+    zhCounty: "沈阳",
+    enCounty: "shenyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("398"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "沈阳",
+    enCity: "shenyang",
+    zhCounty: "辽中",
+    enCounty: "liaozhong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("399"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "沈阳",
+    enCity: "shenyang",
+    zhCounty: "康平",
+    enCounty: "kangping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("400"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "沈阳",
+    enCity: "shenyang",
+    zhCounty: "法库",
+    enCounty: "faku",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("401"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "沈阳",
+    enCity: "shenyang",
+    zhCounty: "新民",
+    enCounty: "xinmin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("402"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "大连",
+    enCity: "dalian",
+    zhCounty: "大连",
+    enCounty: "dalian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("403"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "大连",
+    enCity: "dalian",
+    zhCounty: "旅顺",
+    enCounty: "lvshun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("404"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "大连",
+    enCity: "dalian",
+    zhCounty: "金州",
+    enCounty: "lnjinzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("405"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "大连",
+    enCity: "dalian",
+    zhCounty: "长海",
+    enCounty: "changhai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("406"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "大连",
+    enCity: "dalian",
+    zhCounty: "瓦房店",
+    enCounty: "wafangdian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("407"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "大连",
+    enCity: "dalian",
+    zhCounty: "普兰店",
+    enCounty: "pulandian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("408"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "大连",
+    enCity: "dalian",
+    zhCounty: "庄河",
+    enCounty: "zhuanghe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("409"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "鞍山",
+    enCity: "anshan",
+    zhCounty: "鞍山",
+    enCounty: "anshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("410"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "鞍山",
+    enCity: "anshan",
+    zhCounty: "台安",
+    enCounty: "lntaian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("411"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "鞍山",
+    enCity: "anshan",
+    zhCounty: "岫岩",
+    enCounty: "xiuyan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("412"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "鞍山",
+    enCity: "anshan",
+    zhCounty: "海城",
+    enCounty: "haicheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("413"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "抚顺",
+    enCity: "fushun",
+    zhCounty: "抚顺",
+    enCounty: "fushun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("414"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "抚顺",
+    enCity: "fushun",
+    zhCounty: "新宾",
+    enCounty: "xinbin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("415"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "抚顺",
+    enCity: "fushun",
+    zhCounty: "清原",
+    enCounty: "qingyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("416"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "本溪",
+    enCity: "benxi",
+    zhCounty: "本溪",
+    enCounty: "benxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("417"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "本溪",
+    enCity: "benxi",
+    zhCounty: "本溪县",
+    enCounty: "benxixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("418"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "本溪",
+    enCity: "benxi",
+    zhCounty: "桓仁",
+    enCounty: "huanren",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("419"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "丹东",
+    enCity: "dandong",
+    zhCounty: "丹东",
+    enCounty: "dandong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("420"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "丹东",
+    enCity: "dandong",
+    zhCounty: "宽甸",
+    enCounty: "kuandian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("421"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "丹东",
+    enCity: "dandong",
+    zhCounty: "东港",
+    enCounty: "lndonggang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("422"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "丹东",
+    enCity: "dandong",
+    zhCounty: "凤城",
+    enCounty: "lnfengcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("423"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "锦州",
+    enCity: "jinzhou",
+    zhCounty: "锦州",
+    enCounty: "jinzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("424"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "锦州",
+    enCity: "jinzhou",
+    zhCounty: "黑山",
+    enCounty: "heishan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("425"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "锦州",
+    enCity: "jinzhou",
+    zhCounty: "义县",
+    enCounty: "yixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("426"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "锦州",
+    enCity: "jinzhou",
+    zhCounty: "凌海",
+    enCounty: "linghai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("427"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "锦州",
+    enCity: "jinzhou",
+    zhCounty: "北镇",
+    enCounty: "beizhen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("428"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "营口",
+    enCity: "yingkou",
+    zhCounty: "营口",
+    enCounty: "yingkou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("429"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "营口",
+    enCity: "yingkou",
+    zhCounty: "盖州",
+    enCounty: "gaizhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("430"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "营口",
+    enCity: "yingkou",
+    zhCounty: "大石桥",
+    enCounty: "dashiqiao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("431"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "阜新",
+    enCity: "fuxin",
+    zhCounty: "阜新",
+    enCounty: "fuxin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("432"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "阜新",
+    enCity: "fuxin",
+    zhCounty: "太平",
+    enCounty: "taiping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("433"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "阜新",
+    enCity: "fuxin",
+    zhCounty: "彰武",
+    enCounty: "zhangwu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("434"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "辽阳",
+    enCity: "liaoyang",
+    zhCounty: "辽阳",
+    enCounty: "liaoyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("435"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "辽阳",
+    enCity: "liaoyang",
+    zhCounty: "灯塔",
+    enCounty: "dengta",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("436"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "辽阳",
+    enCity: "liaoyang",
+    zhCounty: "辽阳县",
+    enCounty: "liaoyangxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("437"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "盘锦",
+    enCity: "panjin",
+    zhCounty: "盘锦",
+    enCounty: "panjin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("438"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "盘锦",
+    enCity: "panjin",
+    zhCounty: "大洼",
+    enCounty: "dawa",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("439"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "盘锦",
+    enCity: "panjin",
+    zhCounty: "盘山",
+    enCounty: "panshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("440"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "昌图",
+    enCity: "changtu",
+    zhCounty: "昌图",
+    enCounty: "changtu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("441"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "昌图",
+    enCity: "changtu",
+    zhCounty: "铁岭",
+    enCounty: "tieling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("442"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "昌图",
+    enCity: "changtu",
+    zhCounty: "西丰",
+    enCounty: "xifeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("443"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "昌图",
+    enCity: "changtu",
+    zhCounty: "开原",
+    enCounty: "kaiyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("444"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "朝阳",
+    enCity: "chaoyang",
+    zhCounty: "朝阳",
+    enCounty: "chaoyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("445"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "朝阳",
+    enCity: "chaoyang",
+    zhCounty: "建平",
+    enCounty: "jianping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("446"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "朝阳",
+    enCity: "chaoyang",
+    zhCounty: "北票",
+    enCounty: "beipiao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("447"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "朝阳",
+    enCity: "chaoyang",
+    zhCounty: "凌源",
+    enCounty: "lingyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("448"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "朝阳",
+    enCity: "chaoyang",
+    zhCounty: "喀左",
+    enCounty: "kazuo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("449"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "葫芦岛",
+    enCity: "huludao",
+    zhCounty: "葫芦岛",
+    enCounty: "huludao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("450"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "葫芦岛",
+    enCity: "huludao",
+    zhCounty: "绥中",
+    enCounty: "suizhong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("451"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "葫芦岛",
+    enCity: "huludao",
+    zhCounty: "建昌",
+    enCounty: "jianchang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("452"),
+    zhProvince: "辽宁",
+    enProvince: "ln",
+    zhCity: "葫芦岛",
+    enCity: "huludao",
+    zhCounty: "兴城",
+    enCounty: "xingcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("453"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "长春",
+    enCity: "changchun",
+    zhCounty: "长春",
+    enCounty: "changchun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("454"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "长春",
+    enCity: "changchun",
+    zhCounty: "双阳",
+    enCounty: "shuangyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("455"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "长春",
+    enCity: "changchun",
+    zhCounty: "农安",
+    enCounty: "nongan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("456"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "长春",
+    enCity: "changchun",
+    zhCounty: "九台",
+    enCounty: "jiutai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("457"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "长春",
+    enCity: "changchun",
+    zhCounty: "榆树",
+    enCounty: "jlyushu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("458"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "长春",
+    enCity: "changchun",
+    zhCounty: "德惠",
+    enCounty: "dehui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("459"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "吉林",
+    enCity: "jilin",
+    zhCounty: "吉林",
+    enCounty: "jilin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("460"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "吉林",
+    enCity: "jilin",
+    zhCounty: "永吉",
+    enCounty: "yongji",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("461"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "吉林",
+    enCity: "jilin",
+    zhCounty: "蛟河",
+    enCounty: "jiaohe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("462"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "吉林",
+    enCity: "jilin",
+    zhCounty: "桦甸",
+    enCounty: "huadian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("463"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "吉林",
+    enCity: "jilin",
+    zhCounty: "舒兰",
+    enCounty: "shulan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("464"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "吉林",
+    enCity: "jilin",
+    zhCounty: "磐石",
+    enCounty: "panshi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("465"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "四平",
+    enCity: "siping",
+    zhCounty: "四平",
+    enCounty: "siping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("466"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "四平",
+    enCity: "siping",
+    zhCounty: "梨树",
+    enCounty: "lishu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("467"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "四平",
+    enCity: "siping",
+    zhCounty: "伊通",
+    enCounty: "yitong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("468"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "四平",
+    enCity: "siping",
+    zhCounty: "公主岭",
+    enCounty: "gongzhuling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("469"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "四平",
+    enCity: "siping",
+    zhCounty: "双辽",
+    enCounty: "shuangliao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("470"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "辽源",
+    enCity: "liaoyuan",
+    zhCounty: "辽源",
+    enCounty: "liaoyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("471"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "辽源",
+    enCity: "liaoyuan",
+    zhCounty: "东丰",
+    enCounty: "dongfeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("472"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "通化",
+    enCity: "tonghua",
+    zhCounty: "通化",
+    enCounty: "tonghua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("473"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "通化",
+    enCity: "tonghua",
+    zhCounty: "通化县",
+    enCounty: "tonghuaxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("474"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "通化",
+    enCity: "tonghua",
+    zhCounty: "辉南",
+    enCounty: "huinan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("475"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "通化",
+    enCity: "tonghua",
+    zhCounty: "柳河",
+    enCounty: "liuhe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("476"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "通化",
+    enCity: "tonghua",
+    zhCounty: "梅河口",
+    enCounty: "meihekou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("477"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "通化",
+    enCity: "tonghua",
+    zhCounty: "集安",
+    enCounty: "jljian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("478"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "白山",
+    enCity: "baishan",
+    zhCounty: "白山",
+    enCounty: "baishan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("479"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "白山",
+    enCity: "baishan",
+    zhCounty: "靖宇",
+    enCounty: "jingyu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("480"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "白山",
+    enCity: "baishan",
+    zhCounty: "长白",
+    enCounty: "changbai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("481"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "白山",
+    enCity: "baishan",
+    zhCounty: "临江",
+    enCounty: "linjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("482"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "白山",
+    enCity: "baishan",
+    zhCounty: "东岗",
+    enCounty: "donggang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("483"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "松原",
+    enCity: "songyuan",
+    zhCounty: "松原",
+    enCounty: "songyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("484"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "松原",
+    enCity: "songyuan",
+    zhCounty: "前郭",
+    enCounty: "qianguo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("485"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "松原",
+    enCity: "songyuan",
+    zhCounty: "长岭",
+    enCounty: "changling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("486"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "松原",
+    enCity: "songyuan",
+    zhCounty: "乾安",
+    enCounty: "qianan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("487"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "松原",
+    enCity: "songyuan",
+    zhCounty: "扶余",
+    enCounty: "fuyu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("488"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "白城",
+    enCity: "baicheng",
+    zhCounty: "白城",
+    enCounty: "baicheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("489"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "白城",
+    enCity: "baicheng",
+    zhCounty: "镇赉",
+    enCounty: "zhenzuo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("490"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "白城",
+    enCity: "baicheng",
+    zhCounty: "通榆",
+    enCounty: "tongyu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("491"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "白城",
+    enCity: "baicheng",
+    zhCounty: "洮南",
+    enCounty: "taonan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("492"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "白城",
+    enCity: "baicheng",
+    zhCounty: "大安",
+    enCounty: "daan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("493"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "延边",
+    enCity: "yanbian",
+    zhCounty: "延边",
+    enCounty: "yanbian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("494"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "延边",
+    enCity: "yanbian",
+    zhCounty: "延吉",
+    enCounty: "yanji",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("495"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "延边",
+    enCity: "yanbian",
+    zhCounty: "图们",
+    enCounty: "tumen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("496"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "延边",
+    enCity: "yanbian",
+    zhCounty: "敦化",
+    enCounty: "dunhua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("497"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "延边",
+    enCity: "yanbian",
+    zhCounty: "珲春",
+    enCounty: "hunchun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("498"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "延边",
+    enCity: "yanbian",
+    zhCounty: "龙井",
+    enCounty: "longjing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("499"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "延边",
+    enCity: "yanbian",
+    zhCounty: "和龙",
+    enCounty: "helong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("500"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "延边",
+    enCity: "yanbian",
+    zhCounty: "汪清",
+    enCounty: "wangqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("501"),
+    zhProvince: "吉林",
+    enProvince: "jl",
+    zhCity: "延边",
+    enCity: "yanbian",
+    zhCounty: "安图",
+    enCounty: "antu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("502"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "哈尔滨",
+    enCity: "haerbin",
+    zhCounty: "哈尔滨",
+    enCounty: "haerbin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("503"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "哈尔滨",
+    enCity: "haerbin",
+    zhCounty: "呼兰",
+    enCounty: "hulan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("504"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "哈尔滨",
+    enCity: "haerbin",
+    zhCounty: "阿城",
+    enCounty: "acheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("505"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "哈尔滨",
+    enCity: "haerbin",
+    zhCounty: "依兰",
+    enCounty: "yilan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("506"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "哈尔滨",
+    enCity: "haerbin",
+    zhCounty: "方正",
+    enCounty: "fangzheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("507"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "哈尔滨",
+    enCity: "haerbin",
+    zhCounty: "宾县",
+    enCounty: "binxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("508"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "哈尔滨",
+    enCity: "haerbin",
+    zhCounty: "木兰",
+    enCounty: "mulan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("509"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "哈尔滨",
+    enCity: "haerbin",
+    zhCounty: "通河",
+    enCounty: "tonghe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("510"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "哈尔滨",
+    enCity: "haerbin",
+    zhCounty: "延寿",
+    enCounty: "yanshou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("511"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "哈尔滨",
+    enCity: "haerbin",
+    zhCounty: "双城",
+    enCounty: "shuangcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("512"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "哈尔滨",
+    enCity: "haerbin",
+    zhCounty: "尚志",
+    enCounty: "shangzhi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("513"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "哈尔滨",
+    enCity: "haerbin",
+    zhCounty: "五常",
+    enCounty: "hljwuchang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("514"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "齐齐哈尔",
+    enCity: "qiqihaer",
+    zhCounty: "齐齐哈尔",
+    enCounty: "qiqihaer",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("515"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "齐齐哈尔",
+    enCity: "qiqihaer",
+    zhCounty: "龙江",
+    enCounty: "longjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("516"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "齐齐哈尔",
+    enCity: "qiqihaer",
+    zhCounty: "依安",
+    enCounty: "yian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("517"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "齐齐哈尔",
+    enCity: "qiqihaer",
+    zhCounty: "泰来",
+    enCounty: "tailai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("518"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "齐齐哈尔",
+    enCity: "qiqihaer",
+    zhCounty: "甘南",
+    enCounty: "hljgannan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("519"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "齐齐哈尔",
+    enCity: "qiqihaer",
+    zhCounty: "富裕",
+    enCounty: "hljfuyu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("520"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "齐齐哈尔",
+    enCity: "qiqihaer",
+    zhCounty: "克山",
+    enCounty: "keshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("521"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "齐齐哈尔",
+    enCity: "qiqihaer",
+    zhCounty: "克东",
+    enCounty: "kedong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("522"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "齐齐哈尔",
+    enCity: "qiqihaer",
+    zhCounty: "拜泉",
+    enCounty: "baiquan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("523"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "齐齐哈尔",
+    enCity: "qiqihaer",
+    zhCounty: "讷河",
+    enCounty: "nehe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("524"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "鸡西",
+    enCity: "jixi",
+    zhCounty: "鸡西",
+    enCounty: "jixi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("525"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "鸡西",
+    enCity: "jixi",
+    zhCounty: "鸡东",
+    enCounty: "jidong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("526"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "鸡西",
+    enCity: "jixi",
+    zhCounty: "虎林",
+    enCounty: "hulin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("527"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "鸡西",
+    enCity: "jixi",
+    zhCounty: "密山",
+    enCounty: "mishan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("528"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "鹤岗",
+    enCity: "hegang",
+    zhCounty: "鹤岗",
+    enCounty: "hegang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("529"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "鹤岗",
+    enCity: "hegang",
+    zhCounty: "萝北",
+    enCounty: "luobei",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("530"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "鹤岗",
+    enCity: "hegang",
+    zhCounty: "绥滨",
+    enCounty: "suibin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("531"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "双鸭山",
+    enCity: "shuangyashan",
+    zhCounty: "双鸭山",
+    enCounty: "shuangyashan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("532"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "双鸭山",
+    enCity: "shuangyashan",
+    zhCounty: "集贤",
+    enCounty: "jixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("533"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "双鸭山",
+    enCity: "shuangyashan",
+    zhCounty: "宝清",
+    enCounty: "baoqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("534"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "双鸭山",
+    enCity: "shuangyashan",
+    zhCounty: "饶河",
+    enCounty: "raohe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("535"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "大庆",
+    enCity: "daqing",
+    zhCounty: "大庆",
+    enCounty: "daqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("536"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "大庆",
+    enCity: "daqing",
+    zhCounty: "肇州",
+    enCounty: "zhaozhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("537"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "大庆",
+    enCity: "daqing",
+    zhCounty: "肇源",
+    enCounty: "zhaoyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("538"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "大庆",
+    enCity: "daqing",
+    zhCounty: "林甸",
+    enCounty: "lindian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("539"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "大庆",
+    enCity: "daqing",
+    zhCounty: "杜尔伯特",
+    enCounty: "duerbote",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("540"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "大庆",
+    enCity: "daqing",
+    zhCounty: "杜蒙",
+    enCounty: "dumeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("541"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "伊春",
+    enCity: "yichun",
+    zhCounty: "伊春",
+    enCounty: "yichun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("542"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "伊春",
+    enCity: "yichun",
+    zhCounty: "五营",
+    enCounty: "wuying",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("543"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "伊春",
+    enCity: "yichun",
+    zhCounty: "乌伊岭",
+    enCounty: "wuyiling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("544"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "伊春",
+    enCity: "yichun",
+    zhCounty: "嘉荫",
+    enCounty: "jiayin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("545"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "伊春",
+    enCity: "yichun",
+    zhCounty: "铁力",
+    enCounty: "tieli",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("546"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "佳木斯",
+    enCity: "jiamusi",
+    zhCounty: "佳木斯",
+    enCounty: "jiamusi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("547"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "佳木斯",
+    enCity: "jiamusi",
+    zhCounty: "桦南",
+    enCounty: "huanan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("548"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "佳木斯",
+    enCity: "jiamusi",
+    zhCounty: "桦川",
+    enCounty: "huachuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("549"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "佳木斯",
+    enCity: "jiamusi",
+    zhCounty: "汤原",
+    enCounty: "tangyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("550"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "佳木斯",
+    enCity: "jiamusi",
+    zhCounty: "抚远",
+    enCounty: "fuyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("551"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "佳木斯",
+    enCity: "jiamusi",
+    zhCounty: "同江",
+    enCounty: "tongjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("552"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "佳木斯",
+    enCity: "jiamusi",
+    zhCounty: "富锦",
+    enCounty: "fujin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("553"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "七台河",
+    enCity: "qitaihe",
+    zhCounty: "七台河",
+    enCounty: "qitaihe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("554"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "七台河",
+    enCity: "qitaihe",
+    zhCounty: "勃利",
+    enCounty: "boli",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("555"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "牡丹江",
+    enCity: "mudanjiang",
+    zhCounty: "牡丹江",
+    enCounty: "mudanjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("556"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "牡丹江",
+    enCity: "mudanjiang",
+    zhCounty: "东宁",
+    enCounty: "dongning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("557"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "牡丹江",
+    enCity: "mudanjiang",
+    zhCounty: "林口",
+    enCounty: "linkou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("558"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "牡丹江",
+    enCity: "mudanjiang",
+    zhCounty: "绥芬河",
+    enCounty: "suifenhe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("559"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "牡丹江",
+    enCity: "mudanjiang",
+    zhCounty: "海林",
+    enCounty: "hailin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("560"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "牡丹江",
+    enCity: "mudanjiang",
+    zhCounty: "宁安",
+    enCounty: "ningan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("561"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "牡丹江",
+    enCity: "mudanjiang",
+    zhCounty: "穆棱",
+    enCounty: "muleng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("562"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "黑河",
+    enCity: "heihe",
+    zhCounty: "黑河",
+    enCounty: "heihe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("563"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "黑河",
+    enCity: "heihe",
+    zhCounty: "嫩江",
+    enCounty: "nenjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("564"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "黑河",
+    enCity: "heihe",
+    zhCounty: "逊克",
+    enCounty: "xunke",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("565"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "黑河",
+    enCity: "heihe",
+    zhCounty: "孙吴",
+    enCounty: "sunwu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("566"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "黑河",
+    enCity: "heihe",
+    zhCounty: "北安",
+    enCounty: "beian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("567"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "黑河",
+    enCity: "heihe",
+    zhCounty: "五大连池",
+    enCounty: "wudalianchi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("568"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "绥化",
+    enCity: "suihua",
+    zhCounty: "绥化",
+    enCounty: "suihua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("569"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "绥化",
+    enCity: "suihua",
+    zhCounty: "望奎",
+    enCounty: "wangkui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("570"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "绥化",
+    enCity: "suihua",
+    zhCounty: "兰西",
+    enCounty: "lanxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("571"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "绥化",
+    enCity: "suihua",
+    zhCounty: "青冈",
+    enCounty: "qinggang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("572"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "绥化",
+    enCity: "suihua",
+    zhCounty: "庆安",
+    enCounty: "qingan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("573"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "绥化",
+    enCity: "suihua",
+    zhCounty: "明水",
+    enCounty: "mingshui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("574"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "绥化",
+    enCity: "suihua",
+    zhCounty: "绥棱",
+    enCounty: "suileng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("575"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "绥化",
+    enCity: "suihua",
+    zhCounty: "安达",
+    enCounty: "anda",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("576"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "绥化",
+    enCity: "suihua",
+    zhCounty: "肇东",
+    enCounty: "zhaodong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("577"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "绥化",
+    enCity: "suihua",
+    zhCounty: "海伦",
+    enCounty: "hailv",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("578"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "大兴安岭",
+    enCity: "daxinganling",
+    zhCounty: "大兴安岭",
+    enCounty: "daxinganling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("579"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "大兴安岭",
+    enCity: "daxinganling",
+    zhCounty: "新林",
+    enCounty: "xinlin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("580"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "大兴安岭",
+    enCity: "daxinganling",
+    zhCounty: "呼玛",
+    enCounty: "huma",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("581"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "大兴安岭",
+    enCity: "daxinganling",
+    zhCounty: "塔河",
+    enCounty: "tahe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("582"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "大兴安岭",
+    enCity: "daxinganling",
+    zhCounty: "漠河",
+    enCounty: "mohe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("583"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "大兴安岭",
+    enCity: "daxinganling",
+    zhCounty: "加格达奇",
+    enCounty: "jiagedaqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("584"),
+    zhProvince: "黑龙江",
+    enProvince: "heilongjiang",
+    zhCity: "大兴安岭",
+    enCity: "daxinganling",
+    zhCounty: "呼中",
+    enCounty: "huzhong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("585"),
+    zhProvince: "上海",
+    enProvince: "sh",
+    zhCity: "上海",
+    enCity: "shanghai",
+    zhCounty: "上海",
+    enCounty: "shanghai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("586"),
+    zhProvince: "上海",
+    enProvince: "sh",
+    zhCity: "上海",
+    enCity: "shanghai",
+    zhCounty: "闵行",
+    enCounty: "minhang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("587"),
+    zhProvince: "上海",
+    enProvince: "sh",
+    zhCity: "上海",
+    enCity: "shanghai",
+    zhCounty: "宝山",
+    enCounty: "shbaoshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("588"),
+    zhProvince: "上海",
+    enProvince: "sh",
+    zhCity: "上海",
+    enCity: "shanghai",
+    zhCounty: "嘉定",
+    enCounty: "jiading",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("589"),
+    zhProvince: "上海",
+    enProvince: "sh",
+    zhCity: "上海",
+    enCity: "shanghai",
+    zhCounty: "浦东",
+    enCounty: "pudong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("590"),
+    zhProvince: "上海",
+    enProvince: "sh",
+    zhCity: "上海",
+    enCity: "shanghai",
+    zhCounty: "金山",
+    enCounty: "jinshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("591"),
+    zhProvince: "上海",
+    enProvince: "sh",
+    zhCity: "上海",
+    enCity: "shanghai",
+    zhCounty: "松江",
+    enCounty: "songjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("592"),
+    zhProvince: "上海",
+    enProvince: "sh",
+    zhCity: "上海",
+    enCity: "shanghai",
+    zhCounty: "青浦",
+    enCounty: "qingpu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("593"),
+    zhProvince: "上海",
+    enProvince: "sh",
+    zhCity: "上海",
+    enCity: "shanghai",
+    zhCounty: "南汇",
+    enCounty: "nanhui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("594"),
+    zhProvince: "上海",
+    enProvince: "sh",
+    zhCity: "上海",
+    enCity: "shanghai",
+    zhCounty: "奉贤",
+    enCounty: "fengxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("595"),
+    zhProvince: "上海",
+    enProvince: "sh",
+    zhCity: "上海",
+    enCity: "shanghai",
+    zhCounty: "崇明",
+    enCounty: "chongming",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("596"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "南京",
+    enCity: "nanjing",
+    zhCounty: "南京",
+    enCounty: "nanjing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("597"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "南京",
+    enCity: "nanjing",
+    zhCounty: "浦口",
+    enCounty: "pukou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("598"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "南京",
+    enCity: "nanjing",
+    zhCounty: "江宁",
+    enCounty: "jiangning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("599"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "南京",
+    enCity: "nanjing",
+    zhCounty: "六合",
+    enCounty: "jsliuhe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("600"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "南京",
+    enCity: "nanjing",
+    zhCounty: "溧水",
+    enCounty: "jslishui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("601"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "南京",
+    enCity: "nanjing",
+    zhCounty: "高淳",
+    enCounty: "gaochun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("602"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "无锡",
+    enCity: "wuxi",
+    zhCounty: "无锡",
+    enCounty: "wuxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("603"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "无锡",
+    enCity: "wuxi",
+    zhCounty: "江阴",
+    enCounty: "jiangyin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("604"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "无锡",
+    enCity: "wuxi",
+    zhCounty: "宜兴",
+    enCounty: "yixing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("605"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "徐州",
+    enCity: "xuzhou",
+    zhCounty: "徐州",
+    enCounty: "xuzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("606"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "徐州",
+    enCity: "xuzhou",
+    zhCounty: "丰县",
+    enCounty: "jsfengxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("607"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "徐州",
+    enCity: "xuzhou",
+    zhCounty: "沛县",
+    enCounty: "peixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("608"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "徐州",
+    enCity: "xuzhou",
+    zhCounty: "睢宁",
+    enCounty: "suining",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("609"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "徐州",
+    enCity: "xuzhou",
+    zhCounty: "新沂",
+    enCounty: "xinyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("610"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "徐州",
+    enCity: "xuzhou",
+    zhCounty: "邳州",
+    enCounty: "pizhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("611"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "常州",
+    enCity: "changzhou",
+    zhCounty: "常州",
+    enCounty: "changzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("612"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "常州",
+    enCity: "changzhou",
+    zhCounty: "溧阳",
+    enCounty: "liyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("613"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "常州",
+    enCity: "changzhou",
+    zhCounty: "金坛",
+    enCounty: "jintan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("614"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "苏州",
+    enCity: "suzhou",
+    zhCounty: "苏州",
+    enCounty: "suzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("615"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "苏州",
+    enCity: "suzhou",
+    zhCounty: "常熟",
+    enCounty: "changshu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("616"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "苏州",
+    enCity: "suzhou",
+    zhCounty: "张家港",
+    enCounty: "zhangjiagang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("617"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "苏州",
+    enCity: "suzhou",
+    zhCounty: "昆山",
+    enCounty: "kunshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("618"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "苏州",
+    enCity: "suzhou",
+    zhCounty: "吴江",
+    enCounty: "wujiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("619"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "苏州",
+    enCity: "suzhou",
+    zhCounty: "太仓",
+    enCounty: "taicang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("620"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "南通",
+    enCity: "nantong",
+    zhCounty: "南通",
+    enCounty: "nantong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("621"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "南通",
+    enCity: "nantong",
+    zhCounty: "海安",
+    enCounty: "haian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("622"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "南通",
+    enCity: "nantong",
+    zhCounty: "如东",
+    enCounty: "rudong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("623"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "南通",
+    enCity: "nantong",
+    zhCounty: "启东",
+    enCounty: "qidong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("624"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "南通",
+    enCity: "nantong",
+    zhCounty: "如皋",
+    enCounty: "rugao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("625"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "南通",
+    enCity: "nantong",
+    zhCounty: "海门",
+    enCounty: "haimen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("626"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "连云港",
+    enCity: "lianyungang",
+    zhCounty: "连云港",
+    enCounty: "lianyungang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("627"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "连云港",
+    enCity: "lianyungang",
+    zhCounty: "赣榆",
+    enCounty: "ganyu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("628"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "连云港",
+    enCity: "lianyungang",
+    zhCounty: "东海",
+    enCounty: "donghai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("629"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "连云港",
+    enCity: "lianyungang",
+    zhCounty: "灌云",
+    enCounty: "guanyun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("630"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "连云港",
+    enCity: "lianyungang",
+    zhCounty: "灌南",
+    enCounty: "guannan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("631"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "淮安",
+    enCity: "huaian",
+    zhCounty: "淮安",
+    enCounty: "huaian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("632"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "淮安",
+    enCity: "huaian",
+    zhCounty: "涟水",
+    enCounty: "lianshui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("633"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "淮安",
+    enCity: "huaian",
+    zhCounty: "洪泽",
+    enCounty: "hongze",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("634"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "淮安",
+    enCity: "huaian",
+    zhCounty: "盱眙",
+    enCounty: "xuyu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("635"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "淮安",
+    enCity: "huaian",
+    zhCounty: "金湖",
+    enCounty: "jinhu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("636"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "盐城",
+    enCity: "yancheng",
+    zhCounty: "盐城",
+    enCounty: "yancheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("637"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "盐城",
+    enCity: "yancheng",
+    zhCounty: "响水",
+    enCounty: "xiangshui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("638"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "盐城",
+    enCity: "yancheng",
+    zhCounty: "滨海",
+    enCounty: "binhai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("639"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "盐城",
+    enCity: "yancheng",
+    zhCounty: "阜宁",
+    enCounty: "jsfuning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("640"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "盐城",
+    enCity: "yancheng",
+    zhCounty: "射阳",
+    enCounty: "sheyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("641"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "盐城",
+    enCity: "yancheng",
+    zhCounty: "建湖",
+    enCounty: "jianhu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("642"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "盐城",
+    enCity: "yancheng",
+    zhCounty: "东台",
+    enCounty: "dongtai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("643"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "盐城",
+    enCity: "yancheng",
+    zhCounty: "大丰",
+    enCounty: "dafeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("644"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "扬州",
+    enCity: "yangzhou",
+    zhCounty: "扬州",
+    enCounty: "yangzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("645"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "扬州",
+    enCity: "yangzhou",
+    zhCounty: "宝应",
+    enCounty: "baoying",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("646"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "扬州",
+    enCity: "yangzhou",
+    zhCounty: "仪征",
+    enCounty: "yizheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("647"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "扬州",
+    enCity: "yangzhou",
+    zhCounty: "高邮",
+    enCounty: "gaoyou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("648"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "扬州",
+    enCity: "yangzhou",
+    zhCounty: "江都",
+    enCounty: "jiangdu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("649"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "镇江",
+    enCity: "zhenjiang",
+    zhCounty: "镇江",
+    enCounty: "zhenjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("650"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "镇江",
+    enCity: "zhenjiang",
+    zhCounty: "丹阳",
+    enCounty: "danyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("651"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "镇江",
+    enCity: "zhenjiang",
+    zhCounty: "扬中",
+    enCounty: "yangzhong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("652"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "镇江",
+    enCity: "zhenjiang",
+    zhCounty: "句容",
+    enCounty: "jurong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("653"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "泰州",
+    enCity: "jstaizhou",
+    zhCounty: "泰州",
+    enCounty: "jstaizhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("654"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "泰州",
+    enCity: "jstaizhou",
+    zhCounty: "兴化",
+    enCounty: "xinghua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("655"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "泰州",
+    enCity: "jstaizhou",
+    zhCounty: "靖江",
+    enCounty: "jingjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("656"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "泰州",
+    enCity: "jstaizhou",
+    zhCounty: "泰兴",
+    enCounty: "taixing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("657"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "泰州",
+    enCity: "jstaizhou",
+    zhCounty: "姜堰",
+    enCounty: "jiangyan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("658"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "宿迁",
+    enCity: "suqian",
+    zhCounty: "宿迁",
+    enCounty: "suqian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("659"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "宿迁",
+    enCity: "suqian",
+    zhCounty: "沭阳",
+    enCounty: "shuyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("660"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "宿迁",
+    enCity: "suqian",
+    zhCounty: "泗阳",
+    enCounty: "siyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("661"),
+    zhProvince: "江苏",
+    enProvince: "jiangsu",
+    zhCity: "宿迁",
+    enCity: "suqian",
+    zhCounty: "泗洪",
+    enCounty: "sihong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("662"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "杭州",
+    enCity: "hangzhou",
+    zhCounty: "杭州",
+    enCounty: "hangzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("663"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "杭州",
+    enCity: "hangzhou",
+    zhCounty: "萧山",
+    enCounty: "xiaoshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("664"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "杭州",
+    enCity: "hangzhou",
+    zhCounty: "桐庐",
+    enCounty: "tonglu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("665"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "杭州",
+    enCity: "hangzhou",
+    zhCounty: "淳安",
+    enCounty: "chunan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("666"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "杭州",
+    enCity: "hangzhou",
+    zhCounty: "建德",
+    enCounty: "jiande",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("667"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "杭州",
+    enCity: "hangzhou",
+    zhCounty: "富阳",
+    enCounty: "zjfuyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("668"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "杭州",
+    enCity: "hangzhou",
+    zhCounty: "临安",
+    enCounty: "linan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("669"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "宁波",
+    enCity: "ningbo",
+    zhCounty: "宁波",
+    enCounty: "ningbo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("670"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "宁波",
+    enCity: "ningbo",
+    zhCounty: "北仑",
+    enCounty: "beilun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("671"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "宁波",
+    enCity: "ningbo",
+    zhCounty: "镇海",
+    enCounty: "zhenhai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("672"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "宁波",
+    enCity: "ningbo",
+    zhCounty: "鄞州",
+    enCounty: "qinzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("673"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "宁波",
+    enCity: "ningbo",
+    zhCounty: "象山",
+    enCounty: "xiangshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("674"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "宁波",
+    enCity: "ningbo",
+    zhCounty: "宁海",
+    enCounty: "ninghai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("675"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "宁波",
+    enCity: "ningbo",
+    zhCounty: "余姚",
+    enCounty: "yuyao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("676"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "宁波",
+    enCity: "ningbo",
+    zhCounty: "慈溪",
+    enCounty: "cixi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("677"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "宁波",
+    enCity: "ningbo",
+    zhCounty: "奉化",
+    enCounty: "fenghua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("678"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "温州",
+    enCity: "wenzhou",
+    zhCounty: "温州",
+    enCounty: "wenzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("679"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "温州",
+    enCity: "wenzhou",
+    zhCounty: "洞头",
+    enCounty: "dongtou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("680"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "温州",
+    enCity: "wenzhou",
+    zhCounty: "永嘉",
+    enCounty: "yongjia",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("681"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "温州",
+    enCity: "wenzhou",
+    zhCounty: "平阳",
+    enCounty: "pingyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("682"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "温州",
+    enCity: "wenzhou",
+    zhCounty: "文成",
+    enCounty: "wencheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("683"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "温州",
+    enCity: "wenzhou",
+    zhCounty: "泰顺",
+    enCounty: "taishun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("684"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "温州",
+    enCity: "wenzhou",
+    zhCounty: "瑞安",
+    enCounty: "ruian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("685"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "温州",
+    enCity: "wenzhou",
+    zhCounty: "乐清",
+    enCounty: "leqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("686"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "嘉兴",
+    enCity: "jiaxing",
+    zhCounty: "嘉兴",
+    enCounty: "jiaxing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("687"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "嘉兴",
+    enCity: "jiaxing",
+    zhCounty: "嘉善",
+    enCounty: "jiashan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("688"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "嘉兴",
+    enCity: "jiaxing",
+    zhCounty: "海盐",
+    enCounty: "haiyan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("689"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "嘉兴",
+    enCity: "jiaxing",
+    zhCounty: "海宁",
+    enCounty: "haining",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("690"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "嘉兴",
+    enCity: "jiaxing",
+    zhCounty: "平湖",
+    enCounty: "pinghu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("691"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "嘉兴",
+    enCity: "jiaxing",
+    zhCounty: "桐乡",
+    enCounty: "tongxiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("692"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "湖州",
+    enCity: "huzhou",
+    zhCounty: "湖州",
+    enCounty: "huzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("693"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "湖州",
+    enCity: "huzhou",
+    zhCounty: "德清",
+    enCounty: "zjdeqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("694"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "湖州",
+    enCity: "huzhou",
+    zhCounty: "长兴",
+    enCounty: "changxing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("695"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "湖州",
+    enCity: "huzhou",
+    zhCounty: "安吉",
+    enCounty: "anji",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("696"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "绍兴",
+    enCity: "shaoxing",
+    zhCounty: "绍兴",
+    enCounty: "shaoxing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("697"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "绍兴",
+    enCity: "shaoxing",
+    zhCounty: "新昌",
+    enCounty: "xinchang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("698"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "绍兴",
+    enCity: "shaoxing",
+    zhCounty: "诸暨",
+    enCounty: "zhuji",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("699"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "绍兴",
+    enCity: "shaoxing",
+    zhCounty: "上虞",
+    enCounty: "shangyu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("700"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "绍兴",
+    enCity: "shaoxing",
+    zhCounty: "嵊州",
+    enCounty: "shengzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("701"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "金华",
+    enCity: "jinhua",
+    zhCounty: "金华",
+    enCounty: "jinhua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("702"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "金华",
+    enCity: "jinhua",
+    zhCounty: "武义",
+    enCounty: "zjwuyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("703"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "金华",
+    enCity: "jinhua",
+    zhCounty: "浦江",
+    enCounty: "pujiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("704"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "金华",
+    enCity: "jinhua",
+    zhCounty: "兰溪",
+    enCounty: "zjlanxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("705"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "金华",
+    enCity: "jinhua",
+    zhCounty: "义乌",
+    enCounty: "yiwu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("706"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "金华",
+    enCity: "jinhua",
+    zhCounty: "东阳",
+    enCounty: "dongyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("707"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "金华",
+    enCity: "jinhua",
+    zhCounty: "永康",
+    enCounty: "yongkang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("708"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "衢州",
+    enCity: "quzhou",
+    zhCounty: "衢州",
+    enCounty: "quzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("709"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "衢州",
+    enCity: "quzhou",
+    zhCounty: "常山",
+    enCounty: "changshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("710"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "衢州",
+    enCity: "quzhou",
+    zhCounty: "开化",
+    enCounty: "kaihua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("711"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "衢州",
+    enCity: "quzhou",
+    zhCounty: "龙游",
+    enCounty: "longyou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("712"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "衢州",
+    enCity: "quzhou",
+    zhCounty: "江山",
+    enCounty: "jiangshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("713"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "舟山",
+    enCity: "zhoushan",
+    zhCounty: "舟山",
+    enCounty: "zhoushan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("714"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "舟山",
+    enCity: "zhoushan",
+    zhCounty: "定海",
+    enCounty: "dinghai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("715"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "舟山",
+    enCity: "zhoushan",
+    zhCounty: "普陀",
+    enCounty: "putuo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("716"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "舟山",
+    enCity: "zhoushan",
+    zhCounty: "岱山",
+    enCounty: "daishan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("717"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "舟山",
+    enCity: "zhoushan",
+    zhCounty: "嵊泗",
+    enCounty: "shengsi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("718"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "台州",
+    enCity: "taizhou",
+    zhCounty: "台州",
+    enCounty: "taizhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("719"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "台州",
+    enCity: "taizhou",
+    zhCounty: "洪家",
+    enCounty: "hongjia",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("720"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "台州",
+    enCity: "taizhou",
+    zhCounty: "玉环",
+    enCounty: "yuhuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("721"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "台州",
+    enCity: "taizhou",
+    zhCounty: "天台",
+    enCounty: "tiantai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("722"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "台州",
+    enCity: "taizhou",
+    zhCounty: "仙居",
+    enCounty: "xianju",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("723"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "台州",
+    enCity: "taizhou",
+    zhCounty: "温岭",
+    enCounty: "wenling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("724"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "台州",
+    enCity: "taizhou",
+    zhCounty: "临海",
+    enCounty: "linhai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("725"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "丽水",
+    enCity: "lishui",
+    zhCounty: "丽水",
+    enCounty: "lishui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("726"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "丽水",
+    enCity: "lishui",
+    zhCounty: "青田",
+    enCounty: "qingtian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("727"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "丽水",
+    enCity: "lishui",
+    zhCounty: "缙云",
+    enCounty: "jinyun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("728"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "丽水",
+    enCity: "lishui",
+    zhCounty: "遂昌",
+    enCounty: "suichang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("729"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "丽水",
+    enCity: "lishui",
+    zhCounty: "云和",
+    enCounty: "yunhe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("730"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "丽水",
+    enCity: "lishui",
+    zhCounty: "庆元",
+    enCounty: "zjqingyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("731"),
+    zhProvince: "浙江",
+    enProvince: "zhejiang",
+    zhCity: "丽水",
+    enCity: "lishui",
+    zhCounty: "龙泉",
+    enCounty: "longquan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("732"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "合肥",
+    enCity: "hefei",
+    zhCounty: "合肥",
+    enCounty: "hefei",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("733"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "合肥",
+    enCity: "hefei",
+    zhCounty: "长丰",
+    enCounty: "changfeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("734"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "合肥",
+    enCity: "hefei",
+    zhCounty: "肥东",
+    enCounty: "feidong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("735"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "合肥",
+    enCity: "hefei",
+    zhCounty: "肥西",
+    enCounty: "feixi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("736"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "芜湖",
+    enCity: "wuhu",
+    zhCounty: "芜湖",
+    enCounty: "wuhu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("737"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "芜湖",
+    enCity: "wuhu",
+    zhCounty: "芜湖县",
+    enCounty: "wuhuxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("738"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "芜湖",
+    enCity: "wuhu",
+    zhCounty: "繁昌",
+    enCounty: "fanchang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("739"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "芜湖",
+    enCity: "wuhu",
+    zhCounty: "南陵",
+    enCounty: "nanling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("740"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "蚌埠",
+    enCity: "bangbu",
+    zhCounty: "蚌埠",
+    enCounty: "bangbu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("741"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "蚌埠",
+    enCity: "bangbu",
+    zhCounty: "怀远",
+    enCounty: "huaiyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("742"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "蚌埠",
+    enCity: "bangbu",
+    zhCounty: "五河",
+    enCounty: "wuhe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("743"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "蚌埠",
+    enCity: "bangbu",
+    zhCounty: "固镇",
+    enCounty: "guzhen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("744"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "淮南",
+    enCity: "huainan",
+    zhCounty: "淮南",
+    enCounty: "huainan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("745"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "淮南",
+    enCity: "huainan",
+    zhCounty: "凤台",
+    enCounty: "fengtai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("746"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "马鞍山",
+    enCity: "maanshan",
+    zhCounty: "马鞍山",
+    enCounty: "maanshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("747"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "马鞍山",
+    enCity: "maanshan",
+    zhCounty: "当涂",
+    enCounty: "dangtu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("748"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "淮北",
+    enCity: "huaibei",
+    zhCounty: "淮北",
+    enCounty: "huaibei",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("749"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "淮北",
+    enCity: "huaibei",
+    zhCounty: "濉溪",
+    enCounty: "gdsuixi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("750"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "铜陵",
+    enCity: "tongling",
+    zhCounty: "铜陵",
+    enCounty: "tongling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("751"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "安庆",
+    enCity: "anqing",
+    zhCounty: "安庆",
+    enCounty: "anqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("752"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "安庆",
+    enCity: "anqing",
+    zhCounty: "怀宁",
+    enCounty: "huaining",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("753"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "安庆",
+    enCity: "anqing",
+    zhCounty: "枞阳",
+    enCounty: "zhongyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("754"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "安庆",
+    enCity: "anqing",
+    zhCounty: "潜山",
+    enCounty: "qianshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("755"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "安庆",
+    enCity: "anqing",
+    zhCounty: "太湖",
+    enCounty: "taihu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("756"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "安庆",
+    enCity: "anqing",
+    zhCounty: "宿松",
+    enCounty: "susong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("757"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "安庆",
+    enCity: "anqing",
+    zhCounty: "望江",
+    enCounty: "wangjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("758"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "安庆",
+    enCity: "anqing",
+    zhCounty: "岳西",
+    enCounty: "yuexi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("759"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "安庆",
+    enCity: "anqing",
+    zhCounty: "桐城",
+    enCounty: "tongcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("760"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "黄山",
+    enCity: "huangshan",
+    zhCounty: "黄山",
+    enCounty: "huangshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("761"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "黄山",
+    enCity: "huangshan",
+    zhCounty: "屯溪",
+    enCounty: "tunxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("762"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "黄山",
+    enCity: "huangshan",
+    zhCounty: "黄山风景区",
+    enCounty: "huangshanfengjingqu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("763"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "黄山",
+    enCity: "huangshan",
+    zhCounty: "歙县",
+    enCounty: "shexian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("764"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "黄山",
+    enCity: "huangshan",
+    zhCounty: "休宁",
+    enCounty: "xiuning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("765"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "黄山",
+    enCity: "huangshan",
+    zhCounty: "黟县",
+    enCounty: "ahyixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("766"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "黄山",
+    enCity: "huangshan",
+    zhCounty: "祁门",
+    enCounty: "qimen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("767"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "滁州",
+    enCity: "chuzhou",
+    zhCounty: "滁州",
+    enCounty: "chuzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("768"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "滁州",
+    enCity: "chuzhou",
+    zhCounty: "来安",
+    enCounty: "laian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("769"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "滁州",
+    enCity: "chuzhou",
+    zhCounty: "全椒",
+    enCounty: "quanjiao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("770"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "滁州",
+    enCity: "chuzhou",
+    zhCounty: "定远",
+    enCounty: "dingyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("771"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "滁州",
+    enCity: "chuzhou",
+    zhCounty: "凤阳",
+    enCounty: "fengyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("772"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "滁州",
+    enCity: "chuzhou",
+    zhCounty: "天长",
+    enCounty: "tianchang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("773"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "滁州",
+    enCity: "chuzhou",
+    zhCounty: "明光",
+    enCounty: "mingguang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("774"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "阜阳",
+    enCity: "fuyang",
+    zhCounty: "阜阳",
+    enCounty: "fuyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("775"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "阜阳",
+    enCity: "fuyang",
+    zhCounty: "临泉",
+    enCounty: "linquan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("776"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "阜阳",
+    enCity: "fuyang",
+    zhCounty: "太和",
+    enCounty: "taihe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("777"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "阜阳",
+    enCity: "fuyang",
+    zhCounty: "阜南",
+    enCounty: "funan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("778"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "阜阳",
+    enCity: "fuyang",
+    zhCounty: "颍上",
+    enCounty: "yingshang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("779"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "阜阳",
+    enCity: "fuyang",
+    zhCounty: "界首",
+    enCounty: "jieshou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("780"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "宿州",
+    enCity: "anhuisuzhou",
+    zhCounty: "宿州",
+    enCounty: "anhuisuzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("781"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "宿州",
+    enCity: "anhuisuzhou",
+    zhCounty: "砀山",
+    enCounty: "dangshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("782"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "宿州",
+    enCity: "anhuisuzhou",
+    zhCounty: "萧县",
+    enCounty: "xiaoxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("783"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "宿州",
+    enCity: "anhuisuzhou",
+    zhCounty: "灵璧",
+    enCounty: "lingbi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("784"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "宿州",
+    enCity: "anhuisuzhou",
+    zhCounty: "泗县",
+    enCounty: "sixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("785"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "巢湖",
+    enCity: "chaohu",
+    zhCounty: "巢湖",
+    enCounty: "chaohu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("786"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "巢湖",
+    enCity: "chaohu",
+    zhCounty: "庐江",
+    enCounty: "lujiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("787"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "巢湖",
+    enCity: "chaohu",
+    zhCounty: "无为",
+    enCounty: "ahwuwei",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("788"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "巢湖",
+    enCity: "chaohu",
+    zhCounty: "含山",
+    enCounty: "hanshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("789"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "巢湖",
+    enCity: "chaohu",
+    zhCounty: "和县",
+    enCounty: "hexian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("790"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "六安",
+    enCity: "liuan",
+    zhCounty: "六安",
+    enCounty: "liuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("791"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "六安",
+    enCity: "liuan",
+    zhCounty: "寿县",
+    enCounty: "shouxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("792"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "六安",
+    enCity: "liuan",
+    zhCounty: "霍邱",
+    enCounty: "huoqiu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("793"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "六安",
+    enCity: "liuan",
+    zhCounty: "舒城",
+    enCounty: "shucheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("794"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "六安",
+    enCity: "liuan",
+    zhCounty: "金寨",
+    enCounty: "jinzhai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("795"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "六安",
+    enCity: "liuan",
+    zhCounty: "霍山",
+    enCounty: "huoshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("796"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "亳州",
+    enCity: "bozhou",
+    zhCounty: "亳州",
+    enCounty: "bozhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("797"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "亳州",
+    enCity: "bozhou",
+    zhCounty: "涡阳",
+    enCounty: "woyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("798"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "亳州",
+    enCity: "bozhou",
+    zhCounty: "蒙城",
+    enCounty: "mengcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("799"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "亳州",
+    enCity: "bozhou",
+    zhCounty: "利辛",
+    enCounty: "lixin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("800"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "池州",
+    enCity: "chizhou",
+    zhCounty: "池州",
+    enCounty: "chizhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("801"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "池州",
+    enCity: "chizhou",
+    zhCounty: "贵池",
+    enCounty: "guichi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("802"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "池州",
+    enCity: "chizhou",
+    zhCounty: "九华山",
+    enCounty: "jiuhuashan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("803"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "池州",
+    enCity: "chizhou",
+    zhCounty: "东至",
+    enCounty: "dongzhi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("804"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "池州",
+    enCity: "chizhou",
+    zhCounty: "石台",
+    enCounty: "shitai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("805"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "池州",
+    enCity: "chizhou",
+    zhCounty: "青阳",
+    enCounty: "qingyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("806"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "宣城",
+    enCity: "xuancheng",
+    zhCounty: "宣城",
+    enCounty: "xuancheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("807"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "宣城",
+    enCity: "xuancheng",
+    zhCounty: "郎溪",
+    enCounty: "langxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("808"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "宣城",
+    enCity: "xuancheng",
+    zhCounty: "广德",
+    enCounty: "guangde",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("809"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "宣城",
+    enCity: "xuancheng",
+    zhCounty: "泾县",
+    enCounty: "jingxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("810"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "宣城",
+    enCity: "xuancheng",
+    zhCounty: "绩溪",
+    enCounty: "ahjixi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("811"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "宣城",
+    enCity: "xuancheng",
+    zhCounty: "旌德",
+    enCounty: "jingde",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("812"),
+    zhProvince: "安徽",
+    enProvince: "anhui",
+    zhCity: "宣城",
+    enCity: "xuancheng",
+    zhCounty: "宁国",
+    enCounty: "ningguo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("813"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "福州",
+    enCity: "fujianfuzhou",
+    zhCounty: "福州",
+    enCounty: "fujianfuzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("814"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "福州",
+    enCity: "fujianfuzhou",
+    zhCounty: "闽侯",
+    enCounty: "minhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("815"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "福州",
+    enCity: "fujianfuzhou",
+    zhCounty: "连江",
+    enCounty: "fjlianjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("816"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "福州",
+    enCity: "fujianfuzhou",
+    zhCounty: "罗源",
+    enCounty: "lvyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("817"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "福州",
+    enCity: "fujianfuzhou",
+    zhCounty: "闽清",
+    enCounty: "minqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("818"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "福州",
+    enCity: "fujianfuzhou",
+    zhCounty: "永泰",
+    enCounty: "yongtai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("819"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "福州",
+    enCity: "fujianfuzhou",
+    zhCounty: "平潭",
+    enCounty: "pingtan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("820"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "福州",
+    enCity: "fujianfuzhou",
+    zhCounty: "福清",
+    enCounty: "fuqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("821"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "福州",
+    enCity: "fujianfuzhou",
+    zhCounty: "长乐",
+    enCounty: "changle",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("822"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "厦门",
+    enCity: "xiamen",
+    zhCounty: "厦门",
+    enCounty: "xiamen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("823"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "厦门",
+    enCity: "xiamen",
+    zhCounty: "同安",
+    enCounty: "tongan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("824"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "莆田",
+    enCity: "putian",
+    zhCounty: "莆田",
+    enCounty: "putian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("825"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "莆田",
+    enCity: "putian",
+    zhCounty: "秀屿",
+    enCounty: "xiuyu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("826"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "莆田",
+    enCity: "putian",
+    zhCounty: "仙游",
+    enCounty: "xianyou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("827"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "莆田",
+    enCity: "putian",
+    zhCounty: "秀屿港",
+    enCounty: "xiuyugang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("828"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "三明",
+    enCity: "sanming",
+    zhCounty: "三明",
+    enCounty: "sanming",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("829"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "三明",
+    enCity: "sanming",
+    zhCounty: "明溪",
+    enCounty: "mingxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("830"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "三明",
+    enCity: "sanming",
+    zhCounty: "清流",
+    enCounty: "qingliu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("831"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "三明",
+    enCity: "sanming",
+    zhCounty: "宁化",
+    enCounty: "ninghua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("832"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "三明",
+    enCity: "sanming",
+    zhCounty: "大田",
+    enCounty: "datian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("833"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "三明",
+    enCity: "sanming",
+    zhCounty: "尤溪",
+    enCounty: "youxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("834"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "三明",
+    enCity: "sanming",
+    zhCounty: "沙县",
+    enCounty: "shaxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("835"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "三明",
+    enCity: "sanming",
+    zhCounty: "将乐",
+    enCounty: "jiangle",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("836"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "三明",
+    enCity: "sanming",
+    zhCounty: "泰宁",
+    enCounty: "taining",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("837"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "三明",
+    enCity: "sanming",
+    zhCounty: "建宁",
+    enCounty: "jianning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("838"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "三明",
+    enCity: "sanming",
+    zhCounty: "永安",
+    enCounty: "yongan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("839"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "泉州",
+    enCity: "quanzhou",
+    zhCounty: "泉州",
+    enCounty: "quanzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("840"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "泉州",
+    enCity: "quanzhou",
+    zhCounty: "安溪",
+    enCounty: "anxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("841"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "泉州",
+    enCity: "quanzhou",
+    zhCounty: "永春",
+    enCounty: "yongchun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("842"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "泉州",
+    enCity: "quanzhou",
+    zhCounty: "德化",
+    enCounty: "dehua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("843"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "泉州",
+    enCity: "quanzhou",
+    zhCounty: "晋江",
+    enCounty: "jinjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("844"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "泉州",
+    enCity: "quanzhou",
+    zhCounty: "南安",
+    enCounty: "nanan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("845"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "泉州",
+    enCity: "quanzhou",
+    zhCounty: "崇武",
+    enCounty: "chongwu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("846"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "漳州",
+    enCity: "zhangzhou",
+    zhCounty: "漳州",
+    enCounty: "zhangzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("847"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "漳州",
+    enCity: "zhangzhou",
+    zhCounty: "云霄",
+    enCounty: "yunxiao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("848"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "漳州",
+    enCity: "zhangzhou",
+    zhCounty: "漳浦",
+    enCounty: "zhangpu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("849"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "漳州",
+    enCity: "zhangzhou",
+    zhCounty: "诏安",
+    enCounty: "zhaoan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("850"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "漳州",
+    enCity: "zhangzhou",
+    zhCounty: "长泰",
+    enCounty: "changtai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("851"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "漳州",
+    enCity: "zhangzhou",
+    zhCounty: "东山",
+    enCounty: "dongshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("852"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "漳州",
+    enCity: "zhangzhou",
+    zhCounty: "南靖",
+    enCounty: "fjnanjing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("853"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "漳州",
+    enCity: "zhangzhou",
+    zhCounty: "平和",
+    enCounty: "pinghe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("854"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "漳州",
+    enCity: "zhangzhou",
+    zhCounty: "华安",
+    enCounty: "huaan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("855"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "漳州",
+    enCity: "zhangzhou",
+    zhCounty: "龙海",
+    enCounty: "longhai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("856"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "南平",
+    enCity: "nanping",
+    zhCounty: "南平",
+    enCounty: "nanping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("857"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "南平",
+    enCity: "nanping",
+    zhCounty: "顺昌",
+    enCounty: "shunchang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("858"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "南平",
+    enCity: "nanping",
+    zhCounty: "浦城",
+    enCounty: "pucheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("859"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "南平",
+    enCity: "nanping",
+    zhCounty: "光泽",
+    enCounty: "guangze",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("860"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "南平",
+    enCity: "nanping",
+    zhCounty: "松溪",
+    enCounty: "songxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("861"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "南平",
+    enCity: "nanping",
+    zhCounty: "政和",
+    enCounty: "zhenghe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("862"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "南平",
+    enCity: "nanping",
+    zhCounty: "邵武",
+    enCounty: "shaowu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("863"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "南平",
+    enCity: "nanping",
+    zhCounty: "武夷山",
+    enCounty: "wuyishan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("864"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "南平",
+    enCity: "nanping",
+    zhCounty: "建瓯",
+    enCounty: "jianou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("865"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "南平",
+    enCity: "nanping",
+    zhCounty: "建阳",
+    enCounty: "fjjianyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("866"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "龙岩",
+    enCity: "longyan",
+    zhCounty: "龙岩",
+    enCounty: "longyan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("867"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "龙岩",
+    enCity: "longyan",
+    zhCounty: "长汀",
+    enCounty: "changting",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("868"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "龙岩",
+    enCity: "longyan",
+    zhCounty: "永定",
+    enCounty: "yongding",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("869"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "龙岩",
+    enCity: "longyan",
+    zhCounty: "上杭",
+    enCounty: "shanghang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("870"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "龙岩",
+    enCity: "longyan",
+    zhCounty: "武平",
+    enCounty: "wuping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("871"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "龙岩",
+    enCity: "longyan",
+    zhCounty: "连城",
+    enCounty: "liancheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("872"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "龙岩",
+    enCity: "longyan",
+    zhCounty: "漳平",
+    enCounty: "zhangping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("873"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "宁德",
+    enCity: "ningde",
+    zhCounty: "宁德",
+    enCounty: "ningde",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("874"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "宁德",
+    enCity: "ningde",
+    zhCounty: "霞浦",
+    enCounty: "xiapu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("875"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "宁德",
+    enCity: "ningde",
+    zhCounty: "古田",
+    enCounty: "gutian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("876"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "宁德",
+    enCity: "ningde",
+    zhCounty: "屏南",
+    enCounty: "fjpingnan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("877"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "宁德",
+    enCity: "ningde",
+    zhCounty: "寿宁",
+    enCounty: "shouning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("878"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "宁德",
+    enCity: "ningde",
+    zhCounty: "周宁",
+    enCounty: "zhouning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("879"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "宁德",
+    enCity: "ningde",
+    zhCounty: "柘荣",
+    enCounty: "zherong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("880"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "宁德",
+    enCity: "ningde",
+    zhCounty: "福安",
+    enCounty: "fuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("881"),
+    zhProvince: "福建",
+    enProvince: "fujian",
+    zhCity: "宁德",
+    enCity: "ningde",
+    zhCounty: "福鼎",
+    enCounty: "fuding",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("882"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "南昌",
+    enCity: "nanchang",
+    zhCounty: "南昌",
+    enCounty: "nanchang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("883"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "南昌",
+    enCity: "nanchang",
+    zhCounty: "新建",
+    enCounty: "xinjian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("884"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "南昌",
+    enCity: "nanchang",
+    zhCounty: "安义",
+    enCounty: "anyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("885"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "南昌",
+    enCity: "nanchang",
+    zhCounty: "进贤",
+    enCounty: "jinxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("886"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "南昌",
+    enCity: "nanchang",
+    zhCounty: "南昌县",
+    enCounty: "nanchangxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("887"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "景德镇",
+    enCity: "jingdezhen",
+    zhCounty: "景德镇",
+    enCounty: "jingdezhen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("888"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "景德镇",
+    enCity: "jingdezhen",
+    zhCounty: "乐平",
+    enCounty: "leping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("889"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "萍乡",
+    enCity: "pingxiang",
+    zhCounty: "萍乡",
+    enCounty: "pingxiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("890"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "萍乡",
+    enCity: "pingxiang",
+    zhCounty: "莲花",
+    enCounty: "lianhua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("891"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "九江",
+    enCity: "jiujiang",
+    zhCounty: "九江",
+    enCounty: "jiujiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("892"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "九江",
+    enCity: "jiujiang",
+    zhCounty: "庐山",
+    enCounty: "jxlushan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("893"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "九江",
+    enCity: "jiujiang",
+    zhCounty: "武宁",
+    enCounty: "wuning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("894"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "九江",
+    enCity: "jiujiang",
+    zhCounty: "修水",
+    enCounty: "xiushui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("895"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "九江",
+    enCity: "jiujiang",
+    zhCounty: "永修",
+    enCounty: "yongxiu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("896"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "九江",
+    enCity: "jiujiang",
+    zhCounty: "德安",
+    enCounty: "dean",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("897"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "九江",
+    enCity: "jiujiang",
+    zhCounty: "星子",
+    enCounty: "xingzi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("898"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "九江",
+    enCity: "jiujiang",
+    zhCounty: "都昌",
+    enCounty: "duchang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("899"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "九江",
+    enCity: "jiujiang",
+    zhCounty: "湖口",
+    enCounty: "hukou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("900"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "九江",
+    enCity: "jiujiang",
+    zhCounty: "彭泽",
+    enCounty: "pengze",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("901"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "九江",
+    enCity: "jiujiang",
+    zhCounty: "瑞昌",
+    enCounty: "ruichang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("902"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "新余",
+    enCity: "xinyu",
+    zhCounty: "新余",
+    enCounty: "xinyu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("903"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "新余",
+    enCity: "xinyu",
+    zhCounty: "分宜",
+    enCounty: "fenyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("904"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "鹰潭",
+    enCity: "yingtan",
+    zhCounty: "鹰潭",
+    enCounty: "yingtan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("905"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "鹰潭",
+    enCity: "yingtan",
+    zhCounty: "余江",
+    enCounty: "yujiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("906"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "鹰潭",
+    enCity: "yingtan",
+    zhCounty: "贵溪",
+    enCounty: "guixi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("907"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "赣州",
+    enCity: "ganzhou",
+    zhCounty: "赣州",
+    enCounty: "ganzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("908"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "赣州",
+    enCity: "ganzhou",
+    zhCounty: "信丰",
+    enCounty: "jxxinfeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("909"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "赣州",
+    enCity: "ganzhou",
+    zhCounty: "大余",
+    enCounty: "dayu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("910"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "赣州",
+    enCity: "ganzhou",
+    zhCounty: "上犹",
+    enCounty: "shangyou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("911"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "赣州",
+    enCity: "ganzhou",
+    zhCounty: "崇义",
+    enCounty: "chongyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("912"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "赣州",
+    enCity: "ganzhou",
+    zhCounty: "安远",
+    enCounty: "anyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("913"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "赣州",
+    enCity: "ganzhou",
+    zhCounty: "龙南",
+    enCounty: "jxlongnan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("914"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "赣州",
+    enCity: "ganzhou",
+    zhCounty: "定南",
+    enCounty: "dingnan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("915"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "赣州",
+    enCity: "ganzhou",
+    zhCounty: "全南",
+    enCounty: "quannan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("916"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "赣州",
+    enCity: "ganzhou",
+    zhCounty: "宁都",
+    enCounty: "ningdu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("917"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "赣州",
+    enCity: "ganzhou",
+    zhCounty: "于都",
+    enCounty: "yudu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("918"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "赣州",
+    enCity: "ganzhou",
+    zhCounty: "兴国",
+    enCounty: "xingguo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("919"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "赣州",
+    enCity: "ganzhou",
+    zhCounty: "会昌",
+    enCounty: "huichang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("920"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "赣州",
+    enCity: "ganzhou",
+    zhCounty: "寻乌",
+    enCounty: "xunwu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("921"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "赣州",
+    enCity: "ganzhou",
+    zhCounty: "石城",
+    enCounty: "shicheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("922"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "赣州",
+    enCity: "ganzhou",
+    zhCounty: "瑞金",
+    enCounty: "ruijin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("923"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "赣州",
+    enCity: "ganzhou",
+    zhCounty: "南康",
+    enCounty: "nankang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("924"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "吉安",
+    enCity: "jian",
+    zhCounty: "吉安",
+    enCounty: "jian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("925"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "吉安",
+    enCity: "jian",
+    zhCounty: "吉水",
+    enCounty: "jishui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("926"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "吉安",
+    enCity: "jian",
+    zhCounty: "峡江",
+    enCounty: "xiajiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("927"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "吉安",
+    enCity: "jian",
+    zhCounty: "新干",
+    enCounty: "jxxingan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("928"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "吉安",
+    enCity: "jian",
+    zhCounty: "永丰",
+    enCounty: "yongfeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("929"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "吉安",
+    enCity: "jian",
+    zhCounty: "泰和",
+    enCounty: "jxtaihe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("930"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "吉安",
+    enCity: "jian",
+    zhCounty: "遂川",
+    enCounty: "suichuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("931"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "吉安",
+    enCity: "jian",
+    zhCounty: "万安",
+    enCounty: "wanan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("932"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "吉安",
+    enCity: "jian",
+    zhCounty: "安福",
+    enCounty: "anfu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("933"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "吉安",
+    enCity: "jian",
+    zhCounty: "永新",
+    enCounty: "yongxin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("934"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "吉安",
+    enCity: "jian",
+    zhCounty: "井冈山",
+    enCounty: "jinggangshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("935"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "吉安",
+    enCity: "jian",
+    zhCounty: "宁冈",
+    enCounty: "ninggang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("936"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "宜春",
+    enCity: "jxyichun",
+    zhCounty: "宜春",
+    enCounty: "jxyichun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("937"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "宜春",
+    enCity: "jxyichun",
+    zhCounty: "丰城",
+    enCounty: "fengcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("938"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "宜春",
+    enCity: "jxyichun",
+    zhCounty: "奉新",
+    enCounty: "fengxin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("939"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "宜春",
+    enCity: "jxyichun",
+    zhCounty: "万载",
+    enCounty: "wanzai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("940"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "宜春",
+    enCity: "jxyichun",
+    zhCounty: "上高",
+    enCounty: "shanggao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("941"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "宜春",
+    enCity: "jxyichun",
+    zhCounty: "宜丰",
+    enCounty: "yifeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("942"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "宜春",
+    enCity: "jxyichun",
+    zhCounty: "靖安",
+    enCounty: "jingan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("943"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "宜春",
+    enCity: "jxyichun",
+    zhCounty: "铜鼓",
+    enCounty: "tonggu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("944"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "宜春",
+    enCity: "jxyichun",
+    zhCounty: "樟树",
+    enCounty: "zhangshu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("945"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "宜春",
+    enCity: "jxyichun",
+    zhCounty: "高安",
+    enCounty: "gaoan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("946"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "抚州",
+    enCity: "fuzhou",
+    zhCounty: "抚州",
+    enCounty: "fuzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("947"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "抚州",
+    enCity: "fuzhou",
+    zhCounty: "南城",
+    enCounty: "nancheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("948"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "抚州",
+    enCity: "fuzhou",
+    zhCounty: "黎川",
+    enCounty: "jxlichuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("949"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "抚州",
+    enCity: "fuzhou",
+    zhCounty: "南丰",
+    enCounty: "nanfeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("950"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "抚州",
+    enCity: "fuzhou",
+    zhCounty: "崇仁",
+    enCounty: "chongren",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("951"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "抚州",
+    enCity: "fuzhou",
+    zhCounty: "乐安",
+    enCounty: "lean",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("952"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "抚州",
+    enCity: "fuzhou",
+    zhCounty: "宜黄",
+    enCounty: "yihuang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("953"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "抚州",
+    enCity: "fuzhou",
+    zhCounty: "金溪",
+    enCounty: "jinxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("954"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "抚州",
+    enCity: "fuzhou",
+    zhCounty: "资溪",
+    enCounty: "zixi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("955"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "抚州",
+    enCity: "fuzhou",
+    zhCounty: "东乡",
+    enCounty: "dongxiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("956"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "抚州",
+    enCity: "fuzhou",
+    zhCounty: "广昌",
+    enCounty: "guangchang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("957"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "上饶",
+    enCity: "shangrao",
+    zhCounty: "上饶",
+    enCounty: "shangrao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("958"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "上饶",
+    enCity: "shangrao",
+    zhCounty: "广丰",
+    enCounty: "guangfeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("959"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "上饶",
+    enCity: "shangrao",
+    zhCounty: "玉山",
+    enCounty: "yushan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("960"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "上饶",
+    enCity: "shangrao",
+    zhCounty: "铅山",
+    enCounty: "jxqianshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("961"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "上饶",
+    enCity: "shangrao",
+    zhCounty: "横峰",
+    enCounty: "hengfeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("962"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "上饶",
+    enCity: "shangrao",
+    zhCounty: "弋阳",
+    enCounty: "jxyiyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("963"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "上饶",
+    enCity: "shangrao",
+    zhCounty: "余干",
+    enCounty: "yugan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("964"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "上饶",
+    enCity: "shangrao",
+    zhCounty: "鄱阳",
+    enCounty: "poyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("965"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "上饶",
+    enCity: "shangrao",
+    zhCounty: "万年",
+    enCounty: "wannian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("966"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "上饶",
+    enCity: "shangrao",
+    zhCounty: "婺源",
+    enCounty: "jxwuyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("967"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "上饶",
+    enCity: "shangrao",
+    zhCounty: "德兴",
+    enCounty: "dexing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("968"),
+    zhProvince: "江西",
+    enProvince: "jiangxi",
+    zhCity: "上饶",
+    enCity: "shangrao",
+    zhCounty: "上饶县",
+    enCounty: "shangraoxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("969"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "济南",
+    enCity: "jinan",
+    zhCounty: "济南",
+    enCounty: "jinan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("970"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "济南",
+    enCity: "jinan",
+    zhCounty: "长清",
+    enCounty: "changqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("971"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "济南",
+    enCity: "jinan",
+    zhCounty: "平阴",
+    enCounty: "pingyin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("972"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "济南",
+    enCity: "jinan",
+    zhCounty: "济阳",
+    enCounty: "jiyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("973"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "济南",
+    enCity: "jinan",
+    zhCounty: "商河",
+    enCounty: "shanghe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("974"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "济南",
+    enCity: "jinan",
+    zhCounty: "章丘",
+    enCounty: "zhangqiu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("975"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "青岛",
+    enCity: "qingdao",
+    zhCounty: "青岛",
+    enCounty: "qingdao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("976"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "青岛",
+    enCity: "qingdao",
+    zhCounty: "崂山",
+    enCounty: "laoshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("977"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "青岛",
+    enCity: "qingdao",
+    zhCounty: "胶州",
+    enCounty: "jiaozhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("978"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "青岛",
+    enCity: "qingdao",
+    zhCounty: "即墨",
+    enCounty: "jimo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("979"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "青岛",
+    enCity: "qingdao",
+    zhCounty: "平度",
+    enCounty: "pingdu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("980"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "青岛",
+    enCity: "qingdao",
+    zhCounty: "胶南",
+    enCounty: "jiaonan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("981"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "青岛",
+    enCity: "qingdao",
+    zhCounty: "莱西",
+    enCounty: "laixi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("982"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "淄博",
+    enCity: "zibo",
+    zhCounty: "淄博",
+    enCounty: "zibo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("983"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "淄博",
+    enCity: "zibo",
+    zhCounty: "淄川",
+    enCounty: "zichuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("984"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "淄博",
+    enCity: "zibo",
+    zhCounty: "博山",
+    enCounty: "boshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("985"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "淄博",
+    enCity: "zibo",
+    zhCounty: "临淄",
+    enCounty: "linzi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("986"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "淄博",
+    enCity: "zibo",
+    zhCounty: "周村",
+    enCounty: "zhoucun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("987"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "淄博",
+    enCity: "zibo",
+    zhCounty: "桓台",
+    enCounty: "huantai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("988"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "淄博",
+    enCity: "zibo",
+    zhCounty: "高青",
+    enCounty: "gaoqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("989"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "淄博",
+    enCity: "zibo",
+    zhCounty: "沂源",
+    enCounty: "yiyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("990"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "枣庄",
+    enCity: "zaozhuang",
+    zhCounty: "枣庄",
+    enCounty: "zaozhuang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("991"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "枣庄",
+    enCity: "zaozhuang",
+    zhCounty: "薛城",
+    enCounty: "xuecheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("992"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "枣庄",
+    enCity: "zaozhuang",
+    zhCounty: "峄城",
+    enCounty: "sdyicheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("993"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "枣庄",
+    enCity: "zaozhuang",
+    zhCounty: "台儿庄",
+    enCounty: "taierzhuang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("994"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "枣庄",
+    enCity: "zaozhuang",
+    zhCounty: "滕州",
+    enCounty: "tengzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("995"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "东营",
+    enCity: "dongying",
+    zhCounty: "东营",
+    enCounty: "dongying",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("996"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "东营",
+    enCity: "dongying",
+    zhCounty: "河口",
+    enCounty: "hekou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("997"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "东营",
+    enCity: "dongying",
+    zhCounty: "垦利",
+    enCounty: "kenli",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("998"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "东营",
+    enCity: "dongying",
+    zhCounty: "利津",
+    enCounty: "lijin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("999"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "东营",
+    enCity: "dongying",
+    zhCounty: "广饶",
+    enCounty: "guangrao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1000"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "烟台",
+    enCity: "yantai",
+    zhCounty: "烟台",
+    enCounty: "yantai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1001"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "烟台",
+    enCity: "yantai",
+    zhCounty: "福山",
+    enCounty: "sdfushan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1002"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "烟台",
+    enCity: "yantai",
+    zhCounty: "牟平",
+    enCounty: "mouping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1003"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "烟台",
+    enCity: "yantai",
+    zhCounty: "长岛",
+    enCounty: "changdao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1004"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "烟台",
+    enCity: "yantai",
+    zhCounty: "龙口",
+    enCounty: "longkou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1005"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "烟台",
+    enCity: "yantai",
+    zhCounty: "莱阳",
+    enCounty: "laiyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1006"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "烟台",
+    enCity: "yantai",
+    zhCounty: "莱州",
+    enCounty: "laizhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1007"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "烟台",
+    enCity: "yantai",
+    zhCounty: "蓬莱",
+    enCounty: "penglai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1008"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "烟台",
+    enCity: "yantai",
+    zhCounty: "招远",
+    enCounty: "sdzhaoyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1009"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "烟台",
+    enCity: "yantai",
+    zhCounty: "栖霞",
+    enCounty: "qixia",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1010"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "烟台",
+    enCity: "yantai",
+    zhCounty: "海阳",
+    enCounty: "haiyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1011"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "潍坊",
+    enCity: "weifang",
+    zhCounty: "潍坊",
+    enCounty: "weifang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1012"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "潍坊",
+    enCity: "weifang",
+    zhCounty: "临朐",
+    enCounty: "linqu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1013"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "潍坊",
+    enCity: "weifang",
+    zhCounty: "昌乐",
+    enCounty: "sdchangle",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1014"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "潍坊",
+    enCity: "weifang",
+    zhCounty: "青州",
+    enCounty: "qingzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1015"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "潍坊",
+    enCity: "weifang",
+    zhCounty: "诸城",
+    enCounty: "zhucheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1016"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "潍坊",
+    enCity: "weifang",
+    zhCounty: "寿光",
+    enCounty: "shouguang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1017"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "潍坊",
+    enCity: "weifang",
+    zhCounty: "安丘",
+    enCounty: "anqiu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1018"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "潍坊",
+    enCity: "weifang",
+    zhCounty: "高密",
+    enCounty: "gaomi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1019"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "潍坊",
+    enCity: "weifang",
+    zhCounty: "昌邑",
+    enCounty: "changyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1020"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "济宁",
+    enCity: "sdjining",
+    zhCounty: "济宁",
+    enCounty: "sdjining",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1021"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "济宁",
+    enCity: "sdjining",
+    zhCounty: "微山",
+    enCounty: "weishan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1022"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "济宁",
+    enCity: "sdjining",
+    zhCounty: "鱼台",
+    enCounty: "yutai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1023"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "济宁",
+    enCity: "sdjining",
+    zhCounty: "金乡",
+    enCounty: "jinxiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1024"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "济宁",
+    enCity: "sdjining",
+    zhCounty: "嘉祥",
+    enCounty: "jiaxiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1025"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "济宁",
+    enCity: "sdjining",
+    zhCounty: "汶上",
+    enCounty: "wenshang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1026"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "济宁",
+    enCity: "sdjining",
+    zhCounty: "泗水",
+    enCounty: "sishui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1027"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "济宁",
+    enCity: "sdjining",
+    zhCounty: "梁山",
+    enCounty: "sdliangshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1028"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "济宁",
+    enCity: "sdjining",
+    zhCounty: "曲阜",
+    enCounty: "qufu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1029"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "济宁",
+    enCity: "sdjining",
+    zhCounty: "兖州",
+    enCounty: "yanzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1030"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "济宁",
+    enCity: "sdjining",
+    zhCounty: "邹城",
+    enCounty: "zoucheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1031"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "泰安",
+    enCity: "taian",
+    zhCounty: "泰安",
+    enCounty: "taian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1032"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "泰安",
+    enCity: "taian",
+    zhCounty: "宁阳",
+    enCounty: "ningyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1033"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "泰安",
+    enCity: "taian",
+    zhCounty: "东平",
+    enCounty: "dongping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1034"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "泰安",
+    enCity: "taian",
+    zhCounty: "新泰",
+    enCounty: "xintai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1035"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "泰安",
+    enCity: "taian",
+    zhCounty: "肥城",
+    enCounty: "feicheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1036"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "威海",
+    enCity: "weihai",
+    zhCounty: "威海",
+    enCounty: "weihai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1037"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "威海",
+    enCity: "weihai",
+    zhCounty: "文登",
+    enCounty: "wendeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1038"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "威海",
+    enCity: "weihai",
+    zhCounty: "荣成",
+    enCounty: "sdrongcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1039"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "威海",
+    enCity: "weihai",
+    zhCounty: "乳山",
+    enCounty: "rushan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1040"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "威海",
+    enCity: "weihai",
+    zhCounty: "成山头",
+    enCounty: "chengshantou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1041"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "日照",
+    enCity: "rizhao",
+    zhCounty: "日照",
+    enCounty: "rizhao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1042"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "日照",
+    enCity: "rizhao",
+    zhCounty: "五莲",
+    enCounty: "wulian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1043"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "日照",
+    enCity: "rizhao",
+    zhCounty: "莒县",
+    enCounty: "juxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1044"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "莱芜",
+    enCity: "laiwu",
+    zhCounty: "莱芜",
+    enCounty: "laiwu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1045"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "临沂",
+    enCity: "linyi",
+    zhCounty: "临沂",
+    enCounty: "linyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1046"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "临沂",
+    enCity: "linyi",
+    zhCounty: "沂南",
+    enCounty: "yinan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1047"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "临沂",
+    enCity: "linyi",
+    zhCounty: "郯城",
+    enCounty: "tancheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1048"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "临沂",
+    enCity: "linyi",
+    zhCounty: "沂水",
+    enCounty: "yishui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1049"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "临沂",
+    enCity: "linyi",
+    zhCounty: "苍山",
+    enCounty: "cangshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1050"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "临沂",
+    enCity: "linyi",
+    zhCounty: "费县",
+    enCounty: "feixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1051"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "临沂",
+    enCity: "linyi",
+    zhCounty: "平邑",
+    enCounty: "pingyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1052"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "临沂",
+    enCity: "linyi",
+    zhCounty: "莒南",
+    enCounty: "junan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1053"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "临沂",
+    enCity: "linyi",
+    zhCounty: "蒙阴",
+    enCounty: "mengyin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1054"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "临沂",
+    enCity: "linyi",
+    zhCounty: "临沭",
+    enCounty: "linshun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1055"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "德州",
+    enCity: "dezhou",
+    zhCounty: "德州",
+    enCounty: "dezhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1056"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "德州",
+    enCity: "dezhou",
+    zhCounty: "陵县",
+    enCounty: "lingxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1057"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "德州",
+    enCity: "dezhou",
+    zhCounty: "宁津",
+    enCounty: "sdningjin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1058"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "德州",
+    enCity: "dezhou",
+    zhCounty: "庆云",
+    enCounty: "qingyun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1059"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "德州",
+    enCity: "dezhou",
+    zhCounty: "临邑",
+    enCounty: "sdlinyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1060"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "德州",
+    enCity: "dezhou",
+    zhCounty: "齐河",
+    enCounty: "qihe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1061"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "德州",
+    enCity: "dezhou",
+    zhCounty: "平原",
+    enCounty: "sdpingyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1062"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "德州",
+    enCity: "dezhou",
+    zhCounty: "夏津",
+    enCounty: "xiajin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1063"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "德州",
+    enCity: "dezhou",
+    zhCounty: "武城",
+    enCounty: "wucheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1064"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "德州",
+    enCity: "dezhou",
+    zhCounty: "乐陵",
+    enCounty: "leling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1065"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "德州",
+    enCity: "dezhou",
+    zhCounty: "禹城",
+    enCounty: "sdyucheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1066"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "聊城",
+    enCity: "liaocheng",
+    zhCounty: "聊城",
+    enCounty: "liaocheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1067"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "聊城",
+    enCity: "liaocheng",
+    zhCounty: "阳谷",
+    enCounty: "yanggu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1068"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "聊城",
+    enCity: "liaocheng",
+    zhCounty: "莘县",
+    enCounty: "shenxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1069"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "聊城",
+    enCity: "liaocheng",
+    zhCounty: "茌平",
+    enCounty: "chiping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1070"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "聊城",
+    enCity: "liaocheng",
+    zhCounty: "东阿",
+    enCounty: "donga",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1071"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "聊城",
+    enCity: "liaocheng",
+    zhCounty: "冠县",
+    enCounty: "guanxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1072"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "聊城",
+    enCity: "liaocheng",
+    zhCounty: "高唐",
+    enCounty: "gaotang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1073"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "聊城",
+    enCity: "liaocheng",
+    zhCounty: "临清",
+    enCounty: "linqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1074"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "滨州",
+    enCity: "binzhou",
+    zhCounty: "滨州",
+    enCounty: "binzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1075"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "滨州",
+    enCity: "binzhou",
+    zhCounty: "惠民",
+    enCounty: "huimin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1076"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "滨州",
+    enCity: "binzhou",
+    zhCounty: "阳信",
+    enCounty: "yangxin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1077"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "滨州",
+    enCity: "binzhou",
+    zhCounty: "无棣",
+    enCounty: "wudi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1078"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "滨州",
+    enCity: "binzhou",
+    zhCounty: "沾化",
+    enCounty: "zhanhua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1079"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "滨州",
+    enCity: "binzhou",
+    zhCounty: "博兴",
+    enCounty: "boxing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1080"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "滨州",
+    enCity: "binzhou",
+    zhCounty: "邹平",
+    enCounty: "zouping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1081"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "菏泽",
+    enCity: "heze",
+    zhCounty: "菏泽",
+    enCounty: "heze",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1082"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "菏泽",
+    enCity: "heze",
+    zhCounty: "曹县",
+    enCounty: "caoxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1083"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "菏泽",
+    enCity: "heze",
+    zhCounty: "单县",
+    enCounty: "danxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1084"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "菏泽",
+    enCity: "heze",
+    zhCounty: "成武",
+    enCounty: "chengwu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1085"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "菏泽",
+    enCity: "heze",
+    zhCounty: "巨野",
+    enCounty: "juye",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1086"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "菏泽",
+    enCity: "heze",
+    zhCounty: "郓城",
+    enCounty: "yuncheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1087"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "菏泽",
+    enCity: "heze",
+    zhCounty: "鄄城",
+    enCounty: "juancheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1088"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "菏泽",
+    enCity: "heze",
+    zhCounty: "定陶",
+    enCounty: "dingtao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1089"),
+    zhProvince: "山东",
+    enProvince: "shandong",
+    zhCity: "菏泽",
+    enCity: "heze",
+    zhCounty: "东明",
+    enCounty: "dongming",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1090"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "郑州",
+    enCity: "zhengzhou",
+    zhCounty: "郑州",
+    enCounty: "zhengzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1091"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "郑州",
+    enCity: "zhengzhou",
+    zhCounty: "中牟",
+    enCounty: "zhongmou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1092"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "郑州",
+    enCity: "zhengzhou",
+    zhCounty: "巩义",
+    enCounty: "gongyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1093"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "郑州",
+    enCity: "zhengzhou",
+    zhCounty: "荥阳",
+    enCounty: "rongyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1094"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "郑州",
+    enCity: "zhengzhou",
+    zhCounty: "新密",
+    enCounty: "xinmi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1095"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "郑州",
+    enCity: "zhengzhou",
+    zhCounty: "新郑",
+    enCounty: "xinzheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1096"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "郑州",
+    enCity: "zhengzhou",
+    zhCounty: "登封",
+    enCounty: "dengfeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1097"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "开封",
+    enCity: "kaifeng",
+    zhCounty: "开封",
+    enCounty: "kaifeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1098"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "开封",
+    enCity: "kaifeng",
+    zhCounty: "杞县",
+    enCounty: "qixian1",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1099"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "开封",
+    enCity: "kaifeng",
+    zhCounty: "通许",
+    enCounty: "tongxu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1100"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "开封",
+    enCity: "kaifeng",
+    zhCounty: "尉氏",
+    enCounty: "weishi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1101"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "开封",
+    enCity: "kaifeng",
+    zhCounty: "兰考",
+    enCounty: "lankao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1102"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "洛阳",
+    enCity: "lvyang",
+    zhCounty: "洛阳",
+    enCounty: "lvyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1103"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "洛阳",
+    enCity: "lvyang",
+    zhCounty: "孟津",
+    enCounty: "mengjin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1104"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "洛阳",
+    enCity: "lvyang",
+    zhCounty: "新安",
+    enCounty: "xinan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1105"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "洛阳",
+    enCity: "lvyang",
+    zhCounty: "栾川",
+    enCounty: "luanchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1106"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "洛阳",
+    enCity: "lvyang",
+    zhCounty: "嵩县",
+    enCounty: "songxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1107"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "洛阳",
+    enCity: "lvyang",
+    zhCounty: "汝阳",
+    enCounty: "ruyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1108"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "洛阳",
+    enCity: "lvyang",
+    zhCounty: "宜阳",
+    enCounty: "hnyiyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1109"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "洛阳",
+    enCity: "lvyang",
+    zhCounty: "洛宁",
+    enCounty: "lvning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1110"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "洛阳",
+    enCity: "lvyang",
+    zhCounty: "伊川",
+    enCounty: "hnyichuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1111"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "洛阳",
+    enCity: "lvyang",
+    zhCounty: "偃师",
+    enCounty: "yanshi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1112"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "平顶山",
+    enCity: "pingdingshan",
+    zhCounty: "平顶山",
+    enCounty: "pingdingshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1113"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "平顶山",
+    enCity: "pingdingshan",
+    zhCounty: "宝丰",
+    enCounty: "baofeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1114"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "平顶山",
+    enCity: "pingdingshan",
+    zhCounty: "叶县",
+    enCounty: "yexian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1115"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "平顶山",
+    enCity: "pingdingshan",
+    zhCounty: "鲁山",
+    enCounty: "hnlushan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1116"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "平顶山",
+    enCity: "pingdingshan",
+    zhCounty: "郏县",
+    enCounty: "jiaxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1117"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "平顶山",
+    enCity: "pingdingshan",
+    zhCounty: "舞钢",
+    enCounty: "hnwugang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1118"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "平顶山",
+    enCity: "pingdingshan",
+    zhCounty: "汝州",
+    enCounty: "ruzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1119"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "安阳",
+    enCity: "anyang",
+    zhCounty: "安阳",
+    enCounty: "anyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1120"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "安阳",
+    enCity: "anyang",
+    zhCounty: "汤阴",
+    enCounty: "tangyin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1121"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "安阳",
+    enCity: "anyang",
+    zhCounty: "滑县",
+    enCounty: "huaxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1122"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "安阳",
+    enCity: "anyang",
+    zhCounty: "内黄",
+    enCounty: "neihuang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1123"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "安阳",
+    enCity: "anyang",
+    zhCounty: "林州",
+    enCounty: "linzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1124"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "鹤壁",
+    enCity: "hebi",
+    zhCounty: "鹤壁",
+    enCounty: "hebi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1125"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "鹤壁",
+    enCity: "hebi",
+    zhCounty: "浚县",
+    enCounty: "junxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1126"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "鹤壁",
+    enCity: "hebi",
+    zhCounty: "淇县",
+    enCounty: "qixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1127"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "新乡",
+    enCity: "xinxiang",
+    zhCounty: "新乡",
+    enCounty: "xinxiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1128"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "新乡",
+    enCity: "xinxiang",
+    zhCounty: "获嘉",
+    enCounty: "huojia",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1129"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "新乡",
+    enCity: "xinxiang",
+    zhCounty: "原阳",
+    enCounty: "hnyuanyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1130"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "新乡",
+    enCity: "xinxiang",
+    zhCounty: "延津",
+    enCounty: "yanjin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1131"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "新乡",
+    enCity: "xinxiang",
+    zhCounty: "封丘",
+    enCounty: "fengqiu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1132"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "新乡",
+    enCity: "xinxiang",
+    zhCounty: "长垣",
+    enCounty: "changyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1133"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "新乡",
+    enCity: "xinxiang",
+    zhCounty: "卫辉",
+    enCounty: "weihui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1134"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "新乡",
+    enCity: "xinxiang",
+    zhCounty: "辉县",
+    enCounty: "huixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1135"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "焦作",
+    enCity: "jiaozuo",
+    zhCounty: "焦作",
+    enCounty: "jiaozuo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1136"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "焦作",
+    enCity: "jiaozuo",
+    zhCounty: "修武",
+    enCounty: "xiuwu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1137"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "焦作",
+    enCity: "jiaozuo",
+    zhCounty: "博爱",
+    enCounty: "boai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1138"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "焦作",
+    enCity: "jiaozuo",
+    zhCounty: "武陟",
+    enCounty: "wuzhi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1139"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "焦作",
+    enCity: "jiaozuo",
+    zhCounty: "温县",
+    enCounty: "wenxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1140"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "焦作",
+    enCity: "jiaozuo",
+    zhCounty: "济源",
+    enCounty: "jiyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1141"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "焦作",
+    enCity: "jiaozuo",
+    zhCounty: "沁阳",
+    enCounty: "qinyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1142"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "焦作",
+    enCity: "jiaozuo",
+    zhCounty: "孟州",
+    enCounty: "mengzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1143"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "濮阳",
+    enCity: "puyang",
+    zhCounty: "濮阳",
+    enCounty: "puyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1144"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "濮阳",
+    enCity: "puyang",
+    zhCounty: "清丰",
+    enCounty: "qingfeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1145"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "濮阳",
+    enCity: "puyang",
+    zhCounty: "南乐",
+    enCounty: "nanle",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1146"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "濮阳",
+    enCity: "puyang",
+    zhCounty: "范县",
+    enCounty: "fanxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1147"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "濮阳",
+    enCity: "puyang",
+    zhCounty: "台前",
+    enCounty: "taiqian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1148"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "许昌",
+    enCity: "xuchang",
+    zhCounty: "许昌",
+    enCounty: "xuchang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1149"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "许昌",
+    enCity: "xuchang",
+    zhCounty: "鄢陵",
+    enCounty: "yanling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1150"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "许昌",
+    enCity: "xuchang",
+    zhCounty: "襄城",
+    enCounty: "xiangcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1151"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "许昌",
+    enCity: "xuchang",
+    zhCounty: "禹州",
+    enCounty: "yuzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1152"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "许昌",
+    enCity: "xuchang",
+    zhCounty: "长葛",
+    enCounty: "changge",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1153"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "漯河",
+    enCity: "luohe",
+    zhCounty: "漯河",
+    enCounty: "luohe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1154"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "漯河",
+    enCity: "luohe",
+    zhCounty: "舞阳",
+    enCounty: "wuyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1155"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "漯河",
+    enCity: "luohe",
+    zhCounty: "临颍",
+    enCounty: "linying",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1156"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "三门峡",
+    enCity: "sanmenxia",
+    zhCounty: "三门峡",
+    enCounty: "sanmenxia",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1157"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "三门峡",
+    enCity: "sanmenxia",
+    zhCounty: "渑池",
+    enCounty: "mianchi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1158"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "三门峡",
+    enCity: "sanmenxia",
+    zhCounty: "卢氏",
+    enCounty: "lushi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1159"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "三门峡",
+    enCity: "sanmenxia",
+    zhCounty: "灵宝",
+    enCounty: "lingbao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1160"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "南阳",
+    enCity: "nanyang",
+    zhCounty: "南阳",
+    enCounty: "nanyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1161"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "南阳",
+    enCity: "nanyang",
+    zhCounty: "南召",
+    enCounty: "nanzhao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1162"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "南阳",
+    enCity: "nanyang",
+    zhCounty: "方城",
+    enCounty: "fangcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1163"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "南阳",
+    enCity: "nanyang",
+    zhCounty: "西峡",
+    enCounty: "xixia",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1164"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "南阳",
+    enCity: "nanyang",
+    zhCounty: "镇平",
+    enCounty: "zhenping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1165"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "南阳",
+    enCity: "nanyang",
+    zhCounty: "内乡",
+    enCounty: "neixiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1166"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "南阳",
+    enCity: "nanyang",
+    zhCounty: "淅川",
+    enCounty: "xichuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1167"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "南阳",
+    enCity: "nanyang",
+    zhCounty: "社旗",
+    enCounty: "sheqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1168"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "南阳",
+    enCity: "nanyang",
+    zhCounty: "唐河",
+    enCounty: "tanghe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1169"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "南阳",
+    enCity: "nanyang",
+    zhCounty: "新野",
+    enCounty: "xinye",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1170"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "南阳",
+    enCity: "nanyang",
+    zhCounty: "桐柏",
+    enCounty: "tongbai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1171"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "南阳",
+    enCity: "nanyang",
+    zhCounty: "邓州",
+    enCounty: "dengzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1172"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "商丘",
+    enCity: "shangqiu",
+    zhCounty: "商丘",
+    enCounty: "shangqiu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1173"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "商丘",
+    enCity: "shangqiu",
+    zhCounty: "民权",
+    enCounty: "minquan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1174"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "商丘",
+    enCity: "shangqiu",
+    zhCounty: "睢县",
+    enCounty: "suixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1175"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "商丘",
+    enCity: "shangqiu",
+    zhCounty: "宁陵",
+    enCounty: "ningling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1176"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "商丘",
+    enCity: "shangqiu",
+    zhCounty: "柘城",
+    enCounty: "zhecheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1177"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "商丘",
+    enCity: "shangqiu",
+    zhCounty: "虞城",
+    enCounty: "yucheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1178"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "商丘",
+    enCity: "shangqiu",
+    zhCounty: "夏邑",
+    enCounty: "xiayi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1179"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "商丘",
+    enCity: "shangqiu",
+    zhCounty: "永城",
+    enCounty: "yongcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1180"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "信阳",
+    enCity: "xinyang",
+    zhCounty: "信阳",
+    enCounty: "xinyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1181"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "信阳",
+    enCity: "xinyang",
+    zhCounty: "罗山",
+    enCounty: "luoshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1182"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "信阳",
+    enCity: "xinyang",
+    zhCounty: "光山",
+    enCounty: "guangshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1183"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "信阳",
+    enCity: "xinyang",
+    zhCounty: "新县",
+    enCounty: "xinxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1184"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "信阳",
+    enCity: "xinyang",
+    zhCounty: "商城",
+    enCounty: "shangcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1185"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "信阳",
+    enCity: "xinyang",
+    zhCounty: "固始",
+    enCounty: "gushi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1186"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "信阳",
+    enCity: "xinyang",
+    zhCounty: "潢川",
+    enCounty: "huangchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1187"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "信阳",
+    enCity: "xinyang",
+    zhCounty: "淮滨",
+    enCounty: "huaibin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1188"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "信阳",
+    enCity: "xinyang",
+    zhCounty: "息县",
+    enCounty: "hnxixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1189"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "周口",
+    enCity: "zhoukou",
+    zhCounty: "周口",
+    enCounty: "zhoukou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1190"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "周口",
+    enCity: "zhoukou",
+    zhCounty: "扶沟",
+    enCounty: "fugou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1191"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "周口",
+    enCity: "zhoukou",
+    zhCounty: "西华",
+    enCounty: "xihua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1192"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "周口",
+    enCity: "zhoukou",
+    zhCounty: "商水",
+    enCounty: "shangshui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1193"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "周口",
+    enCity: "zhoukou",
+    zhCounty: "沈丘",
+    enCounty: "shenqiu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1194"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "周口",
+    enCity: "zhoukou",
+    zhCounty: "郸城",
+    enCounty: "dancheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1195"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "周口",
+    enCity: "zhoukou",
+    zhCounty: "淮阳",
+    enCounty: "huaiyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1196"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "周口",
+    enCity: "zhoukou",
+    zhCounty: "太康",
+    enCounty: "taikang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1197"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "周口",
+    enCity: "zhoukou",
+    zhCounty: "鹿邑",
+    enCounty: "luyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1198"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "周口",
+    enCity: "zhoukou",
+    zhCounty: "项城",
+    enCounty: "hnxiangcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1199"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "驻马店",
+    enCity: "zhumadian",
+    zhCounty: "驻马店",
+    enCounty: "zhumadian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1200"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "驻马店",
+    enCity: "zhumadian",
+    zhCounty: "西平",
+    enCounty: "xiping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1201"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "驻马店",
+    enCity: "zhumadian",
+    zhCounty: "上蔡",
+    enCounty: "shangcai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1202"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "驻马店",
+    enCity: "zhumadian",
+    zhCounty: "平舆",
+    enCounty: "pingyu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1203"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "驻马店",
+    enCity: "zhumadian",
+    zhCounty: "正阳",
+    enCounty: "zhengyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1204"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "驻马店",
+    enCity: "zhumadian",
+    zhCounty: "确山",
+    enCounty: "queshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1205"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "驻马店",
+    enCity: "zhumadian",
+    zhCounty: "泌阳",
+    enCounty: "miyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1206"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "驻马店",
+    enCity: "zhumadian",
+    zhCounty: "汝南",
+    enCounty: "runan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1207"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "驻马店",
+    enCity: "zhumadian",
+    zhCounty: "遂平",
+    enCounty: "suiping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1208"),
+    zhProvince: "河南",
+    enProvince: "henan",
+    zhCity: "驻马店",
+    enCity: "zhumadian",
+    zhCounty: "新蔡",
+    enCounty: "xincai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1209"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "武汉",
+    enCity: "wuhan",
+    zhCounty: "武汉",
+    enCounty: "wuhan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1210"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "武汉",
+    enCity: "wuhan",
+    zhCounty: "汉阳",
+    enCounty: "hanyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1211"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "武汉",
+    enCity: "wuhan",
+    zhCounty: "武昌",
+    enCounty: "wuchang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1212"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "武汉",
+    enCity: "wuhan",
+    zhCounty: "蔡甸",
+    enCounty: "caidian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1213"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "武汉",
+    enCity: "wuhan",
+    zhCounty: "江夏",
+    enCounty: "jiangxia",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1214"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "武汉",
+    enCity: "wuhan",
+    zhCounty: "黄陂",
+    enCounty: "huangpi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1215"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "武汉",
+    enCity: "wuhan",
+    zhCounty: "新洲",
+    enCounty: "hbxinzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1216"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "黄石",
+    enCity: "huangshi",
+    zhCounty: "黄石",
+    enCounty: "huangshi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1217"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "黄石",
+    enCity: "huangshi",
+    zhCounty: "阳新",
+    enCounty: "hbyangxin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1218"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "黄石",
+    enCity: "huangshi",
+    zhCounty: "大冶",
+    enCounty: "daye",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1219"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "十堰",
+    enCity: "shiyan",
+    zhCounty: "十堰",
+    enCounty: "shiyan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1220"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "十堰",
+    enCity: "shiyan",
+    zhCounty: "郧县",
+    enCounty: "hbyunxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1221"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "十堰",
+    enCity: "shiyan",
+    zhCounty: "郧西",
+    enCounty: "yunxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1222"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "十堰",
+    enCity: "shiyan",
+    zhCounty: "竹山",
+    enCounty: "zhushan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1223"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "十堰",
+    enCity: "shiyan",
+    zhCounty: "竹溪",
+    enCounty: "zhuxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1224"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "十堰",
+    enCity: "shiyan",
+    zhCounty: "房县",
+    enCounty: "fangxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1225"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "十堰",
+    enCity: "shiyan",
+    zhCounty: "丹江口",
+    enCounty: "danjiangkou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1226"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "宜昌",
+    enCity: "yichang",
+    zhCounty: "宜昌",
+    enCounty: "yichang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1227"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "宜昌",
+    enCity: "yichang",
+    zhCounty: "夷陵",
+    enCounty: "yiling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1228"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "宜昌",
+    enCity: "yichang",
+    zhCounty: "远安",
+    enCounty: "yuanan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1229"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "宜昌",
+    enCity: "yichang",
+    zhCounty: "兴山",
+    enCounty: "xingshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1230"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "宜昌",
+    enCity: "yichang",
+    zhCounty: "秭归",
+    enCounty: "zigui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1231"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "宜昌",
+    enCity: "yichang",
+    zhCounty: "长阳",
+    enCounty: "changyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1232"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "宜昌",
+    enCity: "yichang",
+    zhCounty: "五峰",
+    enCounty: "wufeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1233"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "宜昌",
+    enCity: "yichang",
+    zhCounty: "宜都",
+    enCounty: "yidu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1234"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "宜昌",
+    enCity: "yichang",
+    zhCounty: "当阳",
+    enCounty: "dangyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1235"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "宜昌",
+    enCity: "yichang",
+    zhCounty: "枝江",
+    enCounty: "zhijiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1236"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "宜昌",
+    enCity: "yichang",
+    zhCounty: "三峡",
+    enCounty: "sanxia",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1237"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "襄阳",
+    enCity: "xiangyang",
+    zhCounty: "襄阳",
+    enCounty: "xiangyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1238"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "襄阳",
+    enCity: "xiangyang",
+    zhCounty: "南漳",
+    enCounty: "nanzhang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1239"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "襄阳",
+    enCity: "xiangyang",
+    zhCounty: "谷城",
+    enCounty: "gucheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1240"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "襄阳",
+    enCity: "xiangyang",
+    zhCounty: "保康",
+    enCounty: "baokang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1241"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "襄阳",
+    enCity: "xiangyang",
+    zhCounty: "老河口",
+    enCounty: "laohekou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1242"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "襄阳",
+    enCity: "xiangyang",
+    zhCounty: "枣阳",
+    enCounty: "zaoyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1243"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "襄阳",
+    enCity: "xiangyang",
+    zhCounty: "宜城",
+    enCounty: "yicheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1244"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "鄂州",
+    enCity: "ezhou",
+    zhCounty: "鄂州",
+    enCounty: "ezhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1245"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "荆门",
+    enCity: "jingmen",
+    zhCounty: "荆门",
+    enCounty: "jingmen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1246"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "荆门",
+    enCity: "jingmen",
+    zhCounty: "京山",
+    enCounty: "jingshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1247"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "荆门",
+    enCity: "jingmen",
+    zhCounty: "钟祥",
+    enCounty: "zhongxiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1248"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "孝感",
+    enCity: "xiaogan",
+    zhCounty: "孝感",
+    enCounty: "xiaogan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1249"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "孝感",
+    enCity: "xiaogan",
+    zhCounty: "大悟",
+    enCounty: "dawu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1250"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "孝感",
+    enCity: "xiaogan",
+    zhCounty: "云梦",
+    enCounty: "yunmeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1251"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "孝感",
+    enCity: "xiaogan",
+    zhCounty: "应城",
+    enCounty: "yingcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1252"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "孝感",
+    enCity: "xiaogan",
+    zhCounty: "安陆",
+    enCounty: "anlu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1253"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "孝感",
+    enCity: "xiaogan",
+    zhCounty: "汉川",
+    enCounty: "hanchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1254"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "荆州",
+    enCity: "jingzhou",
+    zhCounty: "荆州",
+    enCounty: "jingzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1255"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "荆州",
+    enCity: "jingzhou",
+    zhCounty: "公安",
+    enCounty: "gongan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1256"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "荆州",
+    enCity: "jingzhou",
+    zhCounty: "监利",
+    enCounty: "jianli",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1257"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "荆州",
+    enCity: "jingzhou",
+    zhCounty: "石首",
+    enCounty: "shishou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1258"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "荆州",
+    enCity: "jingzhou",
+    zhCounty: "洪湖",
+    enCounty: "honghu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1259"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "荆州",
+    enCity: "jingzhou",
+    zhCounty: "松滋",
+    enCounty: "songzi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1260"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "黄冈",
+    enCity: "huanggang",
+    zhCounty: "黄冈",
+    enCounty: "huanggang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1261"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "黄冈",
+    enCity: "huanggang",
+    zhCounty: "红安",
+    enCounty: "hongan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1262"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "黄冈",
+    enCity: "huanggang",
+    zhCounty: "罗田",
+    enCounty: "lvtian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1263"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "黄冈",
+    enCity: "huanggang",
+    zhCounty: "英山",
+    enCounty: "hbyingshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1264"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "黄冈",
+    enCity: "huanggang",
+    zhCounty: "浠水",
+    enCounty: "hbxishui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1265"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "黄冈",
+    enCity: "huanggang",
+    zhCounty: "蕲春",
+    enCounty: "qichun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1266"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "黄冈",
+    enCity: "huanggang",
+    zhCounty: "黄梅",
+    enCounty: "huangmei",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1267"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "黄冈",
+    enCity: "huanggang",
+    zhCounty: "麻城",
+    enCounty: "macheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1268"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "黄冈",
+    enCity: "huanggang",
+    zhCounty: "武穴",
+    enCounty: "wuxue",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1269"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "咸宁",
+    enCity: "xianning",
+    zhCounty: "咸宁",
+    enCounty: "xianning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1270"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "咸宁",
+    enCity: "xianning",
+    zhCounty: "嘉鱼",
+    enCounty: "jiayu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1271"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "咸宁",
+    enCity: "xianning",
+    zhCounty: "通城",
+    enCounty: "hbtongcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1272"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "咸宁",
+    enCity: "xianning",
+    zhCounty: "崇阳",
+    enCounty: "chongyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1273"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "咸宁",
+    enCity: "xianning",
+    zhCounty: "通山",
+    enCounty: "tongshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1274"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "咸宁",
+    enCity: "xianning",
+    zhCounty: "赤壁",
+    enCounty: "chibi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1275"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "随州",
+    enCity: "suizhou",
+    zhCounty: "随州",
+    enCounty: "suizhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1276"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "随州",
+    enCity: "suizhou",
+    zhCounty: "广水",
+    enCounty: "guangshui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1277"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "恩施",
+    enCity: "enshi",
+    zhCounty: "恩施",
+    enCounty: "enshi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1278"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "恩施",
+    enCity: "enshi",
+    zhCounty: "利川",
+    enCounty: "lichuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1279"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "恩施",
+    enCity: "enshi",
+    zhCounty: "建始",
+    enCounty: "jianshi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1280"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "恩施",
+    enCity: "enshi",
+    zhCounty: "巴东",
+    enCounty: "badong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1281"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "恩施",
+    enCity: "enshi",
+    zhCounty: "宣恩",
+    enCounty: "xuanen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1282"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "恩施",
+    enCity: "enshi",
+    zhCounty: "咸丰",
+    enCounty: "xianfeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1283"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "恩施",
+    enCity: "enshi",
+    zhCounty: "来凤",
+    enCounty: "laifeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1284"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "恩施",
+    enCity: "enshi",
+    zhCounty: "鹤峰",
+    enCounty: "hefeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1285"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "仙桃",
+    enCity: "xiantao",
+    zhCounty: "仙桃",
+    enCounty: "xiantao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1286"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "潜江",
+    enCity: "qianjiang",
+    zhCounty: "潜江",
+    enCounty: "qianjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1287"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "天门",
+    enCity: "tianmen",
+    zhCounty: "天门",
+    enCounty: "tianmen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1288"),
+    zhProvince: "湖北",
+    enProvince: "hubei",
+    zhCity: "神农架",
+    enCity: "shennongjia",
+    zhCounty: "神农架",
+    enCounty: "shennongjia",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1289"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "长沙",
+    enCity: "changsha",
+    zhCounty: "长沙",
+    enCounty: "changsha",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1290"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "长沙",
+    enCity: "changsha",
+    zhCounty: "宁乡",
+    enCounty: "ningxiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1291"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "长沙",
+    enCity: "changsha",
+    zhCounty: "浏阳",
+    enCounty: "liuyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1292"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "株洲",
+    enCity: "zhuzhou",
+    zhCounty: "株洲",
+    enCounty: "zhuzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1293"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "株洲",
+    enCity: "zhuzhou",
+    zhCounty: "攸县",
+    enCounty: "youxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1294"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "株洲",
+    enCity: "zhuzhou",
+    zhCounty: "茶陵",
+    enCounty: "chaling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1295"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "株洲",
+    enCity: "zhuzhou",
+    zhCounty: "炎陵",
+    enCounty: "hnyanling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1296"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "株洲",
+    enCity: "zhuzhou",
+    zhCounty: "醴陵",
+    enCounty: "liling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1297"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "湘潭",
+    enCity: "xiangtan",
+    zhCounty: "湘潭",
+    enCounty: "xiangtan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1298"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "湘潭",
+    enCity: "xiangtan",
+    zhCounty: "湘乡",
+    enCounty: "xiangxiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1299"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "湘潭",
+    enCity: "xiangtan",
+    zhCounty: "韶山",
+    enCounty: "shaoshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1300"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "衡阳",
+    enCity: "hengyang",
+    zhCounty: "衡阳",
+    enCounty: "hengyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1301"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "衡阳",
+    enCity: "hengyang",
+    zhCounty: "南岳",
+    enCounty: "nanyue",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1302"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "衡阳",
+    enCity: "hengyang",
+    zhCounty: "衡南",
+    enCounty: "hengnan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1303"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "衡阳",
+    enCity: "hengyang",
+    zhCounty: "衡山",
+    enCounty: "hengshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1304"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "衡阳",
+    enCity: "hengyang",
+    zhCounty: "衡东",
+    enCounty: "hengdong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1305"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "衡阳",
+    enCity: "hengyang",
+    zhCounty: "祁东",
+    enCounty: "hnqidong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1306"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "衡阳",
+    enCity: "hengyang",
+    zhCounty: "耒阳",
+    enCounty: "leiyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1307"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "衡阳",
+    enCity: "hengyang",
+    zhCounty: "常宁",
+    enCounty: "hnchangning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1308"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "衡阳",
+    enCity: "hengyang",
+    zhCounty: "衡阳县",
+    enCounty: "hengyangxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1309"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "邵阳",
+    enCity: "shaoyang",
+    zhCounty: "邵阳",
+    enCounty: "shaoyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1310"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "邵阳",
+    enCity: "shaoyang",
+    zhCounty: "邵东",
+    enCounty: "shaodong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1311"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "邵阳",
+    enCity: "shaoyang",
+    zhCounty: "新邵",
+    enCounty: "xinshao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1312"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "邵阳",
+    enCity: "shaoyang",
+    zhCounty: "隆回",
+    enCounty: "longhui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1313"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "邵阳",
+    enCity: "shaoyang",
+    zhCounty: "洞口",
+    enCounty: "dongkou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1314"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "邵阳",
+    enCity: "shaoyang",
+    zhCounty: "绥宁",
+    enCounty: "hnsuining",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1315"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "邵阳",
+    enCity: "shaoyang",
+    zhCounty: "新宁",
+    enCounty: "xinning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1316"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "邵阳",
+    enCity: "shaoyang",
+    zhCounty: "城步",
+    enCounty: "chengbu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1317"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "邵阳",
+    enCity: "shaoyang",
+    zhCounty: "武冈",
+    enCounty: "wugang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1318"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "邵阳",
+    enCity: "shaoyang",
+    zhCounty: "邵阳县",
+    enCounty: "shaoyangxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1319"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "岳阳",
+    enCity: "yueyang",
+    zhCounty: "岳阳",
+    enCounty: "yueyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1320"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "岳阳",
+    enCity: "yueyang",
+    zhCounty: "华容",
+    enCounty: "huarong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1321"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "岳阳",
+    enCity: "yueyang",
+    zhCounty: "湘阴",
+    enCounty: "xiangyin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1322"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "岳阳",
+    enCity: "yueyang",
+    zhCounty: "平江",
+    enCounty: "pingjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1323"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "岳阳",
+    enCity: "yueyang",
+    zhCounty: "汨罗",
+    enCounty: "miluo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1324"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "岳阳",
+    enCity: "yueyang",
+    zhCounty: "临湘",
+    enCounty: "linxiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1325"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "常德",
+    enCity: "changde",
+    zhCounty: "常德",
+    enCounty: "changde",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1326"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "常德",
+    enCity: "changde",
+    zhCounty: "安乡",
+    enCounty: "anxiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1327"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "常德",
+    enCity: "changde",
+    zhCounty: "汉寿",
+    enCounty: "hanshou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1328"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "常德",
+    enCity: "changde",
+    zhCounty: "澧县",
+    enCounty: "hnlixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1329"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "常德",
+    enCity: "changde",
+    zhCounty: "临澧",
+    enCounty: "linli",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1330"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "常德",
+    enCity: "changde",
+    zhCounty: "桃源",
+    enCounty: "taoyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1331"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "常德",
+    enCity: "changde",
+    zhCounty: "石门",
+    enCounty: "shimen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1332"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "张家界",
+    enCity: "zhangjiajie",
+    zhCounty: "张家界",
+    enCounty: "zhangjiajie",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1333"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "张家界",
+    enCity: "zhangjiajie",
+    zhCounty: "慈利",
+    enCounty: "cili",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1334"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "张家界",
+    enCity: "zhangjiajie",
+    zhCounty: "桑植",
+    enCounty: "sangzhi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1335"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "益阳",
+    enCity: "yiyang",
+    zhCounty: "益阳",
+    enCounty: "yiyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1336"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "益阳",
+    enCity: "yiyang",
+    zhCounty: "南县",
+    enCounty: "nanxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1337"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "益阳",
+    enCity: "yiyang",
+    zhCounty: "桃江",
+    enCounty: "taojiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1338"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "益阳",
+    enCity: "yiyang",
+    zhCounty: "安化",
+    enCounty: "anhua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1339"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "益阳",
+    enCity: "yiyang",
+    zhCounty: "沅江",
+    enCounty: "yuanjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1340"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "郴州",
+    enCity: "chenzhou",
+    zhCounty: "郴州",
+    enCounty: "chenzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1341"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "郴州",
+    enCity: "chenzhou",
+    zhCounty: "桂阳",
+    enCounty: "hnguiyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1342"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "郴州",
+    enCity: "chenzhou",
+    zhCounty: "宜章",
+    enCounty: "yizhang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1343"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "郴州",
+    enCity: "chenzhou",
+    zhCounty: "永兴",
+    enCounty: "yongxing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1344"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "郴州",
+    enCity: "chenzhou",
+    zhCounty: "嘉禾",
+    enCounty: "jiahe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1345"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "郴州",
+    enCity: "chenzhou",
+    zhCounty: "临武",
+    enCounty: "linwu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1346"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "郴州",
+    enCity: "chenzhou",
+    zhCounty: "汝城",
+    enCounty: "rucheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1347"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "郴州",
+    enCity: "chenzhou",
+    zhCounty: "桂东",
+    enCounty: "guidong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1348"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "郴州",
+    enCity: "chenzhou",
+    zhCounty: "安仁",
+    enCounty: "anren",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1349"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "郴州",
+    enCity: "chenzhou",
+    zhCounty: "资兴",
+    enCounty: "zixing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1350"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "永州",
+    enCity: "yongzhou",
+    zhCounty: "永州",
+    enCounty: "yongzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1351"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "永州",
+    enCity: "yongzhou",
+    zhCounty: "零陵",
+    enCounty: "lingling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1352"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "永州",
+    enCity: "yongzhou",
+    zhCounty: "冷水滩",
+    enCounty: "lengshuitan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1353"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "永州",
+    enCity: "yongzhou",
+    zhCounty: "祁阳",
+    enCounty: "qiyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1354"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "永州",
+    enCity: "yongzhou",
+    zhCounty: "东安",
+    enCounty: "dongan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1355"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "永州",
+    enCity: "yongzhou",
+    zhCounty: "双牌",
+    enCounty: "shuangpai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1356"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "永州",
+    enCity: "yongzhou",
+    zhCounty: "道县",
+    enCounty: "daoxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1357"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "永州",
+    enCity: "yongzhou",
+    zhCounty: "江永",
+    enCounty: "jiangyong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1358"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "永州",
+    enCity: "yongzhou",
+    zhCounty: "宁远",
+    enCounty: "ningyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1359"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "永州",
+    enCity: "yongzhou",
+    zhCounty: "蓝山",
+    enCounty: "lanshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1360"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "永州",
+    enCity: "yongzhou",
+    zhCounty: "新田",
+    enCounty: "xintian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1361"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "永州",
+    enCity: "yongzhou",
+    zhCounty: "江华",
+    enCounty: "jianghua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1362"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "怀化",
+    enCity: "huaihua",
+    zhCounty: "怀化",
+    enCounty: "huaihua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1363"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "怀化",
+    enCity: "huaihua",
+    zhCounty: "沅陵",
+    enCounty: "yuanling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1364"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "怀化",
+    enCity: "huaihua",
+    zhCounty: "辰溪",
+    enCounty: "chenxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1365"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "怀化",
+    enCity: "huaihua",
+    zhCounty: "溆浦",
+    enCounty: "xupu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1366"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "怀化",
+    enCity: "huaihua",
+    zhCounty: "会同",
+    enCounty: "huitong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1367"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "怀化",
+    enCity: "huaihua",
+    zhCounty: "麻阳",
+    enCounty: "mayang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1368"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "怀化",
+    enCity: "huaihua",
+    zhCounty: "新晃",
+    enCounty: "xinhuang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1369"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "怀化",
+    enCity: "huaihua",
+    zhCounty: "芷江",
+    enCounty: "hnzhijiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1370"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "怀化",
+    enCity: "huaihua",
+    zhCounty: "靖州",
+    enCounty: "hnjingzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1371"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "怀化",
+    enCity: "huaihua",
+    zhCounty: "通道",
+    enCounty: "tongdao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1372"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "怀化",
+    enCity: "huaihua",
+    zhCounty: "洪江",
+    enCounty: "hongjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1373"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "娄底",
+    enCity: "loudi",
+    zhCounty: "娄底",
+    enCounty: "loudi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1374"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "娄底",
+    enCity: "loudi",
+    zhCounty: "双峰",
+    enCounty: "shuangfeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1375"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "娄底",
+    enCity: "loudi",
+    zhCounty: "新化",
+    enCounty: "xinhua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1376"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "娄底",
+    enCity: "loudi",
+    zhCounty: "冷水江",
+    enCounty: "lengshuijiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1377"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "娄底",
+    enCity: "loudi",
+    zhCounty: "涟源",
+    enCounty: "lianyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1378"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "湘西",
+    enCity: "xiangxi",
+    zhCounty: "湘西",
+    enCounty: "xiangxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1379"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "湘西",
+    enCity: "xiangxi",
+    zhCounty: "吉首",
+    enCounty: "jishou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1380"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "湘西",
+    enCity: "xiangxi",
+    zhCounty: "泸溪",
+    enCounty: "hnluxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1381"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "湘西",
+    enCity: "xiangxi",
+    zhCounty: "凤凰",
+    enCounty: "fenghuang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1382"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "湘西",
+    enCity: "xiangxi",
+    zhCounty: "花垣",
+    enCounty: "huayuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1383"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "湘西",
+    enCity: "xiangxi",
+    zhCounty: "保靖",
+    enCounty: "baojing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1384"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "湘西",
+    enCity: "xiangxi",
+    zhCounty: "古丈",
+    enCounty: "guzhang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1385"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "湘西",
+    enCity: "xiangxi",
+    zhCounty: "永顺",
+    enCounty: "yongshun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1386"),
+    zhProvince: "湖南",
+    enProvince: "hunan",
+    zhCity: "湘西",
+    enCity: "xiangxi",
+    zhCounty: "龙山",
+    enCounty: "longshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1387"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "广州",
+    enCity: "guangzhou",
+    zhCounty: "广州",
+    enCounty: "guangzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1388"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "广州",
+    enCity: "guangzhou",
+    zhCounty: "番禺",
+    enCounty: "fanyu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1389"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "广州",
+    enCity: "guangzhou",
+    zhCounty: "花都",
+    enCounty: "huadu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1390"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "广州",
+    enCity: "guangzhou",
+    zhCounty: "增城",
+    enCounty: "zengcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1391"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "广州",
+    enCity: "guangzhou",
+    zhCounty: "从化",
+    enCounty: "conghua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1392"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "韶关",
+    enCity: "shaoguan",
+    zhCounty: "韶关",
+    enCounty: "shaoguan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1393"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "韶关",
+    enCity: "shaoguan",
+    zhCounty: "曲江",
+    enCounty: "qujiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1394"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "韶关",
+    enCity: "shaoguan",
+    zhCounty: "始兴",
+    enCounty: "shixing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1395"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "韶关",
+    enCity: "shaoguan",
+    zhCounty: "仁化",
+    enCounty: "renhua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1396"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "韶关",
+    enCity: "shaoguan",
+    zhCounty: "翁源",
+    enCounty: "wengyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1397"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "韶关",
+    enCity: "shaoguan",
+    zhCounty: "乳源",
+    enCounty: "ruyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1398"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "韶关",
+    enCity: "shaoguan",
+    zhCounty: "新丰",
+    enCounty: "xinfeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1399"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "韶关",
+    enCity: "shaoguan",
+    zhCounty: "乐昌",
+    enCounty: "lechang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1400"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "韶关",
+    enCity: "shaoguan",
+    zhCounty: "南雄",
+    enCounty: "nanxiong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1401"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "深圳",
+    enCity: "shenzhen",
+    zhCounty: "深圳",
+    enCounty: "shenzhen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1402"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "珠海",
+    enCity: "zhuhai",
+    zhCounty: "珠海",
+    enCounty: "zhuhai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1403"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "珠海",
+    enCity: "zhuhai",
+    zhCounty: "斗门",
+    enCounty: "doumen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1404"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "汕头",
+    enCity: "shantou",
+    zhCounty: "汕头",
+    enCounty: "shantou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1405"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "汕头",
+    enCity: "shantou",
+    zhCounty: "潮阳",
+    enCounty: "gdchaoyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1406"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "汕头",
+    enCity: "shantou",
+    zhCounty: "澄海",
+    enCounty: "chenghai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1407"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "汕头",
+    enCity: "shantou",
+    zhCounty: "南澳",
+    enCounty: "nanao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1408"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "佛山",
+    enCity: "foshan",
+    zhCounty: "佛山",
+    enCounty: "foshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1409"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "佛山",
+    enCity: "foshan",
+    zhCounty: "南海",
+    enCounty: "nanhai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1410"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "佛山",
+    enCity: "foshan",
+    zhCounty: "顺德",
+    enCounty: "shunde",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1411"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "佛山",
+    enCity: "foshan",
+    zhCounty: "三水",
+    enCounty: "sanshui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1412"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "江门",
+    enCity: "jiangmen",
+    zhCounty: "江门",
+    enCounty: "jiangmen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1413"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "江门",
+    enCity: "jiangmen",
+    zhCounty: "新会",
+    enCounty: "xinhui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1414"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "江门",
+    enCity: "jiangmen",
+    zhCounty: "台山",
+    enCounty: "taishan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1415"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "江门",
+    enCity: "jiangmen",
+    zhCounty: "开平",
+    enCounty: "kaiping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1416"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "江门",
+    enCity: "jiangmen",
+    zhCounty: "鹤山",
+    enCounty: "heshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1417"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "江门",
+    enCity: "jiangmen",
+    zhCounty: "恩平",
+    enCounty: "enping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1418"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "湛江",
+    enCity: "zhanjiang",
+    zhCounty: "湛江",
+    enCounty: "zhanjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1419"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "湛江",
+    enCity: "zhanjiang",
+    zhCounty: "遂溪",
+    enCounty: "suixi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1420"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "湛江",
+    enCity: "zhanjiang",
+    zhCounty: "徐闻",
+    enCounty: "xuwen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1421"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "湛江",
+    enCity: "zhanjiang",
+    zhCounty: "廉江",
+    enCounty: "lianjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1422"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "湛江",
+    enCity: "zhanjiang",
+    zhCounty: "雷州",
+    enCounty: "leizhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1423"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "湛江",
+    enCity: "zhanjiang",
+    zhCounty: "吴川",
+    enCounty: "wuchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1424"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "茂名",
+    enCity: "maoming",
+    zhCounty: "茂名",
+    enCounty: "maoming",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1425"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "茂名",
+    enCity: "maoming",
+    zhCounty: "电白",
+    enCounty: "dianbai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1426"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "茂名",
+    enCity: "maoming",
+    zhCounty: "高州",
+    enCounty: "gaozhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1427"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "茂名",
+    enCity: "maoming",
+    zhCounty: "化州",
+    enCounty: "huazhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1428"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "茂名",
+    enCity: "maoming",
+    zhCounty: "信宜",
+    enCounty: "gdxinyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1429"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "肇庆",
+    enCity: "zhaoqing",
+    zhCounty: "肇庆",
+    enCounty: "zhaoqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1430"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "肇庆",
+    enCity: "zhaoqing",
+    zhCounty: "广宁",
+    enCounty: "guangning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1431"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "肇庆",
+    enCity: "zhaoqing",
+    zhCounty: "怀集",
+    enCounty: "huaiji",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1432"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "肇庆",
+    enCity: "zhaoqing",
+    zhCounty: "封开",
+    enCounty: "fengkai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1433"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "肇庆",
+    enCity: "zhaoqing",
+    zhCounty: "德庆",
+    enCounty: "deqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1434"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "肇庆",
+    enCity: "zhaoqing",
+    zhCounty: "高要",
+    enCounty: "gaoyao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1435"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "肇庆",
+    enCity: "zhaoqing",
+    zhCounty: "四会",
+    enCounty: "sihui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1436"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "惠州",
+    enCity: "huizhou",
+    zhCounty: "惠州",
+    enCounty: "huizhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1437"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "惠州",
+    enCity: "huizhou",
+    zhCounty: "惠阳",
+    enCounty: "huiyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1438"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "惠州",
+    enCity: "huizhou",
+    zhCounty: "博罗",
+    enCounty: "bolv",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1439"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "惠州",
+    enCity: "huizhou",
+    zhCounty: "惠东",
+    enCounty: "huidong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1440"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "惠州",
+    enCity: "huizhou",
+    zhCounty: "龙门",
+    enCounty: "longmen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1441"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "梅州",
+    enCity: "meizhou",
+    zhCounty: "梅州",
+    enCounty: "meizhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1442"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "梅州",
+    enCity: "meizhou",
+    zhCounty: "梅县",
+    enCounty: "meixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1443"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "梅州",
+    enCity: "meizhou",
+    zhCounty: "大埔",
+    enCounty: "dapu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1444"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "梅州",
+    enCity: "meizhou",
+    zhCounty: "丰顺",
+    enCounty: "fengshun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1445"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "梅州",
+    enCity: "meizhou",
+    zhCounty: "五华",
+    enCounty: "wuhua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1446"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "梅州",
+    enCity: "meizhou",
+    zhCounty: "平远",
+    enCounty: "pingyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1447"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "梅州",
+    enCity: "meizhou",
+    zhCounty: "蕉岭",
+    enCounty: "jiaoling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1448"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "梅州",
+    enCity: "meizhou",
+    zhCounty: "兴宁",
+    enCounty: "xingning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1449"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "汕尾",
+    enCity: "shanwei",
+    zhCounty: "汕尾",
+    enCounty: "shanwei",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1450"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "汕尾",
+    enCity: "shanwei",
+    zhCounty: "海丰",
+    enCounty: "haifeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1451"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "汕尾",
+    enCity: "shanwei",
+    zhCounty: "陆丰",
+    enCounty: "gdlufeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1452"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "河源",
+    enCity: "heyuan",
+    zhCounty: "河源",
+    enCounty: "heyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1453"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "河源",
+    enCity: "heyuan",
+    zhCounty: "紫金",
+    enCounty: "zijin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1454"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "河源",
+    enCity: "heyuan",
+    zhCounty: "龙川",
+    enCounty: "longchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1455"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "河源",
+    enCity: "heyuan",
+    zhCounty: "连平",
+    enCounty: "lianping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1456"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "河源",
+    enCity: "heyuan",
+    zhCounty: "和平",
+    enCounty: "heping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1457"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "阳江",
+    enCity: "yangjiang",
+    zhCounty: "阳江",
+    enCounty: "yangjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1458"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "阳江",
+    enCity: "yangjiang",
+    zhCounty: "阳春",
+    enCounty: "yangchun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1459"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "清远",
+    enCity: "gdqingyuan",
+    zhCounty: "清远",
+    enCounty: "gdqingyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1460"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "清远",
+    enCity: "gdqingyuan",
+    zhCounty: "佛冈",
+    enCounty: "fogang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1461"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "清远",
+    enCity: "gdqingyuan",
+    zhCounty: "阳山",
+    enCounty: "yangshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1462"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "清远",
+    enCity: "gdqingyuan",
+    zhCounty: "连山",
+    enCounty: "lianshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1463"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "清远",
+    enCity: "gdqingyuan",
+    zhCounty: "连南",
+    enCounty: "liannan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1464"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "清远",
+    enCity: "gdqingyuan",
+    zhCounty: "英德",
+    enCounty: "yingde",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1465"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "清远",
+    enCity: "gdqingyuan",
+    zhCounty: "连州",
+    enCounty: "lianzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1466"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "东莞",
+    enCity: "dongguang",
+    zhCounty: "东莞",
+    enCounty: "dongguang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1467"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "中山",
+    enCity: "zhongshan",
+    zhCounty: "中山",
+    enCounty: "zhongshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1468"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "潮州",
+    enCity: "chaozhou",
+    zhCounty: "潮州",
+    enCounty: "chaozhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1469"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "潮州",
+    enCity: "chaozhou",
+    zhCounty: "饶平",
+    enCounty: "raoping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1470"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "揭阳",
+    enCity: "jieyang",
+    zhCounty: "揭阳",
+    enCounty: "jieyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1471"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "揭阳",
+    enCity: "jieyang",
+    zhCounty: "揭西",
+    enCounty: "jiexi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1472"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "揭阳",
+    enCity: "jieyang",
+    zhCounty: "惠来",
+    enCounty: "huilai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1473"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "揭阳",
+    enCity: "jieyang",
+    zhCounty: "普宁",
+    enCounty: "puning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1474"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "云浮",
+    enCity: "yunfu",
+    zhCounty: "云浮",
+    enCounty: "yunfu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1475"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "云浮",
+    enCity: "yunfu",
+    zhCounty: "新兴",
+    enCounty: "xinxing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1476"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "云浮",
+    enCity: "yunfu",
+    zhCounty: "郁南",
+    enCounty: "yunan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1477"),
+    zhProvince: "广东",
+    enProvince: "guangdong",
+    zhCity: "云浮",
+    enCity: "yunfu",
+    zhCounty: "罗定",
+    enCounty: "lvding",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1478"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "南宁",
+    enCity: "nanning",
+    zhCounty: "南宁",
+    enCounty: "nanning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1479"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "南宁",
+    enCity: "nanning",
+    zhCounty: "邕宁",
+    enCounty: "yining",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1480"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "南宁",
+    enCity: "nanning",
+    zhCounty: "武鸣",
+    enCounty: "wuming",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1481"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "南宁",
+    enCity: "nanning",
+    zhCounty: "隆安",
+    enCounty: "longan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1482"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "南宁",
+    enCity: "nanning",
+    zhCounty: "马山",
+    enCounty: "mashan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1483"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "南宁",
+    enCity: "nanning",
+    zhCounty: "上林",
+    enCounty: "shanglin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1484"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "南宁",
+    enCity: "nanning",
+    zhCounty: "宾阳",
+    enCounty: "binyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1485"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "南宁",
+    enCity: "nanning",
+    zhCounty: "横县",
+    enCounty: "hengxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1486"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "柳州",
+    enCity: "liuzhou",
+    zhCounty: "柳州",
+    enCounty: "liuzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1487"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "柳州",
+    enCity: "liuzhou",
+    zhCounty: "柳江",
+    enCounty: "liujiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1488"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "柳州",
+    enCity: "liuzhou",
+    zhCounty: "柳城",
+    enCounty: "liucheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1489"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "柳州",
+    enCity: "liuzhou",
+    zhCounty: "鹿寨",
+    enCounty: "luzhai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1490"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "柳州",
+    enCity: "liuzhou",
+    zhCounty: "融安",
+    enCounty: "rongan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1491"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "柳州",
+    enCity: "liuzhou",
+    zhCounty: "融水",
+    enCounty: "rongshui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1492"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "柳州",
+    enCity: "liuzhou",
+    zhCounty: "三江",
+    enCounty: "sanjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1493"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "桂林",
+    enCity: "guilin",
+    zhCounty: "桂林",
+    enCounty: "guilin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1494"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "桂林",
+    enCity: "guilin",
+    zhCounty: "阳朔",
+    enCounty: "yangshuo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1495"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "桂林",
+    enCity: "guilin",
+    zhCounty: "临桂",
+    enCounty: "lingui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1496"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "桂林",
+    enCity: "guilin",
+    zhCounty: "灵川",
+    enCounty: "lingchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1497"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "桂林",
+    enCity: "guilin",
+    zhCounty: "全州",
+    enCounty: "gxquanzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1498"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "桂林",
+    enCity: "guilin",
+    zhCounty: "兴安",
+    enCounty: "xingan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1499"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "桂林",
+    enCity: "guilin",
+    zhCounty: "永福",
+    enCounty: "yongfu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1500"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "桂林",
+    enCity: "guilin",
+    zhCounty: "灌阳",
+    enCounty: "guanyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1501"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "桂林",
+    enCity: "guilin",
+    zhCounty: "龙胜",
+    enCounty: "longsheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1502"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "桂林",
+    enCity: "guilin",
+    zhCounty: "资源",
+    enCounty: "ziyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1503"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "桂林",
+    enCity: "guilin",
+    zhCounty: "平乐",
+    enCounty: "pingle",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1504"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "桂林",
+    enCity: "guilin",
+    zhCounty: "荔浦",
+    enCounty: "lipu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1505"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "桂林",
+    enCity: "guilin",
+    zhCounty: "恭城",
+    enCounty: "gongcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1506"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "梧州",
+    enCity: "wuzhou",
+    zhCounty: "梧州",
+    enCounty: "wuzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1507"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "梧州",
+    enCity: "wuzhou",
+    zhCounty: "苍梧",
+    enCounty: "cangwu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1508"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "梧州",
+    enCity: "wuzhou",
+    zhCounty: "藤县",
+    enCounty: "tengxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1509"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "梧州",
+    enCity: "wuzhou",
+    zhCounty: "蒙山",
+    enCounty: "mengshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1510"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "梧州",
+    enCity: "wuzhou",
+    zhCounty: "岑溪",
+    enCounty: "cenxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1511"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "北海",
+    enCity: "beihai",
+    zhCounty: "北海",
+    enCounty: "beihai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1512"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "北海",
+    enCity: "beihai",
+    zhCounty: "合浦",
+    enCounty: "hepu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1513"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "北海",
+    enCity: "beihai",
+    zhCounty: "涠洲",
+    enCounty: "weizhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1514"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "防城港",
+    enCity: "fangchenggang",
+    zhCounty: "防城港",
+    enCounty: "fangchenggang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1515"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "防城港",
+    enCity: "fangchenggang",
+    zhCounty: "防城",
+    enCounty: "gxfangcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1516"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "防城港",
+    enCity: "fangchenggang",
+    zhCounty: "上思",
+    enCounty: "shangsi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1517"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "防城港",
+    enCity: "fangchenggang",
+    zhCounty: "东兴",
+    enCounty: "dongxing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1518"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "钦州",
+    enCity: "gxqinzhou",
+    zhCounty: "钦州",
+    enCounty: "gxqinzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1519"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "钦州",
+    enCity: "gxqinzhou",
+    zhCounty: "灵山",
+    enCounty: "lingshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1520"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "钦州",
+    enCity: "gxqinzhou",
+    zhCounty: "浦北",
+    enCounty: "pubei",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1521"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "贵港",
+    enCity: "guigang",
+    zhCounty: "贵港",
+    enCounty: "guigang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1522"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "贵港",
+    enCity: "guigang",
+    zhCounty: "平南",
+    enCounty: "pingnan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1523"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "贵港",
+    enCity: "guigang",
+    zhCounty: "桂平",
+    enCounty: "guiping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1524"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "玉林",
+    enCity: "guangxiyulin",
+    zhCounty: "玉林",
+    enCounty: "guangxiyulin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1525"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "玉林",
+    enCity: "guangxiyulin",
+    zhCounty: "容县",
+    enCounty: "gxrongxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1526"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "玉林",
+    enCity: "guangxiyulin",
+    zhCounty: "陆川",
+    enCounty: "luchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1527"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "玉林",
+    enCity: "guangxiyulin",
+    zhCounty: "博白",
+    enCounty: "bobai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1528"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "玉林",
+    enCity: "guangxiyulin",
+    zhCounty: "北流",
+    enCounty: "beiliu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1529"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "百色",
+    enCity: "baise",
+    zhCounty: "百色",
+    enCounty: "baise",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1530"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "百色",
+    enCity: "baise",
+    zhCounty: "田阳",
+    enCounty: "tianyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1531"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "百色",
+    enCity: "baise",
+    zhCounty: "田东",
+    enCounty: "tiandong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1532"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "百色",
+    enCity: "baise",
+    zhCounty: "平果",
+    enCounty: "pingguo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1533"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "百色",
+    enCity: "baise",
+    zhCounty: "德保",
+    enCounty: "debao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1534"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "百色",
+    enCity: "baise",
+    zhCounty: "靖西",
+    enCounty: "jingxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1535"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "百色",
+    enCity: "baise",
+    zhCounty: "那坡",
+    enCounty: "napo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1536"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "百色",
+    enCity: "baise",
+    zhCounty: "凌云",
+    enCounty: "lingyun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1537"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "百色",
+    enCity: "baise",
+    zhCounty: "乐业",
+    enCounty: "leye",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1538"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "百色",
+    enCity: "baise",
+    zhCounty: "田林",
+    enCounty: "tianlin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1539"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "百色",
+    enCity: "baise",
+    zhCounty: "西林",
+    enCounty: "xilin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1540"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "百色",
+    enCity: "baise",
+    zhCounty: "隆林",
+    enCounty: "longlin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1541"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "贺州",
+    enCity: "hezhou",
+    zhCounty: "贺州",
+    enCounty: "hezhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1542"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "贺州",
+    enCity: "hezhou",
+    zhCounty: "昭平",
+    enCounty: "zhaoping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1543"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "贺州",
+    enCity: "hezhou",
+    zhCounty: "钟山",
+    enCounty: "gxzhongshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1544"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "贺州",
+    enCity: "hezhou",
+    zhCounty: "富川",
+    enCounty: "fuchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1545"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "河池",
+    enCity: "hechi",
+    zhCounty: "河池",
+    enCounty: "hechi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1546"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "河池",
+    enCity: "hechi",
+    zhCounty: "南丹",
+    enCounty: "nandan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1547"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "河池",
+    enCity: "hechi",
+    zhCounty: "天峨",
+    enCounty: "tiane",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1548"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "河池",
+    enCity: "hechi",
+    zhCounty: "凤山",
+    enCounty: "fengshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1549"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "河池",
+    enCity: "hechi",
+    zhCounty: "东兰",
+    enCounty: "donglan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1550"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "河池",
+    enCity: "hechi",
+    zhCounty: "罗城",
+    enCounty: "lvcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1551"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "河池",
+    enCity: "hechi",
+    zhCounty: "环江",
+    enCounty: "huanjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1552"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "河池",
+    enCity: "hechi",
+    zhCounty: "巴马",
+    enCounty: "bama",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1553"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "河池",
+    enCity: "hechi",
+    zhCounty: "都安",
+    enCounty: "duan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1554"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "河池",
+    enCity: "hechi",
+    zhCounty: "宜州",
+    enCounty: "yizhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1555"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "来宾",
+    enCity: "laibin",
+    zhCounty: "来宾",
+    enCounty: "laibin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1556"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "来宾",
+    enCity: "laibin",
+    zhCounty: "忻城",
+    enCounty: "xincheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1557"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "来宾",
+    enCity: "laibin",
+    zhCounty: "象州",
+    enCounty: "xiangzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1558"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "来宾",
+    enCity: "laibin",
+    zhCounty: "武宣",
+    enCounty: "wuxuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1559"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "来宾",
+    enCity: "laibin",
+    zhCounty: "金秀",
+    enCounty: "jinxiu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1560"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "崇左",
+    enCity: "chongzuo",
+    zhCounty: "崇左",
+    enCounty: "chongzuo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1561"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "崇左",
+    enCity: "chongzuo",
+    zhCounty: "扶绥",
+    enCounty: "fusui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1562"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "崇左",
+    enCity: "chongzuo",
+    zhCounty: "宁明",
+    enCounty: "ningming",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1563"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "崇左",
+    enCity: "chongzuo",
+    zhCounty: "龙州",
+    enCounty: "longzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1564"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "崇左",
+    enCity: "chongzuo",
+    zhCounty: "大新",
+    enCounty: "daxin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1565"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "崇左",
+    enCity: "chongzuo",
+    zhCounty: "天等",
+    enCounty: "tiandeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1566"),
+    zhProvince: "广西",
+    enProvince: "guangxi",
+    zhCity: "崇左",
+    enCity: "chongzuo",
+    zhCounty: "凭祥",
+    enCounty: "gxpingxiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1567"),
+    zhProvince: "海南",
+    enProvince: "hainan",
+    zhCity: "海口",
+    enCity: "haikou",
+    zhCounty: "海口",
+    enCounty: "haikou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1568"),
+    zhProvince: "海南",
+    enProvince: "hainan",
+    zhCity: "海口",
+    enCity: "haikou",
+    zhCounty: "龙华",
+    enCounty: "hnlonghua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1569"),
+    zhProvince: "海南",
+    enProvince: "hainan",
+    zhCity: "三亚",
+    enCity: "sanya",
+    zhCounty: "三亚",
+    enCounty: "sanya",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1570"),
+    zhProvince: "海南",
+    enProvince: "hainan",
+    zhCity: "五指山",
+    enCity: "wuzhishan",
+    zhCounty: "五指山",
+    enCounty: "wuzhishan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1571"),
+    zhProvince: "海南",
+    enProvince: "hainan",
+    zhCity: "五指山",
+    enCity: "wuzhishan",
+    zhCounty: "乐东",
+    enCounty: "ledong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1572"),
+    zhProvince: "海南",
+    enProvince: "hainan",
+    zhCity: "五指山",
+    enCity: "wuzhishan",
+    zhCounty: "保亭",
+    enCounty: "baoting",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1573"),
+    zhProvince: "海南",
+    enProvince: "hainan",
+    zhCity: "五指山",
+    enCity: "wuzhishan",
+    zhCounty: "琼中",
+    enCounty: "qiongzhong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1574"),
+    zhProvince: "海南",
+    enProvince: "hainan",
+    zhCity: "琼海",
+    enCity: "qionghai",
+    zhCounty: "琼海",
+    enCounty: "qionghai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1575"),
+    zhProvince: "海南",
+    enProvince: "hainan",
+    zhCity: "儋州",
+    enCity: "danzhou",
+    zhCounty: "儋州",
+    enCounty: "danzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1576"),
+    zhProvince: "海南",
+    enProvince: "hainan",
+    zhCity: "文昌",
+    enCity: "wenchang",
+    zhCounty: "文昌",
+    enCounty: "wenchang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1577"),
+    zhProvince: "海南",
+    enProvince: "hainan",
+    zhCity: "万宁",
+    enCity: "wanning",
+    zhCounty: "万宁",
+    enCounty: "wanning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1578"),
+    zhProvince: "海南",
+    enProvince: "hainan",
+    zhCity: "东方",
+    enCity: "dongfang",
+    zhCounty: "东方",
+    enCounty: "dongfang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1579"),
+    zhProvince: "海南",
+    enProvince: "hainan",
+    zhCity: "定安",
+    enCity: "dingan",
+    zhCounty: "定安",
+    enCounty: "dingan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1580"),
+    zhProvince: "海南",
+    enProvince: "hainan",
+    zhCity: "屯昌",
+    enCity: "tunchang",
+    zhCounty: "屯昌",
+    enCounty: "tunchang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1581"),
+    zhProvince: "海南",
+    enProvince: "hainan",
+    zhCity: "澄迈",
+    enCity: "chengmai",
+    zhCounty: "澄迈",
+    enCounty: "chengmai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1582"),
+    zhProvince: "海南",
+    enProvince: "hainan",
+    zhCity: "临高",
+    enCity: "lingao",
+    zhCounty: "临高",
+    enCounty: "lingao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1583"),
+    zhProvince: "海南",
+    enProvince: "hainan",
+    zhCity: "白沙",
+    enCity: "baisha",
+    zhCounty: "白沙",
+    enCounty: "baisha",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1584"),
+    zhProvince: "海南",
+    enProvince: "hainan",
+    zhCity: "昌江",
+    enCity: "changjiang",
+    zhCounty: "昌江",
+    enCounty: "changjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1585"),
+    zhProvince: "海南",
+    enProvince: "hainan",
+    zhCity: "陵水",
+    enCity: "lingshui",
+    zhCounty: "陵水",
+    enCounty: "lingshui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1586"),
+    zhProvince: "海南",
+    enProvince: "hainan",
+    zhCity: "西沙群岛",
+    enCity: "xishaqundao",
+    zhCounty: "西沙群岛",
+    enCounty: "xishaqundao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1587"),
+    zhProvince: "海南",
+    enProvince: "hainan",
+    zhCity: "南沙群岛",
+    enCity: "nanshaqundao",
+    zhCounty: "南沙群岛",
+    enCounty: "nanshaqundao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1588"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "重庆",
+    enCounty: "chongqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1589"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "万州",
+    enCounty: "wanzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1590"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "涪陵",
+    enCounty: "fuling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1591"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "江北",
+    enCounty: "jiangbei",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1592"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "北碚",
+    enCounty: "beipei",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1593"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "黔江",
+    enCounty: "cqqianjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1594"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "长寿",
+    enCounty: "changshou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1595"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "江津",
+    enCounty: "jiangjin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1596"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "合川",
+    enCounty: "hechuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1597"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "永川",
+    enCounty: "yongchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1598"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "南川",
+    enCounty: "nanchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1599"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "綦江",
+    enCounty: "qijiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1600"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "潼南",
+    enCounty: "tongnan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1601"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "铜梁",
+    enCounty: "tongliang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1602"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "大足",
+    enCounty: "dazu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1603"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "荣昌",
+    enCounty: "rongchang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1604"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "璧山",
+    enCounty: "bishan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1605"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "梁平",
+    enCounty: "liangping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1606"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "城口",
+    enCounty: "chengkou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1607"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "丰都",
+    enCounty: "fengdu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1608"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "垫江",
+    enCounty: "dianjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1609"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "武隆",
+    enCounty: "wulong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1610"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "忠县",
+    enCounty: "zhongxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1611"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "开县",
+    enCounty: "kaixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1612"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "奉节",
+    enCounty: "fengjie",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1613"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "巫山",
+    enCounty: "cqwushan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1614"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "巫溪",
+    enCounty: "cqwuxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1615"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "石柱",
+    enCounty: "shizhu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1616"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "秀山",
+    enCounty: "xiushan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1617"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "酉阳",
+    enCounty: "youyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1618"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "彭水",
+    enCounty: "pengshui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1619"),
+    zhProvince: "重庆",
+    enProvince: "cq",
+    zhCity: "重庆",
+    enCity: "chongqing",
+    zhCounty: "南坪",
+    enCounty: "cqnanping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1620"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "成都",
+    enCity: "chengdu",
+    zhCounty: "成都",
+    enCounty: "chengdu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1621"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "成都",
+    enCity: "chengdu",
+    zhCounty: "龙泉驿",
+    enCounty: "longquanyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1622"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "成都",
+    enCity: "chengdu",
+    zhCounty: "新都",
+    enCounty: "xindu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1623"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "成都",
+    enCity: "chengdu",
+    zhCounty: "温江",
+    enCounty: "wenjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1624"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "成都",
+    enCity: "chengdu",
+    zhCounty: "金堂",
+    enCounty: "jintang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1625"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "成都",
+    enCity: "chengdu",
+    zhCounty: "双流",
+    enCounty: "shuangliu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1626"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "成都",
+    enCity: "chengdu",
+    zhCounty: "郫县",
+    enCounty: "pixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1627"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "成都",
+    enCity: "chengdu",
+    zhCounty: "大邑",
+    enCounty: "dayi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1628"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "成都",
+    enCity: "chengdu",
+    zhCounty: "蒲江",
+    enCounty: "scpujiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1629"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "成都",
+    enCity: "chengdu",
+    zhCounty: "新津",
+    enCounty: "xinjin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1630"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "成都",
+    enCity: "chengdu",
+    zhCounty: "都江堰",
+    enCounty: "dujiangyan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1631"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "成都",
+    enCity: "chengdu",
+    zhCounty: "彭州",
+    enCounty: "pengzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1632"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "成都",
+    enCity: "chengdu",
+    zhCounty: "邛崃",
+    enCounty: "qionglai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1633"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "成都",
+    enCity: "chengdu",
+    zhCounty: "崇州",
+    enCounty: "chongzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1634"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "自贡",
+    enCity: "zigong",
+    zhCounty: "自贡",
+    enCounty: "zigong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1635"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "自贡",
+    enCity: "zigong",
+    zhCounty: "荣县",
+    enCounty: "rongxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1636"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "自贡",
+    enCity: "zigong",
+    zhCounty: "富顺",
+    enCounty: "scfushun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1637"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "攀枝花",
+    enCity: "panzhihua",
+    zhCounty: "攀枝花",
+    enCounty: "panzhihua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1638"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "攀枝花",
+    enCity: "panzhihua",
+    zhCounty: "仁和",
+    enCounty: "renhe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1639"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "攀枝花",
+    enCity: "panzhihua",
+    zhCounty: "米易",
+    enCounty: "miyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1640"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "攀枝花",
+    enCity: "panzhihua",
+    zhCounty: "盐边",
+    enCounty: "scyanbian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1641"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "泸州",
+    enCity: "luzhou",
+    zhCounty: "泸州",
+    enCounty: "luzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1642"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "泸州",
+    enCity: "luzhou",
+    zhCounty: "纳溪",
+    enCounty: "naxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1643"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "泸州",
+    enCity: "luzhou",
+    zhCounty: "泸县",
+    enCounty: "luxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1644"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "泸州",
+    enCity: "luzhou",
+    zhCounty: "合江",
+    enCounty: "hejiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1645"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "泸州",
+    enCity: "luzhou",
+    zhCounty: "叙永",
+    enCounty: "xuyong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1646"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "泸州",
+    enCity: "luzhou",
+    zhCounty: "古蔺",
+    enCounty: "gulin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1647"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "德阳",
+    enCity: "deyang",
+    zhCounty: "德阳",
+    enCounty: "deyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1648"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "德阳",
+    enCity: "deyang",
+    zhCounty: "中江",
+    enCounty: "zhongjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1649"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "德阳",
+    enCity: "deyang",
+    zhCounty: "罗江",
+    enCounty: "luojiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1650"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "德阳",
+    enCity: "deyang",
+    zhCounty: "广汉",
+    enCounty: "guanghan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1651"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "德阳",
+    enCity: "deyang",
+    zhCounty: "什邡",
+    enCounty: "shifang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1652"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "德阳",
+    enCity: "deyang",
+    zhCounty: "绵竹",
+    enCounty: "mianzhu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1653"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "绵阳",
+    enCity: "mianyang",
+    zhCounty: "绵阳",
+    enCounty: "mianyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1654"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "绵阳",
+    enCity: "mianyang",
+    zhCounty: "三台",
+    enCounty: "santai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1655"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "绵阳",
+    enCity: "mianyang",
+    zhCounty: "盐亭",
+    enCounty: "yanting",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1656"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "绵阳",
+    enCity: "mianyang",
+    zhCounty: "安县",
+    enCounty: "anxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1657"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "绵阳",
+    enCity: "mianyang",
+    zhCounty: "梓潼",
+    enCounty: "zitong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1658"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "绵阳",
+    enCity: "mianyang",
+    zhCounty: "北川",
+    enCounty: "beichuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1659"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "绵阳",
+    enCity: "mianyang",
+    zhCounty: "平武",
+    enCounty: "pingwu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1660"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "绵阳",
+    enCity: "mianyang",
+    zhCounty: "江油",
+    enCounty: "jiangyou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1661"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "广元",
+    enCity: "guangyuan",
+    zhCounty: "广元",
+    enCounty: "guangyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1662"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "广元",
+    enCity: "guangyuan",
+    zhCounty: "旺苍",
+    enCounty: "wangcang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1663"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "广元",
+    enCity: "guangyuan",
+    zhCounty: "青川",
+    enCounty: "qingchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1664"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "广元",
+    enCity: "guangyuan",
+    zhCounty: "剑阁",
+    enCounty: "jiange",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1665"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "广元",
+    enCity: "guangyuan",
+    zhCounty: "苍溪",
+    enCounty: "cangxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1666"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "遂宁",
+    enCity: "scsuining",
+    zhCounty: "遂宁",
+    enCounty: "scsuining",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1667"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "遂宁",
+    enCity: "scsuining",
+    zhCounty: "蓬溪",
+    enCounty: "pengxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1668"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "遂宁",
+    enCity: "scsuining",
+    zhCounty: "射洪",
+    enCounty: "shehong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1669"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "内江",
+    enCity: "neijiang",
+    zhCounty: "内江",
+    enCounty: "neijiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1670"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "内江",
+    enCity: "neijiang",
+    zhCounty: "威远",
+    enCounty: "scweiyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1671"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "内江",
+    enCity: "neijiang",
+    zhCounty: "资中",
+    enCounty: "zizhong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1672"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "内江",
+    enCity: "neijiang",
+    zhCounty: "隆昌",
+    enCounty: "longchang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1673"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "乐山",
+    enCity: "leshan",
+    zhCounty: "乐山",
+    enCounty: "leshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1674"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "乐山",
+    enCity: "leshan",
+    zhCounty: "犍为",
+    enCounty: "jianwei",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1675"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "乐山",
+    enCity: "leshan",
+    zhCounty: "井研",
+    enCounty: "jingyan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1676"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "乐山",
+    enCity: "leshan",
+    zhCounty: "夹江",
+    enCounty: "jiajiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1677"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "乐山",
+    enCity: "leshan",
+    zhCounty: "沐川",
+    enCounty: "muchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1678"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "乐山",
+    enCity: "leshan",
+    zhCounty: "峨边",
+    enCounty: "ebian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1679"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "乐山",
+    enCity: "leshan",
+    zhCounty: "马边",
+    enCounty: "mabian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1680"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "乐山",
+    enCity: "leshan",
+    zhCounty: "峨眉山",
+    enCounty: "emeishan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1681"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "南充",
+    enCity: "nanchong",
+    zhCounty: "南充",
+    enCounty: "nanchong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1682"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "南充",
+    enCity: "nanchong",
+    zhCounty: "南部",
+    enCounty: "nanbu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1683"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "南充",
+    enCity: "nanchong",
+    zhCounty: "营山",
+    enCounty: "yingshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1684"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "南充",
+    enCity: "nanchong",
+    zhCounty: "蓬安",
+    enCounty: "pengan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1685"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "南充",
+    enCity: "nanchong",
+    zhCounty: "仪陇",
+    enCounty: "yilong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1686"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "南充",
+    enCity: "nanchong",
+    zhCounty: "西充",
+    enCounty: "xichong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1687"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "南充",
+    enCity: "nanchong",
+    zhCounty: "阆中",
+    enCounty: "langzhong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1688"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "眉山",
+    enCity: "meishan",
+    zhCounty: "眉山",
+    enCounty: "meishan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1689"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "眉山",
+    enCity: "meishan",
+    zhCounty: "仁寿",
+    enCounty: "renshou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1690"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "眉山",
+    enCity: "meishan",
+    zhCounty: "彭山",
+    enCounty: "pengshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1691"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "眉山",
+    enCity: "meishan",
+    zhCounty: "洪雅",
+    enCounty: "hongya",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1692"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "眉山",
+    enCity: "meishan",
+    zhCounty: "丹棱",
+    enCounty: "danleng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1693"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "眉山",
+    enCity: "meishan",
+    zhCounty: "青神",
+    enCounty: "qingshen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1694"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "宜宾",
+    enCity: "yibin",
+    zhCounty: "宜宾",
+    enCounty: "yibin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1695"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "宜宾",
+    enCity: "yibin",
+    zhCounty: "南溪",
+    enCounty: "nanxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1696"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "宜宾",
+    enCity: "yibin",
+    zhCounty: "江安",
+    enCounty: "jiangan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1697"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "宜宾",
+    enCity: "yibin",
+    zhCounty: "长宁",
+    enCounty: "changning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1698"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "宜宾",
+    enCity: "yibin",
+    zhCounty: "高县",
+    enCounty: "gaoxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1699"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "宜宾",
+    enCity: "yibin",
+    zhCounty: "珙县",
+    enCounty: "gongxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1700"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "宜宾",
+    enCity: "yibin",
+    zhCounty: "筠连",
+    enCounty: "yunlian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1701"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "宜宾",
+    enCity: "yibin",
+    zhCounty: "兴文",
+    enCounty: "xingwen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1702"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "宜宾",
+    enCity: "yibin",
+    zhCounty: "屏山",
+    enCounty: "pingshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1703"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "宜宾",
+    enCity: "yibin",
+    zhCounty: "宜宾县",
+    enCounty: "yibinxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1704"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "广安",
+    enCity: "guangan",
+    zhCounty: "广安",
+    enCounty: "guangan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1705"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "广安",
+    enCity: "guangan",
+    zhCounty: "岳池",
+    enCounty: "yuechi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1706"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "广安",
+    enCity: "guangan",
+    zhCounty: "武胜",
+    enCounty: "wusheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1707"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "广安",
+    enCity: "guangan",
+    zhCounty: "邻水",
+    enCounty: "linshui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1708"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "达州",
+    enCity: "dazhou",
+    zhCounty: "达州",
+    enCounty: "dazhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1709"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "达州",
+    enCity: "dazhou",
+    zhCounty: "宣汉",
+    enCounty: "xuanhan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1710"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "达州",
+    enCity: "dazhou",
+    zhCounty: "开江",
+    enCounty: "kaijiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1711"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "达州",
+    enCity: "dazhou",
+    zhCounty: "大竹",
+    enCounty: "dazhu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1712"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "达州",
+    enCity: "dazhou",
+    zhCounty: "渠县",
+    enCounty: "quxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1713"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "达州",
+    enCity: "dazhou",
+    zhCounty: "万源",
+    enCounty: "wanyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1714"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "达州",
+    enCity: "dazhou",
+    zhCounty: "达川",
+    enCounty: "dachuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1715"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "雅安",
+    enCity: "yaan",
+    zhCounty: "雅安",
+    enCounty: "yaan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1716"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "雅安",
+    enCity: "yaan",
+    zhCounty: "名山",
+    enCounty: "mingshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1717"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "雅安",
+    enCity: "yaan",
+    zhCounty: "汉源",
+    enCounty: "hanyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1718"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "雅安",
+    enCity: "yaan",
+    zhCounty: "石棉",
+    enCounty: "shimian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1719"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "雅安",
+    enCity: "yaan",
+    zhCounty: "天全",
+    enCounty: "tianquan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1720"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "雅安",
+    enCity: "yaan",
+    zhCounty: "芦山",
+    enCounty: "lushan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1721"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "雅安",
+    enCity: "yaan",
+    zhCounty: "宝兴",
+    enCounty: "baoxing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1722"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "雅安",
+    enCity: "yaan",
+    zhCounty: "荣经",
+    enCounty: "rongjing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1723"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "巴中",
+    enCity: "bazhong",
+    zhCounty: "巴中",
+    enCounty: "bazhong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1724"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "巴中",
+    enCity: "bazhong",
+    zhCounty: "通江",
+    enCounty: "sctongjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1725"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "巴中",
+    enCity: "bazhong",
+    zhCounty: "南江",
+    enCounty: "nanjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1726"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "巴中",
+    enCity: "bazhong",
+    zhCounty: "平昌",
+    enCounty: "pingchang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1727"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "资阳",
+    enCity: "ziyang",
+    zhCounty: "资阳",
+    enCounty: "ziyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1728"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "资阳",
+    enCity: "ziyang",
+    zhCounty: "安岳",
+    enCounty: "anyue",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1729"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "资阳",
+    enCity: "ziyang",
+    zhCounty: "乐至",
+    enCounty: "lezhi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1730"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "资阳",
+    enCity: "ziyang",
+    zhCounty: "简阳",
+    enCounty: "jianyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1731"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "阿坝",
+    enCity: "aba",
+    zhCounty: "阿坝",
+    enCounty: "aba",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1732"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "阿坝",
+    enCity: "aba",
+    zhCounty: "汶川",
+    enCounty: "wenchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1733"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "阿坝",
+    enCity: "aba",
+    zhCounty: "理县",
+    enCounty: "sclixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1734"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "阿坝",
+    enCity: "aba",
+    zhCounty: "茂县",
+    enCounty: "maoxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1735"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "阿坝",
+    enCity: "aba",
+    zhCounty: "松潘",
+    enCounty: "songpan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1736"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "阿坝",
+    enCity: "aba",
+    zhCounty: "金川",
+    enCounty: "jinchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1737"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "阿坝",
+    enCity: "aba",
+    zhCounty: "小金",
+    enCounty: "xiaojin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1738"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "阿坝",
+    enCity: "aba",
+    zhCounty: "黑水",
+    enCounty: "heishui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1739"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "阿坝",
+    enCity: "aba",
+    zhCounty: "马尔康",
+    enCounty: "maerkang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1740"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "阿坝",
+    enCity: "aba",
+    zhCounty: "壤塘",
+    enCounty: "rangtang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1741"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "阿坝",
+    enCity: "aba",
+    zhCounty: "若尔盖",
+    enCounty: "ruoergai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1742"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "阿坝",
+    enCity: "aba",
+    zhCounty: "红原",
+    enCounty: "hongyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1743"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "甘孜",
+    enCity: "ganzi",
+    zhCounty: "甘孜",
+    enCounty: "ganzi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1744"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "甘孜",
+    enCity: "ganzi",
+    zhCounty: "康定",
+    enCounty: "kangding",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1745"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "甘孜",
+    enCity: "ganzi",
+    zhCounty: "泸定",
+    enCounty: "luding",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1746"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "甘孜",
+    enCity: "ganzi",
+    zhCounty: "丹巴",
+    enCounty: "danba",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1747"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "甘孜",
+    enCity: "ganzi",
+    zhCounty: "九龙",
+    enCounty: "jiulong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1748"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "甘孜",
+    enCity: "ganzi",
+    zhCounty: "雅江",
+    enCounty: "yajiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1749"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "甘孜",
+    enCity: "ganzi",
+    zhCounty: "道孚",
+    enCounty: "daofu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1750"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "甘孜",
+    enCity: "ganzi",
+    zhCounty: "炉霍",
+    enCounty: "luhuo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1751"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "甘孜",
+    enCity: "ganzi",
+    zhCounty: "新龙",
+    enCounty: "xinlong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1752"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "甘孜",
+    enCity: "ganzi",
+    zhCounty: "德格",
+    enCounty: "dege",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1753"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "甘孜",
+    enCity: "ganzi",
+    zhCounty: "白玉",
+    enCounty: "baiyu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1754"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "甘孜",
+    enCity: "ganzi",
+    zhCounty: "石渠",
+    enCounty: "shiqu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1755"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "甘孜",
+    enCity: "ganzi",
+    zhCounty: "色达",
+    enCounty: "seda",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1756"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "甘孜",
+    enCity: "ganzi",
+    zhCounty: "理塘",
+    enCounty: "litang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1757"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "甘孜",
+    enCity: "ganzi",
+    zhCounty: "巴塘",
+    enCounty: "batang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1758"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "甘孜",
+    enCity: "ganzi",
+    zhCounty: "乡城",
+    enCounty: "scxiangcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1759"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "甘孜",
+    enCity: "ganzi",
+    zhCounty: "稻城",
+    enCounty: "daocheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1760"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "甘孜",
+    enCity: "ganzi",
+    zhCounty: "得荣",
+    enCounty: "derong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1761"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "凉山",
+    enCity: "liangshan",
+    zhCounty: "凉山",
+    enCounty: "liangshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1762"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "凉山",
+    enCity: "liangshan",
+    zhCounty: "西昌",
+    enCounty: "xichang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1763"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "凉山",
+    enCity: "liangshan",
+    zhCounty: "木里",
+    enCounty: "muli",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1764"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "凉山",
+    enCity: "liangshan",
+    zhCounty: "盐源",
+    enCounty: "yanyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1765"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "凉山",
+    enCity: "liangshan",
+    zhCounty: "德昌",
+    enCounty: "dechang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1766"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "凉山",
+    enCity: "liangshan",
+    zhCounty: "会理",
+    enCounty: "huili",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1767"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "凉山",
+    enCity: "liangshan",
+    zhCounty: "会东",
+    enCounty: "schuidong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1768"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "凉山",
+    enCity: "liangshan",
+    zhCounty: "宁南",
+    enCounty: "ningnan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1769"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "凉山",
+    enCity: "liangshan",
+    zhCounty: "普格",
+    enCounty: "puge",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1770"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "凉山",
+    enCity: "liangshan",
+    zhCounty: "布拖",
+    enCounty: "butuo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1771"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "凉山",
+    enCity: "liangshan",
+    zhCounty: "金阳",
+    enCounty: "jinyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1772"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "凉山",
+    enCity: "liangshan",
+    zhCounty: "昭觉",
+    enCounty: "zhaojue",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1773"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "凉山",
+    enCity: "liangshan",
+    zhCounty: "喜德",
+    enCounty: "xide",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1774"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "凉山",
+    enCity: "liangshan",
+    zhCounty: "冕宁",
+    enCounty: "mianning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1775"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "凉山",
+    enCity: "liangshan",
+    zhCounty: "越西",
+    enCounty: "scyuexi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1776"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "凉山",
+    enCity: "liangshan",
+    zhCounty: "甘洛",
+    enCounty: "ganluo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1777"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "凉山",
+    enCity: "liangshan",
+    zhCounty: "美姑",
+    enCounty: "meigu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1778"),
+    zhProvince: "四川",
+    enProvince: "sichuan",
+    zhCity: "凉山",
+    enCity: "liangshan",
+    zhCounty: "雷波",
+    enCounty: "leibo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1779"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "贵阳",
+    enCity: "guiyang",
+    zhCounty: "贵阳",
+    enCounty: "guiyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1780"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "贵阳",
+    enCity: "guiyang",
+    zhCounty: "花溪",
+    enCounty: "huaxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1781"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "贵阳",
+    enCity: "guiyang",
+    zhCounty: "乌当",
+    enCounty: "wudang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1782"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "贵阳",
+    enCity: "guiyang",
+    zhCounty: "白云",
+    enCounty: "baiyun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1783"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "贵阳",
+    enCity: "guiyang",
+    zhCounty: "开阳",
+    enCounty: "kaiyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1784"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "贵阳",
+    enCity: "guiyang",
+    zhCounty: "息烽",
+    enCounty: "gzxifeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1785"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "贵阳",
+    enCity: "guiyang",
+    zhCounty: "修文",
+    enCounty: "xiuwen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1786"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "贵阳",
+    enCity: "guiyang",
+    zhCounty: "清镇",
+    enCounty: "qingzhen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1787"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "六盘水",
+    enCity: "liupanshui",
+    zhCounty: "六盘水",
+    enCounty: "liupanshui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1788"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "六盘水",
+    enCity: "liupanshui",
+    zhCounty: "六枝",
+    enCounty: "liuzhi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1789"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "六盘水",
+    enCity: "liupanshui",
+    zhCounty: "水城",
+    enCounty: "shuicheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1790"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "六盘水",
+    enCity: "liupanshui",
+    zhCounty: "盘县",
+    enCounty: "panxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1791"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "遵义",
+    enCity: "zunyi",
+    zhCounty: "遵义",
+    enCounty: "zunyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1792"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "遵义",
+    enCity: "zunyi",
+    zhCounty: "汇川",
+    enCounty: "huichuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1793"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "遵义",
+    enCity: "zunyi",
+    zhCounty: "桐梓",
+    enCounty: "tongzi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1794"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "遵义",
+    enCity: "zunyi",
+    zhCounty: "绥阳",
+    enCounty: "suiyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1795"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "遵义",
+    enCity: "zunyi",
+    zhCounty: "正安",
+    enCounty: "zhengan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1796"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "遵义",
+    enCity: "zunyi",
+    zhCounty: "道真",
+    enCounty: "daozhen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1797"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "遵义",
+    enCity: "zunyi",
+    zhCounty: "务川",
+    enCounty: "gzwuchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1798"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "遵义",
+    enCity: "zunyi",
+    zhCounty: "凤冈",
+    enCounty: "fenggang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1799"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "遵义",
+    enCity: "zunyi",
+    zhCounty: "湄潭",
+    enCounty: "meitan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1800"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "遵义",
+    enCity: "zunyi",
+    zhCounty: "余庆",
+    enCounty: "yuqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1801"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "遵义",
+    enCity: "zunyi",
+    zhCounty: "习水",
+    enCounty: "xishui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1802"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "遵义",
+    enCity: "zunyi",
+    zhCounty: "赤水",
+    enCounty: "chishui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1803"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "遵义",
+    enCity: "zunyi",
+    zhCounty: "仁怀",
+    enCounty: "renhuai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1804"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "安顺",
+    enCity: "anshun",
+    zhCounty: "安顺",
+    enCounty: "anshun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1805"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "安顺",
+    enCity: "anshun",
+    zhCounty: "平坝",
+    enCounty: "pingba",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1806"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "安顺",
+    enCity: "anshun",
+    zhCounty: "普定",
+    enCounty: "puding",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1807"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "安顺",
+    enCity: "anshun",
+    zhCounty: "镇宁",
+    enCounty: "zhenning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1808"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "安顺",
+    enCity: "anshun",
+    zhCounty: "关岭",
+    enCounty: "guanling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1809"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "安顺",
+    enCity: "anshun",
+    zhCounty: "紫云",
+    enCounty: "ziyun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1810"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "铜仁",
+    enCity: "tongren",
+    zhCounty: "铜仁",
+    enCounty: "tongren",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1811"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "铜仁",
+    enCity: "tongren",
+    zhCounty: "江口",
+    enCounty: "jiangkou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1812"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "铜仁",
+    enCity: "tongren",
+    zhCounty: "玉屏",
+    enCounty: "yuping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1813"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "铜仁",
+    enCity: "tongren",
+    zhCounty: "石阡",
+    enCounty: "shiqian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1814"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "铜仁",
+    enCity: "tongren",
+    zhCounty: "思南",
+    enCounty: "sinan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1815"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "铜仁",
+    enCity: "tongren",
+    zhCounty: "印江",
+    enCounty: "yinjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1816"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "铜仁",
+    enCity: "tongren",
+    zhCounty: "德江",
+    enCounty: "dejiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1817"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "铜仁",
+    enCity: "tongren",
+    zhCounty: "沿河",
+    enCounty: "yanhe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1818"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "铜仁",
+    enCity: "tongren",
+    zhCounty: "松桃",
+    enCounty: "songtao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1819"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "铜仁",
+    enCity: "tongren",
+    zhCounty: "万山",
+    enCounty: "wanshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1820"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔西南",
+    enCity: "qianxinan",
+    zhCounty: "黔西南",
+    enCounty: "qianxinan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1821"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔西南",
+    enCity: "qianxinan",
+    zhCounty: "兴义",
+    enCounty: "xingyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1822"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔西南",
+    enCity: "qianxinan",
+    zhCounty: "兴仁",
+    enCounty: "xingren",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1823"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔西南",
+    enCity: "qianxinan",
+    zhCounty: "普安",
+    enCounty: "puan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1824"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔西南",
+    enCity: "qianxinan",
+    zhCounty: "晴隆",
+    enCounty: "gzqinglong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1825"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔西南",
+    enCity: "qianxinan",
+    zhCounty: "贞丰",
+    enCounty: "zhenfeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1826"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔西南",
+    enCity: "qianxinan",
+    zhCounty: "望谟",
+    enCounty: "wangmo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1827"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔西南",
+    enCity: "qianxinan",
+    zhCounty: "册亨",
+    enCounty: "ceheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1828"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔西南",
+    enCity: "qianxinan",
+    zhCounty: "安龙",
+    enCounty: "anlong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1829"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "毕节",
+    enCity: "bijie",
+    zhCounty: "毕节",
+    enCounty: "bijie",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1830"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "毕节",
+    enCity: "bijie",
+    zhCounty: "大方",
+    enCounty: "dafang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1831"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "毕节",
+    enCity: "bijie",
+    zhCounty: "黔西",
+    enCounty: "qianxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1832"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "毕节",
+    enCity: "bijie",
+    zhCounty: "金沙",
+    enCounty: "jinsha",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1833"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "毕节",
+    enCity: "bijie",
+    zhCounty: "织金",
+    enCounty: "zhijin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1834"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "毕节",
+    enCity: "bijie",
+    zhCounty: "纳雍",
+    enCounty: "nayong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1835"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "毕节",
+    enCity: "bijie",
+    zhCounty: "威宁",
+    enCounty: "weining",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1836"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "毕节",
+    enCity: "bijie",
+    zhCounty: "赫章",
+    enCounty: "hezhang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1837"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔东南",
+    enCity: "qiandongnan",
+    zhCounty: "黔东南",
+    enCounty: "qiandongnan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1838"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔东南",
+    enCity: "qiandongnan",
+    zhCounty: "凯里",
+    enCounty: "kaili",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1839"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔东南",
+    enCity: "qiandongnan",
+    zhCounty: "黄平",
+    enCounty: "huangping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1840"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔东南",
+    enCity: "qiandongnan",
+    zhCounty: "施秉",
+    enCounty: "shibing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1841"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔东南",
+    enCity: "qiandongnan",
+    zhCounty: "三穗",
+    enCounty: "sansui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1842"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔东南",
+    enCity: "qiandongnan",
+    zhCounty: "镇远",
+    enCounty: "gszhenyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1843"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔东南",
+    enCity: "qiandongnan",
+    zhCounty: "岑巩",
+    enCounty: "cengong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1844"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔东南",
+    enCity: "qiandongnan",
+    zhCounty: "天柱",
+    enCounty: "tianzhu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1845"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔东南",
+    enCity: "qiandongnan",
+    zhCounty: "锦屏",
+    enCounty: "jinping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1846"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔东南",
+    enCity: "qiandongnan",
+    zhCounty: "剑河",
+    enCounty: "jianhe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1847"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔东南",
+    enCity: "qiandongnan",
+    zhCounty: "台江",
+    enCounty: "taijiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1848"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔东南",
+    enCity: "qiandongnan",
+    zhCounty: "黎平",
+    enCounty: "liping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1849"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔东南",
+    enCity: "qiandongnan",
+    zhCounty: "榕江",
+    enCounty: "rongjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1850"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔东南",
+    enCity: "qiandongnan",
+    zhCounty: "从江",
+    enCounty: "congjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1851"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔东南",
+    enCity: "qiandongnan",
+    zhCounty: "雷山",
+    enCounty: "leishan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1852"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔东南",
+    enCity: "qiandongnan",
+    zhCounty: "麻江",
+    enCounty: "majiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1853"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔东南",
+    enCity: "qiandongnan",
+    zhCounty: "丹寨",
+    enCounty: "danzhai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1854"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔南",
+    enCity: "qiannan",
+    zhCounty: "黔南",
+    enCounty: "qiannan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1855"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔南",
+    enCity: "qiannan",
+    zhCounty: "都匀",
+    enCounty: "duyun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1856"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔南",
+    enCity: "qiannan",
+    zhCounty: "福泉",
+    enCounty: "fuquan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1857"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔南",
+    enCity: "qiannan",
+    zhCounty: "荔波",
+    enCounty: "libo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1858"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔南",
+    enCity: "qiannan",
+    zhCounty: "贵定",
+    enCounty: "guiding",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1859"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔南",
+    enCity: "qiannan",
+    zhCounty: "瓮安",
+    enCounty: "wengan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1860"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔南",
+    enCity: "qiannan",
+    zhCounty: "独山",
+    enCounty: "dushan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1861"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔南",
+    enCity: "qiannan",
+    zhCounty: "平塘",
+    enCounty: "pingtang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1862"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔南",
+    enCity: "qiannan",
+    zhCounty: "罗甸",
+    enCounty: "luodian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1863"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔南",
+    enCity: "qiannan",
+    zhCounty: "长顺",
+    enCounty: "changshun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1864"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔南",
+    enCity: "qiannan",
+    zhCounty: "龙里",
+    enCounty: "longli",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1865"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔南",
+    enCity: "qiannan",
+    zhCounty: "惠水",
+    enCounty: "huishui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1866"),
+    zhProvince: "贵州",
+    enProvince: "guizhou",
+    zhCity: "黔南",
+    enCity: "qiannan",
+    zhCounty: "三都",
+    enCounty: "sandu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1867"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "昆明",
+    enCity: "kunming",
+    zhCounty: "昆明",
+    enCounty: "kunming",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1868"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "昆明",
+    enCity: "kunming",
+    zhCounty: "东川",
+    enCounty: "dongchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1869"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "昆明",
+    enCity: "kunming",
+    zhCounty: "呈贡",
+    enCounty: "chenggong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1870"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "昆明",
+    enCity: "kunming",
+    zhCounty: "晋宁",
+    enCounty: "jinning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1871"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "昆明",
+    enCity: "kunming",
+    zhCounty: "富民",
+    enCounty: "fumin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1872"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "昆明",
+    enCity: "kunming",
+    zhCounty: "宜良",
+    enCounty: "ynyiliang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1873"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "昆明",
+    enCity: "kunming",
+    zhCounty: "石林",
+    enCounty: "shilin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1874"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "昆明",
+    enCity: "kunming",
+    zhCounty: "嵩明",
+    enCounty: "songming",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1875"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "昆明",
+    enCity: "kunming",
+    zhCounty: "禄劝",
+    enCounty: "luquan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1876"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "昆明",
+    enCity: "kunming",
+    zhCounty: "寻甸",
+    enCounty: "xundian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1877"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "昆明",
+    enCity: "kunming",
+    zhCounty: "安宁",
+    enCounty: "anning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1878"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "昆明",
+    enCity: "kunming",
+    zhCounty: "太华山",
+    enCounty: "taihuashan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1879"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "曲靖",
+    enCity: "qujing",
+    zhCounty: "曲靖",
+    enCounty: "qujing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1880"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "曲靖",
+    enCity: "qujing",
+    zhCounty: "马龙",
+    enCounty: "malong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1881"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "曲靖",
+    enCity: "qujing",
+    zhCounty: "陆良",
+    enCounty: "luliang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1882"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "曲靖",
+    enCity: "qujing",
+    zhCounty: "师宗",
+    enCounty: "shizong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1883"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "曲靖",
+    enCity: "qujing",
+    zhCounty: "罗平",
+    enCounty: "luoping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1884"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "曲靖",
+    enCity: "qujing",
+    zhCounty: "富源",
+    enCounty: "ynfuyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1885"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "曲靖",
+    enCity: "qujing",
+    zhCounty: "会泽",
+    enCounty: "huize",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1886"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "曲靖",
+    enCity: "qujing",
+    zhCounty: "沾益",
+    enCounty: "zhanyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1887"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "曲靖",
+    enCity: "qujing",
+    zhCounty: "宣威",
+    enCounty: "xuanwei",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1888"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "玉溪",
+    enCity: "yuxi",
+    zhCounty: "玉溪",
+    enCounty: "yuxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1889"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "玉溪",
+    enCity: "yuxi",
+    zhCounty: "江川",
+    enCounty: "jiangchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1890"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "玉溪",
+    enCity: "yuxi",
+    zhCounty: "澄江",
+    enCounty: "chengjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1891"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "玉溪",
+    enCity: "yuxi",
+    zhCounty: "通海",
+    enCounty: "tonghai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1892"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "玉溪",
+    enCity: "yuxi",
+    zhCounty: "华宁",
+    enCounty: "huaning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1893"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "玉溪",
+    enCity: "yuxi",
+    zhCounty: "易门",
+    enCounty: "yimen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1894"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "玉溪",
+    enCity: "yuxi",
+    zhCounty: "峨山",
+    enCounty: "eshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1895"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "玉溪",
+    enCity: "yuxi",
+    zhCounty: "新平",
+    enCounty: "xinping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1896"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "玉溪",
+    enCity: "yuxi",
+    zhCounty: "元江",
+    enCounty: "hnyuanjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1897"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "保山",
+    enCity: "baoshan",
+    zhCounty: "保山",
+    enCounty: "baoshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1898"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "保山",
+    enCity: "baoshan",
+    zhCounty: "施甸",
+    enCounty: "shidian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1899"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "保山",
+    enCity: "baoshan",
+    zhCounty: "腾冲",
+    enCounty: "tengchong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1900"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "保山",
+    enCity: "baoshan",
+    zhCounty: "龙陵",
+    enCounty: "longling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1901"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "保山",
+    enCity: "baoshan",
+    zhCounty: "昌宁",
+    enCounty: "ynchangning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1902"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "昭通",
+    enCity: "zhaotong",
+    zhCounty: "昭通",
+    enCounty: "zhaotong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1903"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "昭通",
+    enCity: "zhaotong",
+    zhCounty: "鲁甸",
+    enCounty: "ludian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1904"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "昭通",
+    enCity: "zhaotong",
+    zhCounty: "巧家",
+    enCounty: "qiaojia",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1905"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "昭通",
+    enCity: "zhaotong",
+    zhCounty: "盐津",
+    enCounty: "ynyanjin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1906"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "昭通",
+    enCity: "zhaotong",
+    zhCounty: "大关",
+    enCounty: "daguan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1907"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "昭通",
+    enCity: "zhaotong",
+    zhCounty: "永善",
+    enCounty: "yongshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1908"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "昭通",
+    enCity: "zhaotong",
+    zhCounty: "绥江",
+    enCounty: "suijiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1909"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "昭通",
+    enCity: "zhaotong",
+    zhCounty: "镇雄",
+    enCounty: "zhenxiong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1910"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "昭通",
+    enCity: "zhaotong",
+    zhCounty: "彝良",
+    enCounty: "yiliang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1911"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "昭通",
+    enCity: "zhaotong",
+    zhCounty: "威信",
+    enCounty: "weixin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1912"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "丽江",
+    enCity: "lijiang",
+    zhCounty: "丽江",
+    enCounty: "lijiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1913"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "丽江",
+    enCity: "lijiang",
+    zhCounty: "永胜",
+    enCounty: "yongsheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1914"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "丽江",
+    enCity: "lijiang",
+    zhCounty: "华坪",
+    enCounty: "huaping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1915"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "丽江",
+    enCity: "lijiang",
+    zhCounty: "宁蒗",
+    enCounty: "ninglang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1916"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "普洱",
+    enCity: "puer",
+    zhCounty: "普洱",
+    enCounty: "puer",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1917"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "普洱",
+    enCity: "puer",
+    zhCounty: "思茅",
+    enCounty: "simao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1918"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "普洱",
+    enCity: "puer",
+    zhCounty: "墨江",
+    enCounty: "mojiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1919"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "普洱",
+    enCity: "puer",
+    zhCounty: "景东",
+    enCounty: "jingdong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1920"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "普洱",
+    enCity: "puer",
+    zhCounty: "景谷",
+    enCounty: "jinggu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1921"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "普洱",
+    enCity: "puer",
+    zhCounty: "镇沅",
+    enCounty: "ynzhenyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1922"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "普洱",
+    enCity: "puer",
+    zhCounty: "江城",
+    enCounty: "jiangcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1923"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "普洱",
+    enCity: "puer",
+    zhCounty: "孟连",
+    enCounty: "menglian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1924"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "普洱",
+    enCity: "puer",
+    zhCounty: "澜沧",
+    enCounty: "lancang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1925"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "普洱",
+    enCity: "puer",
+    zhCounty: "西盟",
+    enCounty: "ximeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1926"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "普洱",
+    enCity: "puer",
+    zhCounty: "宁洱",
+    enCounty: "ninger",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1927"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "临沧",
+    enCity: "lincang",
+    zhCounty: "临沧",
+    enCounty: "lincang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1928"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "临沧",
+    enCity: "lincang",
+    zhCounty: "凤庆",
+    enCounty: "fengqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1929"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "临沧",
+    enCity: "lincang",
+    zhCounty: "云县",
+    enCounty: "yunxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1930"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "临沧",
+    enCity: "lincang",
+    zhCounty: "永德",
+    enCounty: "yongde",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1931"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "临沧",
+    enCity: "lincang",
+    zhCounty: "镇康",
+    enCounty: "zhenkang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1932"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "临沧",
+    enCity: "lincang",
+    zhCounty: "双江",
+    enCounty: "shuangjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1933"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "临沧",
+    enCity: "lincang",
+    zhCounty: "耿马",
+    enCounty: "gengma",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1934"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "临沧",
+    enCity: "lincang",
+    zhCounty: "沧源",
+    enCounty: "cangyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1935"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "楚雄",
+    enCity: "chuxiong",
+    zhCounty: "楚雄",
+    enCounty: "chuxiong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1936"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "楚雄",
+    enCity: "chuxiong",
+    zhCounty: "双柏",
+    enCounty: "shuangbai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1937"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "楚雄",
+    enCity: "chuxiong",
+    zhCounty: "牟定",
+    enCounty: "mouding",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1938"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "楚雄",
+    enCity: "chuxiong",
+    zhCounty: "南华",
+    enCounty: "nanhua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1939"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "楚雄",
+    enCity: "chuxiong",
+    zhCounty: "姚安",
+    enCounty: "yaoan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1940"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "楚雄",
+    enCity: "chuxiong",
+    zhCounty: "大姚",
+    enCounty: "dayao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1941"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "楚雄",
+    enCity: "chuxiong",
+    zhCounty: "永仁",
+    enCounty: "yongren",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1942"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "楚雄",
+    enCity: "chuxiong",
+    zhCounty: "元谋",
+    enCounty: "yuanmou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1943"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "楚雄",
+    enCity: "chuxiong",
+    zhCounty: "武定",
+    enCounty: "wuding",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1944"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "楚雄",
+    enCity: "chuxiong",
+    zhCounty: "禄丰",
+    enCounty: "lufeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1945"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "红河",
+    enCity: "honghe",
+    zhCounty: "红河",
+    enCounty: "honghe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1946"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "红河",
+    enCity: "honghe",
+    zhCounty: "个旧",
+    enCounty: "gejiu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1947"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "红河",
+    enCity: "honghe",
+    zhCounty: "开远",
+    enCounty: "ynkaiyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1948"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "红河",
+    enCity: "honghe",
+    zhCounty: "蒙自",
+    enCounty: "mengzi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1949"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "红河",
+    enCity: "honghe",
+    zhCounty: "屏边",
+    enCounty: "pingbian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1950"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "红河",
+    enCity: "honghe",
+    zhCounty: "建水",
+    enCounty: "jianshui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1951"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "红河",
+    enCity: "honghe",
+    zhCounty: "石屏",
+    enCounty: "shiping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1952"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "红河",
+    enCity: "honghe",
+    zhCounty: "弥勒",
+    enCounty: "mile",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1953"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "红河",
+    enCity: "honghe",
+    zhCounty: "泸西",
+    enCounty: "luxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1954"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "红河",
+    enCity: "honghe",
+    zhCounty: "元阳",
+    enCounty: "yuanyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1955"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "红河",
+    enCity: "honghe",
+    zhCounty: "金平",
+    enCounty: "ynjinping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1956"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "红河",
+    enCity: "honghe",
+    zhCounty: "绿春",
+    enCounty: "lvchun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1957"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "文山",
+    enCity: "wenshan",
+    zhCounty: "文山",
+    enCounty: "wenshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1958"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "文山",
+    enCity: "wenshan",
+    zhCounty: "砚山",
+    enCounty: "ynyanshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1959"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "文山",
+    enCity: "wenshan",
+    zhCounty: "西畴",
+    enCounty: "xichou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1960"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "文山",
+    enCity: "wenshan",
+    zhCounty: "麻栗坡",
+    enCounty: "malipo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1961"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "文山",
+    enCity: "wenshan",
+    zhCounty: "马关",
+    enCounty: "maguan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1962"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "文山",
+    enCity: "wenshan",
+    zhCounty: "丘北",
+    enCounty: "qiubei",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1963"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "文山",
+    enCity: "wenshan",
+    zhCounty: "广南",
+    enCounty: "guangnan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1964"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "文山",
+    enCity: "wenshan",
+    zhCounty: "富宁",
+    enCounty: "funing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1965"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "西双版纳",
+    enCity: "xishuangbanna",
+    zhCounty: "西双版纳",
+    enCounty: "xishuangbanna",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1966"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "西双版纳",
+    enCity: "xishuangbanna",
+    zhCounty: "景洪",
+    enCounty: "jinghong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1967"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "西双版纳",
+    enCity: "xishuangbanna",
+    zhCounty: "勐海",
+    enCounty: "menghai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1968"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "西双版纳",
+    enCity: "xishuangbanna",
+    zhCounty: "勐腊",
+    enCounty: "mengla",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1969"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "大理",
+    enCity: "dali",
+    zhCounty: "大理",
+    enCounty: "dali",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1970"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "大理",
+    enCity: "dali",
+    zhCounty: "漾濞",
+    enCounty: "yangbi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1971"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "大理",
+    enCity: "dali",
+    zhCounty: "祥云",
+    enCounty: "xiangyun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1972"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "大理",
+    enCity: "dali",
+    zhCounty: "宾川",
+    enCounty: "binchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1973"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "大理",
+    enCity: "dali",
+    zhCounty: "弥渡",
+    enCounty: "midu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1974"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "大理",
+    enCity: "dali",
+    zhCounty: "南涧",
+    enCounty: "nanjian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1975"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "大理",
+    enCity: "dali",
+    zhCounty: "巍山",
+    enCounty: "ynweishan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1976"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "大理",
+    enCity: "dali",
+    zhCounty: "永平",
+    enCounty: "yongping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1977"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "大理",
+    enCity: "dali",
+    zhCounty: "云龙",
+    enCounty: "yunlong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1978"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "大理",
+    enCity: "dali",
+    zhCounty: "洱源",
+    enCounty: "eryuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1979"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "大理",
+    enCity: "dali",
+    zhCounty: "剑川",
+    enCounty: "jianchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1980"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "大理",
+    enCity: "dali",
+    zhCounty: "鹤庆",
+    enCounty: "heqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1981"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "德宏",
+    enCity: "dehong",
+    zhCounty: "德宏",
+    enCounty: "dehong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1982"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "德宏",
+    enCity: "dehong",
+    zhCounty: "瑞丽",
+    enCounty: "ruili",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1983"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "德宏",
+    enCity: "dehong",
+    zhCounty: "潞西",
+    enCounty: "ynluxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1984"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "德宏",
+    enCity: "dehong",
+    zhCounty: "梁河",
+    enCounty: "lianghe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1985"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "德宏",
+    enCity: "dehong",
+    zhCounty: "盈江",
+    enCounty: "yingjiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1986"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "德宏",
+    enCity: "dehong",
+    zhCounty: "陇川",
+    enCounty: "ynlongchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1987"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "怒江",
+    enCity: "nujiang",
+    zhCounty: "怒江",
+    enCounty: "nujiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1988"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "怒江",
+    enCity: "nujiang",
+    zhCounty: "泸水",
+    enCounty: "lushui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1989"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "怒江",
+    enCity: "nujiang",
+    zhCounty: "福贡",
+    enCounty: "fugong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1990"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "怒江",
+    enCity: "nujiang",
+    zhCounty: "贡山",
+    enCounty: "gongshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1991"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "怒江",
+    enCity: "nujiang",
+    zhCounty: "兰坪",
+    enCounty: "lanping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1992"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "迪庆",
+    enCity: "diqing",
+    zhCounty: "迪庆",
+    enCounty: "diqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1993"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "迪庆",
+    enCity: "diqing",
+    zhCounty: "香格里拉",
+    enCounty: "xianggelila",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1994"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "迪庆",
+    enCity: "diqing",
+    zhCounty: "德钦",
+    enCounty: "deqin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1995"),
+    zhProvince: "云南",
+    enProvince: "yunnan",
+    zhCity: "迪庆",
+    enCity: "diqing",
+    zhCounty: "维西",
+    enCounty: "weixi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1996"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "拉萨",
+    enCity: "lasa",
+    zhCounty: "拉萨",
+    enCounty: "lasa",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1997"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "拉萨",
+    enCity: "lasa",
+    zhCounty: "当雄",
+    enCounty: "dangxiong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1998"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "拉萨",
+    enCity: "lasa",
+    zhCounty: "尼木",
+    enCounty: "nimu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("1999"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "昌都",
+    enCity: "changdu",
+    zhCounty: "昌都",
+    enCounty: "changdu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2000"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "昌都",
+    enCity: "changdu",
+    zhCounty: "丁青",
+    enCounty: "dingqing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2001"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "昌都",
+    enCity: "changdu",
+    zhCounty: "左贡",
+    enCounty: "zuogong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2002"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "昌都",
+    enCity: "changdu",
+    zhCounty: "芒康",
+    enCounty: "mangkang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2003"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "昌都",
+    enCity: "changdu",
+    zhCounty: "洛隆",
+    enCounty: "lvlong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2004"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "山南",
+    enCity: "shannan",
+    zhCounty: "山南",
+    enCounty: "shannan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2005"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "山南",
+    enCity: "shannan",
+    zhCounty: "加查",
+    enCounty: "jiacha",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2006"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "山南",
+    enCity: "shannan",
+    zhCounty: "隆子",
+    enCounty: "longzi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2007"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "山南",
+    enCity: "shannan",
+    zhCounty: "错那",
+    enCounty: "cuona",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2008"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "山南",
+    enCity: "shannan",
+    zhCounty: "浪卡子",
+    enCounty: "langkazi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2009"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "山南",
+    enCity: "shannan",
+    zhCounty: "泽当",
+    enCounty: "zedang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2010"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "日喀则",
+    enCity: "rikaze",
+    zhCounty: "日喀则",
+    enCounty: "rikaze",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2011"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "日喀则",
+    enCity: "rikaze",
+    zhCounty: "南木林",
+    enCounty: "nanmulin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2012"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "日喀则",
+    enCity: "rikaze",
+    zhCounty: "江孜",
+    enCounty: "jiangzi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2013"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "日喀则",
+    enCity: "rikaze",
+    zhCounty: "定日",
+    enCounty: "dingri",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2014"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "日喀则",
+    enCity: "rikaze",
+    zhCounty: "拉孜",
+    enCounty: "lazi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2015"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "日喀则",
+    enCity: "rikaze",
+    zhCounty: "聂拉木",
+    enCounty: "nielamu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2016"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "日喀则",
+    enCity: "rikaze",
+    zhCounty: "帕里",
+    enCounty: "pali",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2017"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "那曲",
+    enCity: "naqu",
+    zhCounty: "那曲",
+    enCounty: "naqu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2018"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "那曲",
+    enCity: "naqu",
+    zhCounty: "嘉黎",
+    enCounty: "jiali",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2019"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "那曲",
+    enCity: "naqu",
+    zhCounty: "安多",
+    enCounty: "anduo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2020"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "那曲",
+    enCity: "naqu",
+    zhCounty: "申扎",
+    enCounty: "shenzha",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2021"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "那曲",
+    enCity: "naqu",
+    zhCounty: "索县",
+    enCounty: "suoxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2022"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "那曲",
+    enCity: "naqu",
+    zhCounty: "班戈",
+    enCounty: "bange",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2023"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "阿里",
+    enCity: "ali",
+    zhCounty: "阿里",
+    enCounty: "ali",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2024"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "阿里",
+    enCity: "ali",
+    zhCounty: "普兰",
+    enCounty: "pulan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2025"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "阿里",
+    enCity: "ali",
+    zhCounty: "改则",
+    enCounty: "gaize",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2026"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "阿里",
+    enCity: "ali",
+    zhCounty: "狮泉河",
+    enCounty: "shiquanhe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2027"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "林芝",
+    enCity: "linzhi",
+    zhCounty: "林芝",
+    enCounty: "linzhi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2028"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "林芝",
+    enCity: "linzhi",
+    zhCounty: "米林",
+    enCounty: "milin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2029"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "林芝",
+    enCity: "linzhi",
+    zhCounty: "波密",
+    enCounty: "bomi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2030"),
+    zhProvince: "西藏",
+    enProvince: "xizang",
+    zhCity: "林芝",
+    enCity: "linzhi",
+    zhCounty: "察隅",
+    enCounty: "chayu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2031"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "西安",
+    enCity: "xian",
+    zhCounty: "西安",
+    enCounty: "xian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2032"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "西安",
+    enCity: "xian",
+    zhCounty: "临潼",
+    enCounty: "lintong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2033"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "西安",
+    enCity: "xian",
+    zhCounty: "长安",
+    enCounty: "changan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2034"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "西安",
+    enCity: "xian",
+    zhCounty: "蓝田",
+    enCounty: "lantian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2035"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "西安",
+    enCity: "xian",
+    zhCounty: "周至",
+    enCounty: "zhouzhi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2036"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "西安",
+    enCity: "xian",
+    zhCounty: "户县",
+    enCounty: "huxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2037"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "西安",
+    enCity: "xian",
+    zhCounty: "高陵",
+    enCounty: "gaoling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2038"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "铜川",
+    enCity: "tongchuan",
+    zhCounty: "铜川",
+    enCounty: "tongchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2039"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "铜川",
+    enCity: "tongchuan",
+    zhCounty: "耀州",
+    enCounty: "yaozhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2040"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "铜川",
+    enCity: "tongchuan",
+    zhCounty: "宜君",
+    enCounty: "yijun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2041"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "宝鸡",
+    enCity: "baoji",
+    zhCounty: "宝鸡",
+    enCounty: "baoji",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2042"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "宝鸡",
+    enCity: "baoji",
+    zhCounty: "陈仓",
+    enCounty: "chencang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2043"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "宝鸡",
+    enCity: "baoji",
+    zhCounty: "凤翔",
+    enCounty: "fengxiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2044"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "宝鸡",
+    enCity: "baoji",
+    zhCounty: "岐山",
+    enCounty: "qishan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2045"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "宝鸡",
+    enCity: "baoji",
+    zhCounty: "扶风",
+    enCounty: "fufeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2046"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "宝鸡",
+    enCity: "baoji",
+    zhCounty: "眉县",
+    enCounty: "sxmeixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2047"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "宝鸡",
+    enCity: "baoji",
+    zhCounty: "陇县",
+    enCounty: "longxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2048"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "宝鸡",
+    enCity: "baoji",
+    zhCounty: "千阳",
+    enCounty: "qianyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2049"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "宝鸡",
+    enCity: "baoji",
+    zhCounty: "麟游",
+    enCounty: "linyou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2050"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "宝鸡",
+    enCity: "baoji",
+    zhCounty: "凤县",
+    enCounty: "sxfengxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2051"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "宝鸡",
+    enCity: "baoji",
+    zhCounty: "太白",
+    enCounty: "taibai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2052"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "咸阳",
+    enCity: "xianyang",
+    zhCounty: "咸阳",
+    enCounty: "xianyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2053"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "咸阳",
+    enCity: "xianyang",
+    zhCounty: "杨凌",
+    enCounty: "yangling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2054"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "咸阳",
+    enCity: "xianyang",
+    zhCounty: "三原",
+    enCounty: "sanyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2055"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "咸阳",
+    enCity: "xianyang",
+    zhCounty: "泾阳",
+    enCounty: "jingyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2056"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "咸阳",
+    enCity: "xianyang",
+    zhCounty: "乾县",
+    enCounty: "qianxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2057"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "咸阳",
+    enCity: "xianyang",
+    zhCounty: "礼泉",
+    enCounty: "liquan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2058"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "咸阳",
+    enCity: "xianyang",
+    zhCounty: "永寿",
+    enCounty: "yongshou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2059"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "咸阳",
+    enCity: "xianyang",
+    zhCounty: "彬县",
+    enCounty: "sxbinxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2060"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "咸阳",
+    enCity: "xianyang",
+    zhCounty: "长武",
+    enCounty: "changwu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2061"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "咸阳",
+    enCity: "xianyang",
+    zhCounty: "旬邑",
+    enCounty: "xunyi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2062"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "咸阳",
+    enCity: "xianyang",
+    zhCounty: "淳化",
+    enCounty: "chunhua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2063"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "咸阳",
+    enCity: "xianyang",
+    zhCounty: "武功",
+    enCounty: "wugong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2064"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "咸阳",
+    enCity: "xianyang",
+    zhCounty: "兴平",
+    enCounty: "xingping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2065"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "渭南",
+    enCity: "weinan",
+    zhCounty: "渭南",
+    enCounty: "weinan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2066"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "渭南",
+    enCity: "weinan",
+    zhCounty: "华县",
+    enCounty: "sxhuaxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2067"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "渭南",
+    enCity: "weinan",
+    zhCounty: "潼关",
+    enCounty: "tongguan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2068"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "渭南",
+    enCity: "weinan",
+    zhCounty: "大荔",
+    enCounty: "sxdali",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2069"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "渭南",
+    enCity: "weinan",
+    zhCounty: "合阳",
+    enCounty: "heyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2070"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "渭南",
+    enCity: "weinan",
+    zhCounty: "澄城",
+    enCounty: "chengcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2071"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "渭南",
+    enCity: "weinan",
+    zhCounty: "蒲城",
+    enCounty: "sxpucheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2072"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "渭南",
+    enCity: "weinan",
+    zhCounty: "白水",
+    enCounty: "baishui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2073"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "渭南",
+    enCity: "weinan",
+    zhCounty: "富平",
+    enCounty: "sxfuping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2074"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "渭南",
+    enCity: "weinan",
+    zhCounty: "韩城",
+    enCounty: "hancheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2075"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "渭南",
+    enCity: "weinan",
+    zhCounty: "华阴",
+    enCounty: "huayin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2076"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "延安",
+    enCity: "yanan",
+    zhCounty: "延安",
+    enCounty: "yanan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2077"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "延安",
+    enCity: "yanan",
+    zhCounty: "延长",
+    enCounty: "yanchang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2078"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "延安",
+    enCity: "yanan",
+    zhCounty: "延川",
+    enCounty: "yanchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2079"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "延安",
+    enCity: "yanan",
+    zhCounty: "子长",
+    enCounty: "zichang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2080"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "延安",
+    enCity: "yanan",
+    zhCounty: "安塞",
+    enCounty: "ansai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2081"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "延安",
+    enCity: "yanan",
+    zhCounty: "志丹",
+    enCounty: "zhidan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2082"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "延安",
+    enCity: "yanan",
+    zhCounty: "吴起",
+    enCounty: "wuqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2083"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "延安",
+    enCity: "yanan",
+    zhCounty: "甘泉",
+    enCounty: "ganquan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2084"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "延安",
+    enCity: "yanan",
+    zhCounty: "富县",
+    enCounty: "fuxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2085"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "延安",
+    enCity: "yanan",
+    zhCounty: "洛川",
+    enCounty: "luochuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2086"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "延安",
+    enCity: "yanan",
+    zhCounty: "宜川",
+    enCounty: "yichuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2087"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "延安",
+    enCity: "yanan",
+    zhCounty: "黄龙",
+    enCounty: "huanglong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2088"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "延安",
+    enCity: "yanan",
+    zhCounty: "黄陵",
+    enCounty: "huangling",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2089"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "汉中",
+    enCity: "hanzhong",
+    zhCounty: "汉中",
+    enCounty: "hanzhong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2090"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "汉中",
+    enCity: "hanzhong",
+    zhCounty: "南郑",
+    enCounty: "nanzheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2091"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "汉中",
+    enCity: "hanzhong",
+    zhCounty: "城固",
+    enCounty: "chenggu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2092"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "汉中",
+    enCity: "hanzhong",
+    zhCounty: "洋县",
+    enCounty: "yangxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2093"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "汉中",
+    enCity: "hanzhong",
+    zhCounty: "西乡",
+    enCounty: "xixiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2094"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "汉中",
+    enCity: "hanzhong",
+    zhCounty: "勉县",
+    enCounty: "mianxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2095"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "汉中",
+    enCity: "hanzhong",
+    zhCounty: "宁强",
+    enCounty: "ningqiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2096"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "汉中",
+    enCity: "hanzhong",
+    zhCounty: "略阳",
+    enCounty: "lueyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2097"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "汉中",
+    enCity: "hanzhong",
+    zhCounty: "镇巴",
+    enCounty: "zhenba",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2098"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "汉中",
+    enCity: "hanzhong",
+    zhCounty: "留坝",
+    enCounty: "liuba",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2099"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "汉中",
+    enCity: "hanzhong",
+    zhCounty: "佛坪",
+    enCounty: "foping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2100"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "榆林",
+    enCity: "yulin",
+    zhCounty: "榆林",
+    enCounty: "yulin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2101"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "榆林",
+    enCity: "yulin",
+    zhCounty: "神木",
+    enCounty: "shenmu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2102"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "榆林",
+    enCity: "yulin",
+    zhCounty: "府谷",
+    enCounty: "fugu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2103"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "榆林",
+    enCity: "yulin",
+    zhCounty: "横山",
+    enCounty: "sxhengshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2104"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "榆林",
+    enCity: "yulin",
+    zhCounty: "靖边",
+    enCounty: "jingbian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2105"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "榆林",
+    enCity: "yulin",
+    zhCounty: "定边",
+    enCounty: "dingbian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2106"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "榆林",
+    enCity: "yulin",
+    zhCounty: "绥德",
+    enCounty: "suide",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2107"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "榆林",
+    enCity: "yulin",
+    zhCounty: "米脂",
+    enCounty: "mizhi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2108"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "榆林",
+    enCity: "yulin",
+    zhCounty: "佳县",
+    enCounty: "sxjiaxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2109"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "榆林",
+    enCity: "yulin",
+    zhCounty: "吴堡",
+    enCounty: "wubao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2110"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "榆林",
+    enCity: "yulin",
+    zhCounty: "清涧",
+    enCounty: "qingjian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2111"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "榆林",
+    enCity: "yulin",
+    zhCounty: "子洲",
+    enCounty: "zizhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2112"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "安康",
+    enCity: "ankang",
+    zhCounty: "安康",
+    enCounty: "ankang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2113"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "安康",
+    enCity: "ankang",
+    zhCounty: "汉阴",
+    enCounty: "hanyin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2114"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "安康",
+    enCity: "ankang",
+    zhCounty: "石泉",
+    enCounty: "shiquan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2115"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "安康",
+    enCity: "ankang",
+    zhCounty: "宁陕",
+    enCounty: "ningshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2116"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "安康",
+    enCity: "ankang",
+    zhCounty: "紫阳",
+    enCounty: "sxziyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2117"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "安康",
+    enCity: "ankang",
+    zhCounty: "岚皋",
+    enCounty: "langao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2118"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "安康",
+    enCity: "ankang",
+    zhCounty: "平利",
+    enCounty: "pingli",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2119"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "安康",
+    enCity: "ankang",
+    zhCounty: "镇坪",
+    enCounty: "sxzhenping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2120"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "安康",
+    enCity: "ankang",
+    zhCounty: "旬阳",
+    enCounty: "xunyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2121"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "安康",
+    enCity: "ankang",
+    zhCounty: "白河",
+    enCounty: "baihe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2122"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "商洛",
+    enCity: "shanglv",
+    zhCounty: "商洛",
+    enCounty: "shanglv",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2123"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "商洛",
+    enCity: "shanglv",
+    zhCounty: "洛南",
+    enCounty: "luonan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2124"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "商洛",
+    enCity: "shanglv",
+    zhCounty: "丹凤",
+    enCounty: "danfeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2125"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "商洛",
+    enCity: "shanglv",
+    zhCounty: "商南",
+    enCounty: "shangnan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2126"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "商洛",
+    enCity: "shanglv",
+    zhCounty: "山阳",
+    enCounty: "shanyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2127"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "商洛",
+    enCity: "shanglv",
+    zhCounty: "镇安",
+    enCounty: "zhenan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2128"),
+    zhProvince: "陕西",
+    enProvince: "sxi",
+    zhCity: "商洛",
+    enCity: "shanglv",
+    zhCounty: "柞水",
+    enCounty: "zuoshui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2129"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "兰州",
+    enCity: "lanzhou",
+    zhCounty: "兰州",
+    enCounty: "lanzhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2130"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "兰州",
+    enCity: "lanzhou",
+    zhCounty: "永登",
+    enCounty: "yongdeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2131"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "兰州",
+    enCity: "lanzhou",
+    zhCounty: "皋兰",
+    enCounty: "gaolan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2132"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "兰州",
+    enCity: "lanzhou",
+    zhCounty: "榆中",
+    enCounty: "yuzhong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2133"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "嘉峪关",
+    enCity: "jiayuguan",
+    zhCounty: "嘉峪关",
+    enCounty: "jiayuguan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2134"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "金昌",
+    enCity: "jinchang",
+    zhCounty: "金昌",
+    enCounty: "jinchang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2135"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "金昌",
+    enCity: "jinchang",
+    zhCounty: "永昌",
+    enCounty: "yongchang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2136"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "白银",
+    enCity: "baiyin",
+    zhCounty: "白银",
+    enCounty: "baiyin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2137"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "白银",
+    enCity: "baiyin",
+    zhCounty: "靖远",
+    enCounty: "gsjingyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2138"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "白银",
+    enCity: "baiyin",
+    zhCounty: "会宁",
+    enCounty: "huining",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2139"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "白银",
+    enCity: "baiyin",
+    zhCounty: "景泰",
+    enCounty: "jingtai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2140"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "天水",
+    enCity: "tianshui",
+    zhCounty: "天水",
+    enCounty: "tianshui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2141"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "天水",
+    enCity: "tianshui",
+    zhCounty: "清水",
+    enCounty: "qingshui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2142"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "天水",
+    enCity: "tianshui",
+    zhCounty: "秦安",
+    enCounty: "qinan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2143"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "天水",
+    enCity: "tianshui",
+    zhCounty: "甘谷",
+    enCounty: "gangu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2144"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "天水",
+    enCity: "tianshui",
+    zhCounty: "武山",
+    enCounty: "wushan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2145"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "天水",
+    enCity: "tianshui",
+    zhCounty: "张家川",
+    enCounty: "zhangjiachuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2146"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "天水",
+    enCity: "tianshui",
+    zhCounty: "麦积",
+    enCounty: "maiji",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2147"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "武威",
+    enCity: "wuwei",
+    zhCounty: "武威",
+    enCounty: "wuwei",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2148"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "武威",
+    enCity: "wuwei",
+    zhCounty: "民勤",
+    enCounty: "minqin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2149"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "武威",
+    enCity: "wuwei",
+    zhCounty: "古浪",
+    enCounty: "gulang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2150"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "武威",
+    enCity: "wuwei",
+    zhCounty: "天祝",
+    enCounty: "gstianzhu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2151"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "张掖",
+    enCity: "zhangye",
+    zhCounty: "张掖",
+    enCounty: "zhangye",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2152"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "张掖",
+    enCity: "zhangye",
+    zhCounty: "肃南",
+    enCounty: "sunan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2153"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "张掖",
+    enCity: "zhangye",
+    zhCounty: "民乐",
+    enCounty: "minle",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2154"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "张掖",
+    enCity: "zhangye",
+    zhCounty: "临泽",
+    enCounty: "linze",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2155"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "张掖",
+    enCity: "zhangye",
+    zhCounty: "高台",
+    enCounty: "gaotai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2156"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "张掖",
+    enCity: "zhangye",
+    zhCounty: "山丹",
+    enCounty: "shandan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2157"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "平凉",
+    enCity: "pingliang",
+    zhCounty: "平凉",
+    enCounty: "pingliang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2158"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "平凉",
+    enCity: "pingliang",
+    zhCounty: "崆峒",
+    enCounty: "kongtong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2159"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "平凉",
+    enCity: "pingliang",
+    zhCounty: "泾川",
+    enCounty: "jingchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2160"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "平凉",
+    enCity: "pingliang",
+    zhCounty: "灵台",
+    enCounty: "lingtai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2161"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "平凉",
+    enCity: "pingliang",
+    zhCounty: "崇信",
+    enCounty: "chongxin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2162"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "平凉",
+    enCity: "pingliang",
+    zhCounty: "华亭",
+    enCounty: "huating",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2163"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "平凉",
+    enCity: "pingliang",
+    zhCounty: "庄浪",
+    enCounty: "zhuanglang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2164"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "平凉",
+    enCity: "pingliang",
+    zhCounty: "静宁",
+    enCounty: "jingning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2165"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "酒泉",
+    enCity: "jiuquan",
+    zhCounty: "酒泉",
+    enCounty: "jiuquan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2166"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "酒泉",
+    enCity: "jiuquan",
+    zhCounty: "金塔",
+    enCounty: "jinta",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2167"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "酒泉",
+    enCity: "jiuquan",
+    zhCounty: "瓜州",
+    enCounty: "guazhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2168"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "酒泉",
+    enCity: "jiuquan",
+    zhCounty: "肃北",
+    enCounty: "subei",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2169"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "酒泉",
+    enCity: "jiuquan",
+    zhCounty: "玉门",
+    enCounty: "yumen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2170"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "酒泉",
+    enCity: "jiuquan",
+    zhCounty: "敦煌",
+    enCounty: "dunhuang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2171"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "庆阳",
+    enCity: "gsqingyang",
+    zhCounty: "庆阳",
+    enCounty: "gsqingyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2172"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "庆阳",
+    enCity: "gsqingyang",
+    zhCounty: "西峰",
+    enCounty: "gsxifeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2173"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "庆阳",
+    enCity: "gsqingyang",
+    zhCounty: "庆城",
+    enCounty: "qingcheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2174"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "庆阳",
+    enCity: "gsqingyang",
+    zhCounty: "环县",
+    enCounty: "huanxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2175"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "庆阳",
+    enCity: "gsqingyang",
+    zhCounty: "华池",
+    enCounty: "huachi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2176"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "庆阳",
+    enCity: "gsqingyang",
+    zhCounty: "合水",
+    enCounty: "heshui",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2177"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "庆阳",
+    enCity: "gsqingyang",
+    zhCounty: "正宁",
+    enCounty: "zhengning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2178"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "庆阳",
+    enCity: "gsqingyang",
+    zhCounty: "宁县",
+    enCounty: "ningxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2179"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "庆阳",
+    enCity: "gsqingyang",
+    zhCounty: "镇原",
+    enCounty: "zhenyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2180"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "定西",
+    enCity: "dingxi",
+    zhCounty: "定西",
+    enCounty: "dingxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2181"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "定西",
+    enCity: "dingxi",
+    zhCounty: "安定",
+    enCounty: "anding",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2182"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "定西",
+    enCity: "dingxi",
+    zhCounty: "通渭",
+    enCounty: "tongwei",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2183"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "定西",
+    enCity: "dingxi",
+    zhCounty: "陇西",
+    enCounty: "longxi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2184"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "定西",
+    enCity: "dingxi",
+    zhCounty: "渭源",
+    enCounty: "weiyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2185"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "定西",
+    enCity: "dingxi",
+    zhCounty: "临洮",
+    enCounty: "lintao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2186"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "定西",
+    enCity: "dingxi",
+    zhCounty: "漳县",
+    enCounty: "zhangxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2187"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "定西",
+    enCity: "dingxi",
+    zhCounty: "岷县",
+    enCounty: "minxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2188"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "陇南",
+    enCity: "longnan",
+    zhCounty: "陇南",
+    enCounty: "longnan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2189"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "陇南",
+    enCity: "longnan",
+    zhCounty: "武都",
+    enCounty: "wudu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2190"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "陇南",
+    enCity: "longnan",
+    zhCounty: "宕昌",
+    enCounty: "tanchang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2191"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "陇南",
+    enCity: "longnan",
+    zhCounty: "成县",
+    enCounty: "chengxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2192"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "陇南",
+    enCity: "longnan",
+    zhCounty: "康县",
+    enCounty: "kangxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2193"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "陇南",
+    enCity: "longnan",
+    zhCounty: "文县",
+    enCounty: "gswenxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2194"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "陇南",
+    enCity: "longnan",
+    zhCounty: "西和",
+    enCounty: "xihe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2195"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "陇南",
+    enCity: "longnan",
+    zhCounty: "礼县",
+    enCounty: "lixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2196"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "陇南",
+    enCity: "longnan",
+    zhCounty: "两当",
+    enCounty: "liangdang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2197"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "陇南",
+    enCity: "longnan",
+    zhCounty: "徽县",
+    enCounty: "gshuixian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2198"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "临夏",
+    enCity: "linxia",
+    zhCounty: "临夏",
+    enCounty: "linxia",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2199"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "临夏",
+    enCity: "linxia",
+    zhCounty: "康乐",
+    enCounty: "kangle",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2200"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "临夏",
+    enCity: "linxia",
+    zhCounty: "永靖",
+    enCounty: "yongjing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2201"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "临夏",
+    enCity: "linxia",
+    zhCounty: "广河",
+    enCounty: "guanghe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2202"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "临夏",
+    enCity: "linxia",
+    zhCounty: "和政",
+    enCounty: "hezheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2203"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "甘南",
+    enCity: "gannan",
+    zhCounty: "甘南",
+    enCounty: "gannan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2204"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "甘南",
+    enCity: "gannan",
+    zhCounty: "合作",
+    enCounty: "hezuo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2205"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "甘南",
+    enCity: "gannan",
+    zhCounty: "临潭",
+    enCounty: "lintan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2206"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "甘南",
+    enCity: "gannan",
+    zhCounty: "卓尼",
+    enCounty: "zhuoni",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2207"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "甘南",
+    enCity: "gannan",
+    zhCounty: "舟曲",
+    enCounty: "zhouqu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2208"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "甘南",
+    enCity: "gannan",
+    zhCounty: "迭部",
+    enCounty: "diebu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2209"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "甘南",
+    enCity: "gannan",
+    zhCounty: "玛曲",
+    enCounty: "maqu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2210"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "甘南",
+    enCity: "gannan",
+    zhCounty: "碌曲",
+    enCounty: "luqu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2211"),
+    zhProvince: "甘肃",
+    enProvince: "gansu",
+    zhCity: "甘南",
+    enCity: "gannan",
+    zhCounty: "夏河",
+    enCounty: "xiahe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2212"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "西宁",
+    enCity: "xining",
+    zhCounty: "西宁",
+    enCounty: "xining",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2213"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "西宁",
+    enCity: "xining",
+    zhCounty: "大通",
+    enCounty: "qhdatong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2214"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "西宁",
+    enCity: "xining",
+    zhCounty: "湟中",
+    enCounty: "huangzhong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2215"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "西宁",
+    enCity: "xining",
+    zhCounty: "湟源",
+    enCounty: "huangyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2216"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海东",
+    enCity: "haidong",
+    zhCounty: "海东",
+    enCounty: "haidong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2217"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海东",
+    enCity: "haidong",
+    zhCounty: "平安",
+    enCounty: "pingan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2218"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海东",
+    enCity: "haidong",
+    zhCounty: "民和",
+    enCounty: "minhe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2219"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海东",
+    enCity: "haidong",
+    zhCounty: "乐都",
+    enCounty: "ledu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2220"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海东",
+    enCity: "haidong",
+    zhCounty: "互助",
+    enCounty: "huzhu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2221"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海东",
+    enCity: "haidong",
+    zhCounty: "化隆",
+    enCounty: "hualong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2222"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海东",
+    enCity: "haidong",
+    zhCounty: "循化",
+    enCounty: "xunhua",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2223"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海北",
+    enCity: "haibei",
+    zhCounty: "海北",
+    enCounty: "haibei",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2224"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海北",
+    enCity: "haibei",
+    zhCounty: "门源",
+    enCounty: "menyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2225"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海北",
+    enCity: "haibei",
+    zhCounty: "祁连",
+    enCounty: "qilian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2226"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海北",
+    enCity: "haibei",
+    zhCounty: "海晏",
+    enCounty: "qhhaiyan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2227"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海北",
+    enCity: "haibei",
+    zhCounty: "刚察",
+    enCounty: "gangcha",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2228"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "黄南",
+    enCity: "huangnan",
+    zhCounty: "黄南",
+    enCounty: "huangnan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2229"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "黄南",
+    enCity: "huangnan",
+    zhCounty: "同仁",
+    enCounty: "qhtongren",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2230"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "黄南",
+    enCity: "huangnan",
+    zhCounty: "尖扎",
+    enCounty: "jianzha",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2231"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "黄南",
+    enCity: "huangnan",
+    zhCounty: "泽库",
+    enCounty: "zeku",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2232"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "黄南",
+    enCity: "huangnan",
+    zhCounty: "河南",
+    enCounty: "henan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2233"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海南",
+    enCity: "hainan",
+    zhCounty: "海南",
+    enCounty: "hainan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2234"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海南",
+    enCity: "hainan",
+    zhCounty: "共和",
+    enCounty: "gonghe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2235"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海南",
+    enCity: "hainan",
+    zhCounty: "同德",
+    enCounty: "tongde",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2236"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海南",
+    enCity: "hainan",
+    zhCounty: "贵德",
+    enCounty: "guide",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2237"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海南",
+    enCity: "hainan",
+    zhCounty: "兴海",
+    enCounty: "xinghai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2238"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海南",
+    enCity: "hainan",
+    zhCounty: "贵南",
+    enCounty: "guinan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2239"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "果洛",
+    enCity: "guolv",
+    zhCounty: "果洛",
+    enCounty: "guolv",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2240"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "果洛",
+    enCity: "guolv",
+    zhCounty: "玛沁",
+    enCounty: "maqin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2241"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "果洛",
+    enCity: "guolv",
+    zhCounty: "班玛",
+    enCounty: "banma",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2242"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "果洛",
+    enCity: "guolv",
+    zhCounty: "甘德",
+    enCounty: "gande",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2243"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "果洛",
+    enCity: "guolv",
+    zhCounty: "达日",
+    enCounty: "dari",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2244"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "果洛",
+    enCity: "guolv",
+    zhCounty: "久治",
+    enCounty: "jiuzhi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2245"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "果洛",
+    enCity: "guolv",
+    zhCounty: "玛多",
+    enCounty: "maduo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2246"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "玉树",
+    enCity: "yushu",
+    zhCounty: "玉树",
+    enCounty: "yushu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2247"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "玉树",
+    enCity: "yushu",
+    zhCounty: "杂多",
+    enCounty: "zaduo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2248"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "玉树",
+    enCity: "yushu",
+    zhCounty: "治多",
+    enCounty: "zhiduo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2249"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "玉树",
+    enCity: "yushu",
+    zhCounty: "囊谦",
+    enCounty: "nangqian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2250"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "玉树",
+    enCity: "yushu",
+    zhCounty: "曲麻莱",
+    enCounty: "qumalai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2251"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海西",
+    enCity: "haixi",
+    zhCounty: "海西",
+    enCounty: "haixi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2252"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海西",
+    enCity: "haixi",
+    zhCounty: "格尔木",
+    enCounty: "geermu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2253"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海西",
+    enCity: "haixi",
+    zhCounty: "德令哈",
+    enCounty: "delingha",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2254"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海西",
+    enCity: "haixi",
+    zhCounty: "乌兰",
+    enCounty: "wulan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2255"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海西",
+    enCity: "haixi",
+    zhCounty: "都兰",
+    enCounty: "dulan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2256"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海西",
+    enCity: "haixi",
+    zhCounty: "天峻",
+    enCounty: "tianjun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2257"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海西",
+    enCity: "haixi",
+    zhCounty: "大柴旦",
+    enCounty: "dachaidan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2258"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海西",
+    enCity: "haixi",
+    zhCounty: "冷湖",
+    enCounty: "lenghu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2259"),
+    zhProvince: "青海",
+    enProvince: "qinghai",
+    zhCity: "海西",
+    enCity: "haixi",
+    zhCounty: "茫崖",
+    enCounty: "mangya",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2260"),
+    zhProvince: "宁夏",
+    enProvince: "ningxia",
+    zhCity: "银川",
+    enCity: "yinchuan",
+    zhCounty: "银川",
+    enCounty: "yinchuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2261"),
+    zhProvince: "宁夏",
+    enProvince: "ningxia",
+    zhCity: "银川",
+    enCity: "yinchuan",
+    zhCounty: "永宁",
+    enCounty: "yongning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2262"),
+    zhProvince: "宁夏",
+    enProvince: "ningxia",
+    zhCity: "银川",
+    enCity: "yinchuan",
+    zhCounty: "贺兰",
+    enCounty: "helan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2263"),
+    zhProvince: "宁夏",
+    enProvince: "ningxia",
+    zhCity: "银川",
+    enCity: "yinchuan",
+    zhCounty: "灵武",
+    enCounty: "lingwu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2264"),
+    zhProvince: "宁夏",
+    enProvince: "ningxia",
+    zhCity: "石嘴山",
+    enCity: "shizuishan",
+    zhCounty: "石嘴山",
+    enCounty: "shizuishan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2265"),
+    zhProvince: "宁夏",
+    enProvince: "ningxia",
+    zhCity: "石嘴山",
+    enCity: "shizuishan",
+    zhCounty: "惠农",
+    enCounty: "huinong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2266"),
+    zhProvince: "宁夏",
+    enProvince: "ningxia",
+    zhCity: "石嘴山",
+    enCity: "shizuishan",
+    zhCounty: "平罗",
+    enCounty: "pinglv",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2267"),
+    zhProvince: "宁夏",
+    enProvince: "ningxia",
+    zhCity: "石嘴山",
+    enCity: "shizuishan",
+    zhCounty: "陶乐",
+    enCounty: "taole",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2268"),
+    zhProvince: "宁夏",
+    enProvince: "ningxia",
+    zhCity: "吴忠",
+    enCity: "wuzhong",
+    zhCounty: "吴忠",
+    enCounty: "wuzhong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2269"),
+    zhProvince: "宁夏",
+    enProvince: "ningxia",
+    zhCity: "吴忠",
+    enCity: "wuzhong",
+    zhCounty: "盐池",
+    enCounty: "yanchi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2270"),
+    zhProvince: "宁夏",
+    enProvince: "ningxia",
+    zhCity: "吴忠",
+    enCity: "wuzhong",
+    zhCounty: "同心",
+    enCounty: "tongxin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2271"),
+    zhProvince: "宁夏",
+    enProvince: "ningxia",
+    zhCity: "吴忠",
+    enCity: "wuzhong",
+    zhCounty: "青铜峡",
+    enCounty: "qingtongxia",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2272"),
+    zhProvince: "宁夏",
+    enProvince: "ningxia",
+    zhCity: "固原",
+    enCity: "nxguyuan",
+    zhCounty: "固原",
+    enCounty: "nxguyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2273"),
+    zhProvince: "宁夏",
+    enProvince: "ningxia",
+    zhCity: "固原",
+    enCity: "nxguyuan",
+    zhCounty: "海原",
+    enCounty: "haiyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2274"),
+    zhProvince: "宁夏",
+    enProvince: "ningxia",
+    zhCity: "固原",
+    enCity: "nxguyuan",
+    zhCounty: "西吉",
+    enCounty: "xiji",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2275"),
+    zhProvince: "宁夏",
+    enProvince: "ningxia",
+    zhCity: "固原",
+    enCity: "nxguyuan",
+    zhCounty: "隆德",
+    enCounty: "longde",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2276"),
+    zhProvince: "宁夏",
+    enProvince: "ningxia",
+    zhCity: "固原",
+    enCity: "nxguyuan",
+    zhCounty: "泾源",
+    enCounty: "jingyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2277"),
+    zhProvince: "宁夏",
+    enProvince: "ningxia",
+    zhCity: "固原",
+    enCity: "nxguyuan",
+    zhCounty: "彭阳",
+    enCounty: "pengyang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2278"),
+    zhProvince: "宁夏",
+    enProvince: "ningxia",
+    zhCity: "中卫",
+    enCity: "zhongwei",
+    zhCounty: "中卫",
+    enCounty: "zhongwei",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2279"),
+    zhProvince: "宁夏",
+    enProvince: "ningxia",
+    zhCity: "中卫",
+    enCity: "zhongwei",
+    zhCounty: "中宁",
+    enCounty: "zhongning",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2280"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "乌鲁木齐",
+    enCity: "wulumuqi",
+    zhCounty: "乌鲁木齐",
+    enCounty: "wulumuqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2281"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "乌鲁木齐",
+    enCity: "wulumuqi",
+    zhCounty: "达坂城",
+    enCounty: "dabancheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2282"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "乌鲁木齐",
+    enCity: "wulumuqi",
+    zhCounty: "白杨沟",
+    enCounty: "baiyanggou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2283"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "乌鲁木齐",
+    enCity: "wulumuqi",
+    zhCounty: "小渠子",
+    enCounty: "xiaoquzi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2284"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "乌鲁木齐",
+    enCity: "wulumuqi",
+    zhCounty: "天池",
+    enCounty: "tianchi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2285"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "克拉玛依",
+    enCity: "kelamayi",
+    zhCounty: "克拉玛依",
+    enCounty: "kelamayi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2286"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "吐鲁番",
+    enCity: "tulufan",
+    zhCounty: "吐鲁番",
+    enCounty: "tulufan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2287"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "吐鲁番",
+    enCity: "tulufan",
+    zhCounty: "鄯善",
+    enCounty: "shanshan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2288"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "吐鲁番",
+    enCity: "tulufan",
+    zhCounty: "托克逊",
+    enCounty: "tuokexun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2289"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "哈密",
+    enCity: "hami",
+    zhCounty: "哈密",
+    enCounty: "hami",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2290"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "哈密",
+    enCity: "hami",
+    zhCounty: "巴里坤",
+    enCounty: "balikun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2291"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "哈密",
+    enCity: "hami",
+    zhCounty: "伊吾",
+    enCounty: "xjyiwu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2292"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "昌吉",
+    enCity: "changji",
+    zhCounty: "昌吉",
+    enCounty: "changji",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2293"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "昌吉",
+    enCity: "changji",
+    zhCounty: "阜康",
+    enCounty: "fukang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2294"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "昌吉",
+    enCity: "changji",
+    zhCounty: "米泉",
+    enCounty: "miquan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2295"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "昌吉",
+    enCity: "changji",
+    zhCounty: "呼图壁",
+    enCounty: "hutubi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2296"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "昌吉",
+    enCity: "changji",
+    zhCounty: "玛纳斯",
+    enCounty: "manasi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2297"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "昌吉",
+    enCity: "changji",
+    zhCounty: "奇台",
+    enCounty: "qitai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2298"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "昌吉",
+    enCity: "changji",
+    zhCounty: "吉木萨尔",
+    enCounty: "jimusaer",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2299"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "昌吉",
+    enCity: "changji",
+    zhCounty: "木垒",
+    enCounty: "mulei",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2300"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "博州",
+    enCity: "xjbozhou",
+    zhCounty: "博州",
+    enCounty: "xjbozhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2301"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "博州",
+    enCity: "xjbozhou",
+    zhCounty: "博乐",
+    enCounty: "bole",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2302"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "博州",
+    enCity: "xjbozhou",
+    zhCounty: "精河",
+    enCounty: "jinghe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2303"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "博州",
+    enCity: "xjbozhou",
+    zhCounty: "温泉",
+    enCounty: "wenquan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2304"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "博州",
+    enCity: "xjbozhou",
+    zhCounty: "阿拉山口",
+    enCounty: "alashankou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2305"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "巴州",
+    enCity: "xjbazhou",
+    zhCounty: "巴州",
+    enCounty: "xjbazhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2306"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "巴州",
+    enCity: "xjbazhou",
+    zhCounty: "库尔勒",
+    enCounty: "kuerle",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2307"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "巴州",
+    enCity: "xjbazhou",
+    zhCounty: "轮台",
+    enCounty: "luntai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2308"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "巴州",
+    enCity: "xjbazhou",
+    zhCounty: "尉犁",
+    enCounty: "weili",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2309"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "巴州",
+    enCity: "xjbazhou",
+    zhCounty: "若羌",
+    enCounty: "ruoqiang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2310"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "巴州",
+    enCity: "xjbazhou",
+    zhCounty: "且末",
+    enCounty: "qiemo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2311"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "巴州",
+    enCity: "xjbazhou",
+    zhCounty: "焉耆",
+    enCounty: "yanqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2312"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "巴州",
+    enCity: "xjbazhou",
+    zhCounty: "和静",
+    enCounty: "hejing",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2313"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "巴州",
+    enCity: "xjbazhou",
+    zhCounty: "和硕",
+    enCounty: "heshuo",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2314"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "巴州",
+    enCity: "xjbazhou",
+    zhCounty: "博湖",
+    enCounty: "bohu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2315"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "巴州",
+    enCity: "xjbazhou",
+    zhCounty: "巴音布鲁克",
+    enCounty: "bayinbuluke",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2316"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "巴州",
+    enCity: "xjbazhou",
+    zhCounty: "巴仑台",
+    enCounty: "baluntai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2317"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "巴州",
+    enCity: "xjbazhou",
+    zhCounty: "塔中",
+    enCounty: "tazhong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2318"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "巴州",
+    enCity: "xjbazhou",
+    zhCounty: "铁干里克",
+    enCounty: "tieganlike",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2319"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "阿克苏",
+    enCity: "akesu",
+    zhCounty: "阿克苏",
+    enCounty: "akesu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2320"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "阿克苏",
+    enCity: "akesu",
+    zhCounty: "温宿",
+    enCounty: "wensu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2321"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "阿克苏",
+    enCity: "akesu",
+    zhCounty: "库车",
+    enCounty: "kuche",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2322"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "阿克苏",
+    enCity: "akesu",
+    zhCounty: "沙雅",
+    enCounty: "shaya",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2323"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "阿克苏",
+    enCity: "akesu",
+    zhCounty: "新和",
+    enCounty: "xjxinhe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2324"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "阿克苏",
+    enCity: "akesu",
+    zhCounty: "拜城",
+    enCounty: "xjbaicheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2325"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "阿克苏",
+    enCity: "akesu",
+    zhCounty: "乌什",
+    enCounty: "wushi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2326"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "阿克苏",
+    enCity: "akesu",
+    zhCounty: "阿瓦提",
+    enCounty: "awati",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2327"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "阿克苏",
+    enCity: "akesu",
+    zhCounty: "柯坪",
+    enCounty: "keping",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2328"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "克州",
+    enCity: "kezhou",
+    zhCounty: "克州",
+    enCounty: "kezhou",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2329"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "克州",
+    enCity: "kezhou",
+    zhCounty: "阿图什",
+    enCounty: "atushi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2330"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "克州",
+    enCity: "kezhou",
+    zhCounty: "阿克陶",
+    enCounty: "aketao",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2331"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "克州",
+    enCity: "kezhou",
+    zhCounty: "阿合奇",
+    enCounty: "aheqi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2332"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "克州",
+    enCity: "kezhou",
+    zhCounty: "乌恰",
+    enCounty: "wuqia",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2333"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "喀什",
+    enCity: "kashi",
+    zhCounty: "喀什",
+    enCounty: "kashi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2334"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "喀什",
+    enCity: "kashi",
+    zhCounty: "英吉沙",
+    enCounty: "yingjisha",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2335"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "喀什",
+    enCity: "kashi",
+    zhCounty: "泽普",
+    enCounty: "zepu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2336"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "喀什",
+    enCity: "kashi",
+    zhCounty: "莎车",
+    enCounty: "shache",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2337"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "喀什",
+    enCity: "kashi",
+    zhCounty: "叶城",
+    enCounty: "yecheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2338"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "喀什",
+    enCity: "kashi",
+    zhCounty: "麦盖提",
+    enCounty: "maigaiti",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2339"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "喀什",
+    enCity: "kashi",
+    zhCounty: "岳普湖",
+    enCounty: "yuepuhu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2340"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "喀什",
+    enCity: "kashi",
+    zhCounty: "伽师",
+    enCounty: "jiashi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2341"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "喀什",
+    enCity: "kashi",
+    zhCounty: "巴楚",
+    enCounty: "bachu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2342"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "喀什",
+    enCity: "kashi",
+    zhCounty: "塔什库尔干",
+    enCounty: "tashikuergan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2343"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "和田",
+    enCity: "hetian",
+    zhCounty: "和田",
+    enCounty: "hetian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2344"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "和田",
+    enCity: "hetian",
+    zhCounty: "墨玉",
+    enCounty: "moyu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2345"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "和田",
+    enCity: "hetian",
+    zhCounty: "皮山",
+    enCounty: "pishan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2346"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "和田",
+    enCity: "hetian",
+    zhCounty: "洛浦",
+    enCounty: "lvpu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2347"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "和田",
+    enCity: "hetian",
+    zhCounty: "策勒",
+    enCounty: "cele",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2348"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "和田",
+    enCity: "hetian",
+    zhCounty: "于田",
+    enCounty: "xjyutian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2349"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "和田",
+    enCity: "hetian",
+    zhCounty: "民丰",
+    enCounty: "minfeng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2350"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "伊犁",
+    enCity: "yili",
+    zhCounty: "伊犁",
+    enCounty: "yili",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2351"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "伊犁",
+    enCity: "yili",
+    zhCounty: "伊宁市",
+    enCounty: "yiningshi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2352"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "伊犁",
+    enCity: "yili",
+    zhCounty: "伊宁县",
+    enCounty: "yiningxian",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2353"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "伊犁",
+    enCity: "yili",
+    zhCounty: "察布查尔",
+    enCounty: "chabuchaer",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2354"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "伊犁",
+    enCity: "yili",
+    zhCounty: "霍城",
+    enCounty: "huocheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2355"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "伊犁",
+    enCity: "yili",
+    zhCounty: "巩留",
+    enCounty: "gongliu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2356"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "伊犁",
+    enCity: "yili",
+    zhCounty: "新源",
+    enCounty: "xinyuan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2357"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "伊犁",
+    enCity: "yili",
+    zhCounty: "昭苏",
+    enCounty: "zhaosu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2358"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "伊犁",
+    enCity: "yili",
+    zhCounty: "特克斯",
+    enCounty: "tekesi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2359"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "伊犁",
+    enCity: "yili",
+    zhCounty: "尼勒克",
+    enCounty: "nileke",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2360"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "伊犁",
+    enCity: "yili",
+    zhCounty: "霍尔果斯",
+    enCounty: "huoerguosi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2361"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "塔城",
+    enCity: "tacheng",
+    zhCounty: "塔城",
+    enCounty: "tacheng",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2362"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "塔城",
+    enCity: "tacheng",
+    zhCounty: "乌苏",
+    enCounty: "wusu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2363"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "塔城",
+    enCity: "tacheng",
+    zhCounty: "额敏",
+    enCounty: "emin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2364"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "塔城",
+    enCity: "tacheng",
+    zhCounty: "沙湾",
+    enCounty: "shawan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2365"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "塔城",
+    enCity: "tacheng",
+    zhCounty: "托里",
+    enCounty: "tuoli",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2366"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "塔城",
+    enCity: "tacheng",
+    zhCounty: "裕民",
+    enCounty: "yumin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2367"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "塔城",
+    enCity: "tacheng",
+    zhCounty: "和布克赛尔",
+    enCounty: "hebukesaier",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2368"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "阿勒泰",
+    enCity: "aletai",
+    zhCounty: "阿勒泰",
+    enCounty: "aletai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2369"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "阿勒泰",
+    enCity: "aletai",
+    zhCounty: "布尔津",
+    enCounty: "buerjin",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2370"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "阿勒泰",
+    enCity: "aletai",
+    zhCounty: "富蕴",
+    enCounty: "fuyun",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2371"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "阿勒泰",
+    enCity: "aletai",
+    zhCounty: "福海",
+    enCounty: "fuhai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2372"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "阿勒泰",
+    enCity: "aletai",
+    zhCounty: "哈巴河",
+    enCounty: "habahe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2373"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "阿勒泰",
+    enCity: "aletai",
+    zhCounty: "青河",
+    enCounty: "xjqinghe",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2374"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "阿勒泰",
+    enCity: "aletai",
+    zhCounty: "吉木乃",
+    enCounty: "jimunai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2375"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "石河子",
+    enCity: "shihezi",
+    zhCounty: "石河子",
+    enCounty: "shihezi",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2376"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "石河子",
+    enCity: "shihezi",
+    zhCounty: "阿拉尔",
+    enCounty: "alaer",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2377"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "石河子",
+    enCity: "shihezi",
+    zhCounty: "炮台",
+    enCounty: "paotai",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2378"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "石河子",
+    enCity: "shihezi",
+    zhCounty: "莫索湾",
+    enCounty: "mosuowan",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2379"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "石河子",
+    enCity: "shihezi",
+    zhCounty: "蔡家湖",
+    enCounty: "caijiahu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2380"),
+    zhProvince: "新疆",
+    enProvince: "xinjiang",
+    zhCity: "五家渠",
+    enCity: "wujiaqu",
+    zhCounty: "五家渠",
+    enCounty: "wujiaqu",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2381"),
+    zhProvince: "台湾",
+    enProvince: "taiwan",
+    zhCity: "台北",
+    enCity: "taibei",
+    zhCounty: "台北",
+    enCounty: "taibei",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2382"),
+    zhProvince: "台湾",
+    enProvince: "taiwan",
+    zhCity: "台中",
+    enCity: "taizhong",
+    zhCounty: "台中",
+    enCounty: "taizhong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2383"),
+    zhProvince: "台湾",
+    enProvince: "taiwan",
+    zhCity: "高雄",
+    enCity: "gaoxiong",
+    zhCounty: "高雄",
+    enCounty: "gaoxiong",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2384"),
+    zhProvince: "香港",
+    enProvince: "xg",
+    zhCity: "香港",
+    enCity: "xianggang",
+    zhCounty: "香港",
+    enCounty: "xianggang",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+db.getCollection("provinceCityDo").insert([ {
+    _id: NumberLong("2385"),
+    zhProvince: "澳门",
+    enProvince: "am",
+    zhCity: "澳门",
+    enCity: "aomen",
+    zhCounty: "澳门",
+    enCounty: "aomen",
+    _class: "com.search.engine.entity.ProvinceCityDo"
+} ]);
+
+// ----------------------------
+// Collection structure for sequence
+// ----------------------------
+db.getCollection("sequence").drop();
+db.createCollection("sequence");
+
+// ----------------------------
+// Documents of sequence
+// ----------------------------
+db.getCollection("sequence").insert([ {
+    _id: ObjectId("5de9276b58fa864c3aca04b7"),
+    collName: "ProvinceCityDo",
+    seqId: NumberInt("2385")
+} ]);
+db.getCollection("sequence").insert([ {
+    _id: ObjectId("5ded21d358fa864c3aca33e0"),
+    collName: "WeatherDo",
+    seqId: NumberInt("36")
+} ]);
+
+// ----------------------------
+// Collection structure for testDo
+// ----------------------------
+db.getCollection("testDo").drop();
+db.createCollection("testDo");
+
+// ----------------------------
+// Documents of testDo
+// ----------------------------
+db.getCollection("testDo").insert([ {
+    _id: NumberLong("1"),
+    test: "www",
+    _class: "com.search.engine.entity.TestDo"
+} ]);
+db.getCollection("testDo").insert([ {
+    _id: NumberLong("2"),
+    test: "www12",
+    _class: "com.search.engine.entity.TestDo"
+} ]);
+
+// ----------------------------
+// Collection structure for weatherDo
+// ----------------------------
+db.getCollection("weatherDo").drop();
+db.createCollection("weatherDo");
+
+// ----------------------------
+// Documents of weatherDo
+// ----------------------------
+db.getCollection("weatherDo").insert([ {
+    _id: ObjectId("5ded32e848f6a1a6bcd01ae2"),
+    title: "2019年12月7日北京天气预报查询",
+    province: "北京",
+    city: "北京",
+    county: "北京",
+    lightTemperature: "6℃",
+    nightTemperature: "-6℃",
+    lightWeatherConditions: "晴",
+    nightWeatherConditions: "多云",
+    lightWind: "南风 1-2级",
+    nightWind: "南风 1-2级",
+    weatherDate: "20191207",
+    fitting: "订盟、纳采、会亲友、安机械、开光、修造、动土、竖柱、上梁、造屋、起基、造桥、栽种、纳畜、造畜�蛊堋⒁畦选⑷腴纭⑵粼堋⑿薹亍⒘⒈�、安葬",
+    avoid: "祈福、出火、嫁娶、入宅、开市、动土、破土",
+    _class: "com.search.engine.entity.WeatherDo"
+} ]);
+db.getCollection("weatherDo").insert([ {
+    _id: ObjectId("5ded32e848f6a1a6bcd01ae3"),
+    title: "2019年12月8日北京天气预报查询",
+    province: "北京",
+    city: "北京",
+    county: "北京",
+    lightTemperature: "1℃",
+    nightTemperature: "-5℃",
+    lightWeatherConditions: "雾",
+    nightWeatherConditions: "多云",
+    lightWind: "西风 1-2级",
+    nightWind: "西风 1-2级",
+    weatherDate: "20191208",
+    fitting: "祭祀、平治道涂、修坟、除服、成服、余事勿取",
+    avoid: "移徙、入宅、嫁娶、掘井、安葬",
+    _class: "com.search.engine.entity.WeatherDo"
+} ]);
+db.getCollection("weatherDo").insert([ {
+    _id: ObjectId("5ded344548f6a183683579ba"),
+    title: "2019年12月7日北京天气预报查询",
+    province: "北京",
+    city: "北京",
+    county: "北京",
+    lightTemperature: "6℃",
+    nightTemperature: "-6℃",
+    lightWeatherConditions: "晴",
+    nightWeatherConditions: "多云",
+    lightWind: "南风 1-2级",
+    nightWind: "南风 1-2级",
+    weatherDate: "20191207",
+    fitting: "订盟、纳采、会亲友、安机械、开光、修造、动土、竖柱、上梁、造屋、起基、造桥、栽种、纳畜、造畜�蛊堋⒁畦选⑷腴纭⑵粼堋⑿薹亍⒘⒈�、安葬",
+    avoid: "祈福、出火、嫁娶、入宅、开市、动土、破土",
+    _class: "com.search.engine.entity.WeatherDo"
+} ]);
+db.getCollection("weatherDo").insert([ {
+    _id: ObjectId("5ded344548f6a183683579bb"),
+    title: "2019年12月8日北京天气预报查询",
+    province: "北京",
+    city: "北京",
+    county: "北京",
+    lightTemperature: "1℃",
+    nightTemperature: "-5℃",
+    lightWeatherConditions: "雾",
+    nightWeatherConditions: "多云",
+    lightWind: "西风 1-2级",
+    nightWind: "西风 1-2级",
+    weatherDate: "20191208",
+    fitting: "祭祀、平治道涂、修坟、除服、成服、余事勿取",
+    avoid: "移徙、入宅、嫁娶、掘井、安葬",
+    _class: "com.search.engine.entity.WeatherDo"
+} ]);

@@ -17,7 +17,7 @@ public class CrawlerAction {
     @Autowired
     private CrawlerService crawlerService;
 
-    @GetMapping("/find/weather/")
+    @GetMapping("/find/weather")
     public R findWeather() {
         this.crawlerService.findWeather();
         return R.ok();
