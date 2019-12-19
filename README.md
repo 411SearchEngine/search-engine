@@ -17,3 +17,20 @@
    - https://github.com/medcl/elasticsearch-analysis-ik/releases/tag/v6.5.4
    - 解压. 复制到es  plugins/ik目录下
 
+
+### 爬数据接口 
+
+1. 爬取基本数据接口
+
+   localhost:3000/find/weather
+
+2. 爬取视频数据
+
+   localhost:3000/find/video
+
+3. 查询天气历史数据
+
+   localhost:3000/find/lishi?id=0&time=20191130
+
+   - id  查询 provinceCityDo表中id > 0的数据 . 爬取历史数据
+   - time 爬取的开始时间.   格式为 yyyyMMdd  例如 : 20151211
